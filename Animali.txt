@@ -1,0 +1,43 @@
+Tabella appendice 7: LA FAUNA&
+Specie&INT&CONC&COS&AGI&FOR&OSS&diff. AMM&diff. CON&Danni&Esempi&Note
+Equini Piccoli&1d4&4+2d8&10+1d10&10+1d10&10+1d10&10+1d10&20&5&1d4 (Calcio)&Pony, Asini&
+Equini Medi&1d4&4+2d8&14+1d8&10+1d10&14+1d8&10+1d10&20&5&1d6 (Calcio)&Muli, Cavalli, Zebre&
+Equini Grandi&1d4&4+2d8&17+1d8&10+1d10&17+1d8&10+1d10&20&5&2d6 (Calcio)&Cavallo da guerra, cavallo da tiro&
+Cammello&1d4&4+2d8&17+1d8&10+1d10&17+1d8&10+1d10&20&10&2d6 (Calcio)&Cammello, dromedario&
+Fortral e Nortral&1d4&4+2d8&12+1d8&15+1d10&14+1d8&10+1d10&20&5&1d8 (Becco)&V. Descrizione&
+Reptis&1d4&4+2d8&10+1d10&15+1d10&16+1d6&15+1d10&23&15&1d6 (Becco o Artiglio)&V. Descrizione&
+Felini piccoli&1d6&4+2d8&2+1d8&13+2d8&2+1d8&15+1d10&30&5-20&1d4 (Morso o Artiglio)&Gatti, linci&
+Felini grandi&1d6&4+2d8&11+2d8&13+2d6&11+2d8&15+1d10&30&10-25&2d6 (Morso o Artiglio)&Leoni, Tigri, Pantere, Leopardi etc...&
+Canidi piccoli&1d6&4+2d8&3+1d8&10+1d10&3+1d8&10+1d10&10&5-20&1d6+1 (Morso)&Piccoli Cani, Dingo, Coyote, Volpe&
+Canidi grandi&1d6&4+2d8&11+1d10&10+1d10&11+1d10&10+1d10&10&10-20&1d8+1 (Morso)&Grossi cani, lupi&
+Elefante&1d4&15+1d10&40+2d10&6+1d6&30+2d10&6+1d10&22&15&1d10 (Testata, in Carica), 2d8 (Calcio)&Elefante Africano, Indiano.&Attacco in carica: somma la FOR al Danno
+Rinoceronte&1d4&4+2d8&30+1d10&9+1d6&25+1d10&2+1d10&40&20&2d8 (Corno, in Carica)&Rinoceronte Nero, indiano ecc.&Attacco in carica: somma la FOR al Danno
+Krenay&4+1d8&4+2d8&10+2d6&10+2d6&10+2d6&10+2d6&40&25&2d6 (Artiglio), 1d6 (Morso)&V. Descrizione&
+Orsi&1d4&4+2d8&5+2d10&8+1d6&5+2d10&10+1d10&25&20&2d6 (Artiglio), 1d8 (Morso)&Grizzly, orso polare, panda&
+Bovini&1d4&4+2d8&15+2d6&1d10&10+2d6&10+1d10&5&10&1d6 (Cornata, in Carica)&Buoi, Tori, Yak, Bisonti&Attacco in carica: somma la FOR al Danno
+Suini&1d4&4+2d8&8+3d6&2+1d10&8+2d6&10+1d10&15&10&1d6 (Testate, in Carica), 1d6 (Morso)&Maiali, Cinghiali&Attacco in carica: somma la FOR al Danno
+Ragni piccoli&-&-&-&1d10&-&1d6&-&15-30&-&Vedove nere&Iniettano veleno se il TPC va a segno
+Ragni grandi&-&1&1&1d10&1&1d6&-&15-30&1(Morso)&Migali&Iniettano veleno se il TPC va a segno
+Ragni giganti&1&1d6&8+2d6&2d10&8+2d6&4+1d6&40&20-35&1d8+2 (Morso)&V. Descrizione&Iniettano veleno se il TPC va a segno
+Scimmie piccole&1d6&4+2d8&1d6&17+1d10&1d6&10+1d10&10&15-25&1d4 (Morso)&Bertucce, lemuri&
+Scimmie medie&1d10&10+1d10&2+3d6&15+1d10&2+3d6&10+1d10&10&15-25&1d4 (Pugno), 1d6 (Morso)&Scimpanzè, Macachi, Babbuini&
+Scimmie grandi&1d10&10+1d10&15+1d10&13+1d10&15+1d10&10+1d10&25&15-30&1d4 (Pugno o Presa) 1d8 (Morso)&Oranghi, mandrilli, gorilla&
+Rettili piccoli&1&1d6&1&2d10&1&5+1d10&-&10-30&1 (Morso)&Lucertole, Bisce, Gechi etc...&Iniettano veleno se il TPC va a segno
+Rettili medi&1&1d6&1d6&2d10&1d6&5+1d10&-&10-30&1d4 (Morso)&Vipere, Cobra, Iguane&Iniettano veleno se il TPC va a segno
+Rettili grandi&1&2d8&4+3d6&2d10&4+3d6&5+1d10&-&10-30&1d8 (Presa), 2d8 (Morso)&Varani, Coccodrilli, Anaconda, Boa, Tartarughe marine&
+Uccelli piccoli&1d4&4+2d8&1&20+1d6&1&15+1d10&20&5-40&-&Colibrì, passeri, canarini etc..&
+Uccelli medi&1d4&4+2d8&1d8&20+1d6&1d8&15+1d10&15&5-40&1d4 (Becco), 1d6 (Artigli)&Corvo, Falco, Civetta&
+Uccelli grandi&1d4&4+2d8&3+2d6&14+2d6&3+2d6&15+1d10&20&5-40&1d8 (Becco), 1d8+1 (Artigli)&Aquila, Condor, Gufo, Avvoltoio&
+Pesci piccoli&1&1d6&-&20+1d6&-&1d20&-&5-40&-&Ghiozzi, Triglie, Orate&
+Pesci medi&1&1d6&1d4&20+1d6&1d4&1d20&-&5-40&-&Dentici, Cernie&
+Pesci grandi&1&1d6&12+2d10&14+2d6&6+3d10&1d10&-&5-40&2d8+d (Morso)&Grandi squali, Mante&
+Balene&2+1d6&4+2d8&60+4d10&2+1d8&40+4d10&10+1d10&-&20&1d10 (Testata, in Carica)&Balenottere, Capodogli&Attacco in carica: somma la FOR al Danno
+Orca&4+1d10&4+2d8&40+3d10&10+1d8&30+3d10&10+1d10&30&25&3d10 (Morso)&Orcinus Orca&
+Delfino&10+1d10&4+2d8&20+1d10&20+1d6&15+1d10&15+1d10&25&20&1d10 (Testata, in Carica)&Delfini, Narvali, &Attacco in carica: somma la FOR al Danno
+Insetti piccoli&-&-&-&2d20&-&10+1d10&-&5-40&-&Mosche, zanzare, formiche e molte altre&Iniettano veleno se il TPC va a segno
+Insetti giganti&1&1&8+2d6&1d20&8+2d6&10+1d10&-&25-40&1d10 (Attacco generico)&V. Descrizione&
+Troll&1d4&4+2d8&9+2d8&6+1d10&9+2d8&10+1d10&30&15&2d6 (Morso), possono avere CAC o ABL&V. Descrizione&
+Roditori piccoli&1d4&1d6&1&10+1d10&1&10+1d10&15&10-30&1d6 (Morso)&Topi, criceti, lemmings&
+Roditori grandi&1d4&1d6&1d6&6+1d10&1d6&10+1d10&25&20-30&1d6 (Morso)&Conigli, lepri, ratti&
+Ovini piccoli&1d4&1d6&2+1d6&10+1d10&2+1d6&10+1d10&20&5-20&1d4 (Testata, in carica)&Pecore, Capre&Attacco in carica: somma la FOR al Danno
+Ovini grandi&1d4&1d8&8+2d6&10+1d10&8+2d6&10+1d10&20&5-20&1d6 (Testata o cornata, in carica)&Mùvara, Stambecchi, Lama&Attacco in carica: somma la FOR al Danno

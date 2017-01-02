@@ -1,0 +1,527 @@
+\documentclass[10pt,italian,twocolumn,twoside,xdvi,openany,a4paper]{book}
+%%------------------------------------------------------------------------------------------------
+%% Packages
+%%------------------------------------------------------------------------------------------------
+\usepackage{newcent}
+% \usepackage{multicol}
+\usepackage[T1]{fontenc}
+% \usepackage{pslatex}
+\usepackage{indentfirst}
+\usepackage{afterpage}
+\usepackage{longtable}
+\usepackage{babel}
+\usepackage{latexsym}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{floatflt}
+\usepackage{tabularx}
+
+\newif\iffullversion
+
+\fullversiontrue
+\input{fullversioncfg}
+
+%%------------------------------------------------------------------------------------------------
+%% Page Layout
+%%------------------------------------------------------------------------------------------------
+\renewcommand\labelitemi[0]{\(\Diamond\)}
+%%------------------------------------------------------------------------------------------------
+\newcounter{esnum}
+\setcounter{esnum}{0}
+%%------------------------------------------------------------------------------------------------
+\setlength{\paperwidth}{21cm}
+\setlength{\paperheight}{29.7cm}
+\setlength{\headsep}{3mm}
+\setlength{\textwidth}{16.2cm}
+%\setlength{\textwidth}{20cm}
+\setlength{\voffset}{-25mm}
+\oddsidemargin 0mm
+\evensidemargin 0mm
+%%\addtolength{\voffset}{-0.75in}
+\setlength{\hoffset}{0mm}
+\setlength{\textheight}{23.5cm}
+\setlength{\marginparwidth}{21mm}
+\setlength{\marginparsep}{1mm}
+
+\renewcommand{\textfraction}{0.01}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\floatpagefraction}{0.7}
+\setcounter{totalnumber}{8}
+\setcounter{LTchunksize}{50}
+%%------------------------------------------------------------------------------------------------
+%% Icons
+%%------------------------------------------------------------------------------------------------
+%%\newsavebox{\mygraphic}\sbox{\mygraphic}{\includegraphics{background_01.eps}}
+
+\newsavebox{\headimgstaffl}\sbox{\headimgstaffl}{\includegraphics{staff2_l.eps}}
+\newsavebox{\headimgstaffr}\sbox{\headimgstaffr}{\includegraphics{staff2_r.eps}}
+\newsavebox{\headimglandl}\sbox{\headimglandl}{\includegraphics{paesaggiol.eps}}
+\newsavebox{\headimglandr}\sbox{\headimglandr}{\includegraphics{paesaggior.eps}}
+\newsavebox{\headimgwall}\sbox{\headimgwall}{\includegraphics{muraglia.eps}}
+\newsavebox{\headimgrune}\sbox{\headimgrune}{\includegraphics{rune.eps}}
+\newsavebox{\headimgpenl}\sbox{\headimgpenl}{\includegraphics{penninol.eps}}
+\newsavebox{\headimgpenr}\sbox{\headimgpenr}{\includegraphics{penninor.eps}}
+
+\newsavebox{\headimgsword}\sbox{\headimgsword}{\includegraphics{spade.eps}}
+
+\newsavebox{\footimg}\sbox{\footimg}{\includegraphics{foot.eps}}
+\newsavebox{\iconcorona}\sbox{\iconcorona}{\includegraphics{icon_corona_small.eps}}
+\newsavebox{\iconsacco}\sbox{\iconsacco}{\includegraphics{icon_sacco_small.eps}}
+\newsavebox{\icontiara}\sbox{\icontiara}{\includegraphics{icon_tiara_small.eps}}
+\newsavebox{\iconsfera}\sbox{\iconsfera}{\includegraphics{icon_sfera_small.eps}}
+\newsavebox{\icongiacca}\sbox{\icongiacca}{\includegraphics{icon_giacca_small.eps}}
+\newsavebox{\iconmappa}\sbox{\iconmappa}{\includegraphics{icon_mappa_small.eps}}
+\newsavebox{\iconspada}\sbox{\iconspada}{\includegraphics{icon_spada_small.eps}}
+\newsavebox{\iconexcl}\sbox{\iconexcl}{\includegraphics{icon_excl_small.eps}}
+\newsavebox{\icondadi}\sbox{\icondadi}{\includegraphics{icon_dadi_small.eps}}
+\newsavebox{\iconmanosx}\sbox{\iconmanosx}{\includegraphics{icon_mano_sx_small.eps}}
+\newsavebox{\iconmanodx}\sbox{\iconmanodx}{\includegraphics{icon_mano_dx_small.eps}}
+\newsavebox{\iconbobbie}\sbox{\iconbobbie}{\includegraphics{icon_bobby_small.eps}}
+
+\newlength{\iconoffset}
+\newlength{\iconoff}
+\newlength{\iconsize}
+\settoheight{\iconsize}{\usebox{\icontiara}}
+
+\settoheight{\iconoffset}{Politica}
+\setlength{\iconoffset}{4\iconoffset}
+
+\addtolength{\iconoffset}{-\iconsize}
+\newcommand{\margintitle}[1]  {\marginpar{\raisebox{\iconoffset}{\usebox{#1}}}}
+\newcommand{\margintitles}[2] {\marginpar[\raisebox{\iconoffset}{\usebox{#2}}]{\raisebox{\iconoffset}{\usebox{#1}}}}
+
+\newcommand{\nb}[1] {
+  \bigskip\par\nobreak\hrule\nobreak\smallskip\nobreak\indent\textbf{N.B. \margintitles{\iconmanosx}{\iconmanodx} #1}\vskip 3pt plus 0pt\smallskip\hrule
+  \smallskip
+  }
+
+\iffullversion
+\newcommand\topboxl{\usebox{\headimgrune}}
+\newcommand\topboxr{\usebox{\headimgrune}}
+\else
+\newcommand\topboxl{}
+\newcommand\topboxr{}
+\fi
+%%------------------------------------------------------------------------------------------------
+%% Head/Foot
+%%------------------------------------------------------------------------------------------------
+% \advance\marginparpush 3cm
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[RE,LO]{\sc Radix Malorum}
+
+\fancyhead[LE]{\slshape \leftmark}
+\fancyhead[RO]{\slshape \rightmark}
+\settoheight{\headheight}{X}
+
+\addtolength{\headheight}{20mm}
+\renewcommand{\headrulewidth}{1pt}
+
+\fancyhead[CE]{
+\setlength{\unitlength}{1cm} 
+\begin{picture}(0,0) 
+\put(-10,0.8){\topboxl}
+\end{picture}}
+
+\fancyhead[CO]{
+\setlength{\unitlength}{1cm} 
+\begin{picture}(0,0) 
+\put(-10,0.8){\topboxr}
+\end{picture}}
+
+%%------------------------------------------------------------------------------------------------
+%% Lists & Blocks
+%%------------------------------------------------------------------------------------------------
+\newcommand{\abi}[3] {\goodbreak\noindent\begin{center}\textbf{#1 $\Diamond$ D#2 $\Diamond$
+    #3} \end{center}\nopagebreak[4]\par\nopagebreak[4]}
+
+\newcommand{\arm}[3] {\goodbreak\noindent\begin{center}\textbf{#1 $\Diamond$ PP #2 $\Diamond$
+    PS #3} \end{center}\nopagebreak[4]\par\nopagebreak[4]}
+
+\newenvironment{radtable}[2]{
+  \begin{center}
+    
+    {\Large\sc #1}\medskip
+
+    \nobreak\begin{tabular}{#2}
+      \hline
+      }
+    {
+    \end{tabular}
+  \end{center}
+  }
+
+\fancyfoot[RO]{
+  \vskip 1cm
+  \large\it\makebox[5mm]{\thepage\hfil}
+}
+
+\fancyfoot[LE]{
+  \vskip 1cm
+  \large\it\makebox[5mm]{\hfil\thepage}
+}
+
+\iffullversion
+\fancyfoot[C]{
+  \setlength{\unitlength}{1cm} 
+  \begin{picture}(0,0) 
+    \put(-11.15,-0.7){\usebox{\footimg}}
+  \end{picture}
+  }
+\fi
+
+\newenvironment{esempio} {\begin{figure}[h]\vskip 3pt\small\it\hrule\vskip 3pt} {\vskip 3pt\rm\hrule\end{figure}}
+\newenvironment{racconto} {\em\begin{quotation}} {\end{quotation}\em}
+\newcommand {\classesoc}[3] {{\noindent\begin{center} #1 $\Diamond$ \textbf{#2} $\Diamond$ FI #3\end{center}}}
+\newenvironment{abilist} {\begin{itemize}\itemsep -6pt}{\end{itemize}}
+
+\newcommand{\es}[1] {
+  \addtocounter{esnum}{1}
+  \medskip\par\noindent\nobreak\framebox[\linewidth][c]{\hfil\sc Esempio \theesnum \hfil}
+  \par\medskip\nobreak
+  \leftskip 1em
+  \rightskip 1em
+  {\footnotesize\it\noindent\margintitle{\icondadi} #1\par}
+  \par
+  \leftskip 0pt
+  \rightskip 0pt
+  \nobreak\smallskip\nobreak
+  \noindent
+  \rule{\linewidth}{1pt}\par\smallskip
+%%  \smallskip
+  }
+
+\newcommand{\pinup}[2] {
+  \begin{figure}[tb]
+    \begin{center}
+      {\it #2}\par
+      \includegraphics{#1}
+    \end{center}
+%%    \caption{#2}
+  \end{figure}
+  }
+
+\newcommand{\pinupp}[3] {
+  \begin{figure}[#3]
+    \begin{center}
+      {\it #2}\par
+      \includegraphics{#1}
+    \end{center}
+  \end{figure}
+  }
+
+
+\newcommand{\pinupbig}[3] {
+  \begin{figure*}[#3]
+    \begin{center}
+      {\it #2}\par
+      \includegraphics{#1}
+    \end{center}
+  \end{figure*}
+  }
+
+\newcommand{\filler}[1]
+{
+  \begin{figure}[bh]
+    \begin{center}
+      \includegraphics{#1}
+    \end{center}
+  \end{figure}
+  }
+
+\newcommand{\pinupc}[2] {
+%  \begin{figure*}[tbh]
+%    \begin{center}
+      \includegraphics{#1}
+%    \end{center}
+%    \caption{#2}
+%  \end{figure*}
+  }
+
+\newcommand{\demone}[4]{\subsubsection{#1}{\hrule\smallskip\flushright Potenza \textbf{#2} $\Diamond$ #3 \\ #4\smallskip\hrule\medskip\par}}
+\newcommand{\angelo}[4]{\subsubsection{#1}{\hrule\smallskip\flushright Potenza \textbf{#2} $\Diamond$ #3 \\ #4\smallskip\hrule\medskip\par}}
+\newcommand{\incubo}[4]{\subsubsection{#1}{\hrule\smallskip\flushright Potenza \textbf{#2} $\Diamond$ Incubo di #3 \\ #4\smallskip\hrule\medskip\par}}
+\newcommand{\sogno}[4]{\subsubsection{#1}{\hrule\smallskip\flushright Potenza \textbf{#2} $\Diamond$ Sogno di #3 \\ #4\smallskip\hrule\medskip\par}}
+\newcommand{\nonmorto}[4]{\subsubsection{#1}{\hrule\smallskip\flushright Potenza \textbf{#2} $\Diamond$ Non Morto \\ #3 $\Diamond$ #4\smallskip\hrule\medskip\par}}
+\newcommand{\spirito}[4]{\subsubsection{#1}{\hrule\smallskip\flushright Potenza \textbf{#2} $\Diamond$ Spirito Irrequieto \\ #3 $\Diamond$ #4\smallskip\hrule\medskip\par}}
+\newcommand{\anima}[4]{\subsubsection{#1}{\hrule\smallskip\flushright Potenza \textbf{#2} $\Diamond$ Anima Errante\\ #3 $\Diamond$ #4\smallskip\hrule\medskip\par}}
+\newcommand{\reombra}[3]{\subsubsection{#1}{\hrule\smallskip\flushright Potenza \textbf{#2} $\Diamond$ #3\smallskip\hrule\medskip\par}}
+\newcommand{\elementale}[3]{\subsubsection{#1}{\hrule\smallskip\flushright Potenza \textbf{#2} $\Diamond$ #3\smallskip\hrule\medskip\par}}
+\newcommand{\bestia}[4]{\subsubsection{#1}{\hrule\smallskip\flushright Potenza \textbf{#2} $\Diamond$ #4 \\ Habitat: #3\smallskip\hrule\medskip\par}}
+\newcommand{\carmostro}[8] {
+%% \bigskip\noindent\textbf{Caratteristiche}\medskip
+\paragraph{Caratteristiche}
+\rightskip 4.5cm
+\hfill \ \par\medskip
+
+    INT\hfill #1\par 
+    CONC\hfill #2\par
+    COS\hfill #3\par
+    AGI\hfill #4\par
+    FOR\hfill #5\par
+    OSS\hfill #6\par
+    BEL\hfill #7\par
+    PE\hfill #8\par
+\rightskip 0cm
+}
+\newenvironment{parmostro}[1] {\paragraph{#1}\begin{itemize}\itemsep -6pt} {\end{itemize}}
+
+\newenvironment{spell}[4] 
+{
+    \footnotesize\setlength{\tabcolsep}{1pt}
+
+    \noindent
+    \begin{tabular}{*{9}{|p{0.1\linewidth}}|}
+     
+    \multicolumn{9}{l}{\bf\normalsize #1} \\ \hline
+    \multicolumn{9}{r}{#3 $\Diamond$ #4} \\ \hline
+    }
+  {
+    \hline\end{tabular}\par\vfil
+  }
+
+\newcommand\parametro[4]{\multicolumn{7}{|l|}{#1: \textbf{#2 #3}}&#4&\  \\ }
+%\newcommand\parametro[4]{}
+
+\newcommand\gittata[2]{\multicolumn{7}{|l|}{Gittata: \textbf{#1 m}}&\ &#2\\}
+
+\newcommand\gittatanulla{\multicolumn{7}{|l|}{Gittata: \textbf{a contatto}}&\ &-1\\}
+
+\newcommand\campo[3]{\multicolumn{7}{|l|}{Campo d'azione: \textbf{#1 #2}}&\ &#3\\}
+
+\newcommand\rimbalzi[1]{\multicolumn{7}{|l|}{Rimbalzi: \textbf{#1}}&\ &#1\\}
+
+\newcommand\bonustr[1]{\multicolumn{7}{|l|}{Bonus/Malus TR/TV/TOSS: \textbf{#1}}&\ &#1\\}
+
+\newcommand\durata[2]{\multicolumn{7}{|l|}{Durata: \textbf{#1}}&\ &#2\\}
+
+\newcommand\duratanulla{\multicolumn{7}{|l|}{Durata: \textbf{-}}&\ &0\\}
+
+\newcommand\moddurata[2]{\multicolumn{7}{|l|}{#1}&\ &#2\\ \hline}
+
+\newcommand\azionetempo[2]{\multicolumn{7}{|l|}{Azione nel tempo: \textbf{#1}}&\ &#2\\}
+\newcommand\azionegittata{\multicolumn{7}{|l|}{Azione lungo la gittata}&\ &3\\}
+
+\newcommand{\fineparametri}{\hline}
+
+\newcommand\descrizione[1] {
+ \multicolumn{9}{|p{0.97\linewidth}|}{\footnotesize\it #1} \\
+}
+\newcommand\incvalori[9]{\hline 
+  \textbf{DR}& \textbf{DA}& TL& \textit{PM}&\textit{PF}&\textit{PE}& DT&\textbf{DB}&MOD\\ 
+  \textbf{#1}&\textbf{#2}&#9&\textit{#6}&\textit{#7}&\textit{#8}&#3&\textbf{#4}&#5\\ \hline
+}
+
+%%------------------------------------------------------------------------------------------------
+%\restylefloat{table}
+%\restylefloat{figure}
+%\includeonly{michele} %OK
+%\includeonly{michele,intro,razze,personaggio,droghe} 
+%\includeonly{razze} %OK
+%\includeonly{droghe} %OK
+%\includeonly{personaggio} % OK
+%\includeonly{movimento,droghe} %OK
+%\includeonly{movimento}
+%\includeonly{combattimento} %OK
+%\includeonly{magia} %OK
+%\includeonly{scuole} %OK
+%\includeonly{incantesimi}
+%\includeonly{inc_ele}
+%\includeonly{coda}
+%%------------------------------------------------------------------------------------------------
+%\flushbottom
+\fussy
+%%------------------------------------------------------------------------------------------------
+%% Chapters
+%%------------------------------------------------------------------------------------------------
+\begin{document}
+\thispagestyle{empty}
+\begin{titlepage}
+
+\end{titlepage}
+
+\begin{titlepage}
+  \begin{center}
+
+%    \iffullversion
+%    \includegraphics{occhio_big.eps}
+%    \else
+    \includegraphics{radixlogo5.eps}
+%    \fi
+
+    \vskip 4cm
+    \begin{minipage}[c]{16cm}
+      \centering
+      Juri ``Xeres'' Orr\`u\\Nicola ``Seinen'' Orr\`u\\Sergio ``Alice'' Picciau\\Carlo ``Masamune'' Rosas
+    \end{minipage}
+    \vskip 1cm
+
+    \begin{minipage}[c]{16cm}
+      \centering
+\iffullversion
+      \Huge\sc Radix Malorum
+\else
+      \Huge\sc Radix Malorum\\\Large\sc Versione dimostrativa
+\fi
+    \end{minipage}
+  
+
+    \vskip 16cm
+    \begin{minipage}[c]{16cm}\it
+      \small Hanno collaborato: Salvatore ``Led Lucifer Toti Nexus7'' Saba che ha realizzato i disegni
+      dei Simboli delle Scuole; Ocio, Cuccio, Chicco e Saetta che hanno elargito
+      moltissimi consigli, alcuni addirittura utili, una moltitudine di playtester, pazienti e divertiti,
+      disseminati qua e l\'a per Cagliari. 
+
+      \bigskip
+      A tutti, un semplice ma sentitissimo grazie.
+
+      \bigskip
+      Con infiniti affetto e nostalgia, al caro amico \textbf{Francesco ``Tanaka Nakatsada'' Mereu.}
+
+      \vskip 6cm
+
+      {\large Licenza d'uso e distribuzione di Radix Malorum}
+
+      \textit{versione 1.0, aprile 2003}
+\footnotesize
+
+      \begin{enumerate} \item L'``uso personale'' e la distribuzione
+      totale o parziale del materiale contenuto in quest'opera (da qui
+      in poi {\bf Radix Malorum}) sono consentite e gratuite per
+      ``scopi non commerciali'', fermo restando l'obbligo per il
+      distributore e l'utilizzatore di rispettare questa Licenza in
+      toto e distribuire integralmente ({\rm verbatim}) il testo di
+      questa Licenza in maniera chiara e visibile, insieme a ciascuna
+      copia integrale o parziale di {\bf Radix Malorum}.
+
+      \item Gli autori si riservano di revocare la licenza d'uso e
+      distribuzione agli utilizzatori e ai distributori che si
+      trovassero in contravvenzione di almeno uno degli articoli di
+      questa Licenza.
+
+      \item Qualunque utilizzo o distribuzione per ``scopi
+      commerciali'' di {\bf Radix Malorum} deve essere esplicitamente
+      concordato con gli autori, nelle forme che verranno di volta in
+      volta ritenute opportune dagli autori stessi.
+
+      \item Per uso o distribuzione per ``scopi commerciali'' si
+      intende qualunque situazione o condizione d'uso che pu\`o
+      portare un guadagno, anche indiretto, in termini economici, per
+      l'utente o il distributore. Il rimborso spese per il supporto,
+      la stampa e la distribuzione non sono da considerare
+      ``guadagno'' nella valutazione della ``scopo commerciale''. Per
+      uso o distribuzione per ``scopo non commerciale'' si intende
+      qualunque situazione o condizione d'uso che non rientra nello
+      ``scopo commerciale''. Per ``uso personale'' si intende
+      qualunque situazione in cui una singola persona fisica utilizza
+      {\bf Radix Malorum} per s\'e, in toto o in parte, senza
+      distribuirlo o cederlo a terzi.
+
+      \item Per ``distribuzione'' si intende l'atto con il quale si
+      consente a terzi di accedere ad una copia parziale o totale di
+      {\bf Radix Malorum}, attraverso qualsiasi mezzo. Sono esempi di
+      distribuzione: la trasmissione radiotelevisiva; la duplicazione,
+      la stampa, la cessione o la condivisione di un supporto digitale
+      o analogico contenente parti di {\bf Radix Malorum}; la
+      pubblicazione su una rete informatica o affini di parti di {\bf
+      Radix Malorum} che ne consenta la consultazione o la copia a
+      pi\'u di una singola persona. Ogni supporto analogico o digitale
+      contenente {\bf Radix Malorum} deve contenere una copia
+      integrale di questa Licenza.
+
+      \item Gli organizzatori di manifestazioni aperte al pubblico in
+      cui si utilizza, si presenta o si distribuisce {\bf Radix
+      Malorum}, tra cui tornei, fiere, meeting, ecc., sono vivamente
+      pregati (anche se non formalmente obbligati) di contattare
+      anticipatamente gli autori, o i loro delegati, per informarli
+      circa le modalit\`a di utilizzo e distribuzione di {\bf Radix
+      Malorum}, fermi restando i rimanenti articoli della presente
+      Licenza.
+
+      \item Tutte le informazioni ufficiali su {\bf Radix Malorum},
+      ivi incluse le modalit\`a per contattare direttamente o
+      indirettamente gli autori di {\bf Radix Malorum} e le
+      informazioni relative alla presente Licenza e alle sue
+      successive modifiche, sono accessibili al sito internet
+      ufficiale, che pu\'o essere raggiunto via World Wide Web
+      all'indirizzo:
+
+      {\tt http://www.radixmalorum.it}
+
+      \item La distribuzione di versioni modificate di {\bf Radix
+      Malorum} dovr\`a essere esplicitamente concordata con gli
+      autori.
+
+      \item Gli autori di {\bf Radix Malorum} sono (in ordine
+      alfabetico): Juri Orr\`u, Nicola Orr\`u, Sergio Picciau e Carlo
+      Rosas.
+
+      \end{enumerate} 
+\normalsize
+\rm
+\end{minipage} 
+\end{center}
+\end{titlepage}
+\thispagestyle{empty}
+\begin{titlepage}
+  \vskip 8cm
+\end{titlepage}
+\addtocounter{page}{2}
+
+\iffullversion
+\renewcommand\topboxl{\usebox{\headimgrune}}
+\renewcommand\topboxr{\usebox{\headimgrune}}
+\include{michele}
+\renewcommand\topboxl{\usebox{\headimglandl}}
+\renewcommand\topboxr{\usebox{\headimglandr}}
+\fi
+\include{intro}
+\include{razze}
+\iffullversion
+\renewcommand\topboxl{\usebox{\headimgpenr}}
+\renewcommand\topboxr{\usebox{\headimgpenl}}
+\fi
+\include{personaggio}
+\iffullversion
+\renewcommand\topboxl{\usebox{\headimgwall}}
+\renewcommand\topboxr{\usebox{\headimgwall}}
+\fi
+\include{movimento}
+\iffullversion
+\include{droghe}
+\renewcommand\topboxr{\usebox{\headimgsword}}
+\renewcommand\topboxl{\usebox{\headimgsword}}
+\fi
+\include{combattimento}
+\iffullversion
+\renewcommand\topboxl{\usebox{\headimgstaffl}}
+\renewcommand\topboxr{\usebox{\headimgstaffr}}
+\fi
+\include{magia}
+%% \include{incantesimi}
+\include{scuole}
+\iffullversion
+\renewcommand\topboxl{\usebox{\headimgrune}}
+\renewcommand\topboxr{\usebox{\headimgrune}}
+\include{coda}
+\fi
+\fancyfoot[C]{}
+\fancyhead[C]{}
+
+\small
+\onecolumn
+
+\tableofcontents
+\listoftables
+
+\end{document}
+%%------------------------------------------------------------------------------------------------
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "manual"
+%%% End: 

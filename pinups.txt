@@ -1,0 +1,94 @@
+combattimento.tex:\pinup{spadone.eps}{}
+droghe.tex:\pinupbig{rajina.eps}{Ampolla di Rajina}{t}
+droghe.tex:\filler{candela2.eps}
+intro.tex:\pinupp{fortral.eps}{Fortral}{b}
+intro.tex:\pinup{krenay.eps}{Krenay}
+manual.tex:%%\newsavebox{\mygraphic}\sbox{\mygraphic}{\includegraphics{background_01.eps}}
+manual.tex:\newsavebox{\headimgstaffl}\sbox{\headimgstaffl}{\includegraphics{staff2_l.eps}}
+manual.tex:\newsavebox{\headimgstaffr}\sbox{\headimgstaffr}{\includegraphics{staff2_r.eps}}
+manual.tex:\newsavebox{\headimglandl}\sbox{\headimglandl}{\includegraphics{paesaggiol.eps}}
+manual.tex:\newsavebox{\headimglandr}\sbox{\headimglandr}{\includegraphics{paesaggior.eps}}
+manual.tex:\newsavebox{\headimgwall}\sbox{\headimgwall}{\includegraphics{muraglia.eps}}
+manual.tex:\newsavebox{\headimgrune}\sbox{\headimgrune}{\includegraphics{rune.eps}}
+manual.tex:\newsavebox{\headimgpenl}\sbox{\headimgpenl}{\includegraphics{penninol.eps}}
+manual.tex:\newsavebox{\headimgpenr}\sbox{\headimgpenr}{\includegraphics{penninor.eps}}
+manual.tex:\newsavebox{\headimgsword}\sbox{\headimgsword}{\includegraphics{spade.eps}}
+manual.tex:\newsavebox{\footimg}\sbox{\footimg}{\includegraphics{foot.eps}}
+manual.tex:\newsavebox{\iconcorona}\sbox{\iconcorona}{\includegraphics{icon_corona_small.eps}}
+manual.tex:\newsavebox{\iconsacco}\sbox{\iconsacco}{\includegraphics{icon_sacco_small.eps}}
+manual.tex:\newsavebox{\icontiara}\sbox{\icontiara}{\includegraphics{icon_tiara_small.eps}}
+manual.tex:\newsavebox{\iconsfera}\sbox{\iconsfera}{\includegraphics{icon_sfera_small.eps}}
+manual.tex:\newsavebox{\icongiacca}\sbox{\icongiacca}{\includegraphics{icon_giacca_small.eps}}
+manual.tex:\newsavebox{\iconmappa}\sbox{\iconmappa}{\includegraphics{icon_mappa_small.eps}}
+manual.tex:\newsavebox{\iconspada}\sbox{\iconspada}{\includegraphics{icon_spada_small.eps}}
+manual.tex:\newsavebox{\iconexcl}\sbox{\iconexcl}{\includegraphics{icon_excl_small.eps}}
+manual.tex:\newsavebox{\icondadi}\sbox{\icondadi}{\includegraphics{icon_dadi_small.eps}}
+manual.tex:\newsavebox{\iconmanosx}\sbox{\iconmanosx}{\includegraphics{icon_mano_sx_small.eps}}
+manual.tex:\newsavebox{\iconmanodx}\sbox{\iconmanodx}{\includegraphics{icon_mano_dx_small.eps}}
+manual.tex:\newsavebox{\iconbobbie}\sbox{\iconbobbie}{\includegraphics{icon_bobby_small.eps}}
+manual.tex:\special{copertina.eps}
+michele.tex:\includegraphics{michele_arioch.eps}
+personaggio.tex:\pinup{ren.eps}{Ren, guerriero Nordico}
+personaggio.tex:\filler{elfobarba.eps}
+personaggio.tex:\filler{elfo1.eps}
+personaggio.tex:\pinupp{candela.eps}{}{b}
+personaggio.tex:\filler{libro1.eps}
+personaggio.tex:\filler{alambicco.eps}
+personaggio.tex:\filler{penna.eps}
+personaggio.tex:\filler{birra.eps}
+razze.tex:%% \newcommand\TitoloRazza[2]{\subsubsection{#1}\noindent\includegraphics{bandierine.eps}\par\nobreak\margintitle{#2}}
+razze.tex:\pinupbig{ragazzo_falco.eps}{}{hbt}
+razze.tex:\Stendardo{stendardo_levante.eps}
+razze.tex:\filler{corona.eps}
+razze.tex:\Stendardo{stendardo_rylex.eps}
+razze.tex:\filler{pugnale_ryless.eps}
+razze.tex:\Stendardo{stendardo_terranova.eps}
+razze.tex:\filler{pugnale_rileano.eps}
+razze.tex:\Stendardo{stendardo_nordici.eps}
+razze.tex:\Stendardo{stendardo_orientali.eps}
+razze.tex:\filler{libro1.eps}
+razze.tex:\pinupbig{romdellesabbiebig.eps}{Rom delle sabbie}{tb}
+razze.tex:\filler{libro1.eps}
+razze.tex:\Stendardo{stendardo_chire.eps}
+razze.tex:\pinup{chire.eps}{Vedetta Chire}
+razze.tex:\Stendardo{stendardo_luxi.eps}
+razze.tex:\pinup{elfaluxi2.eps}{Elfa Luxi}
+razze.tex:\Stendardo{stendardo_umbra.eps}
+razze.tex:\filler{madre.eps}
+razze.tex:\pinup{haryell.eps}{Haryell, Elfa Umbra}
+razze.tex:\Stendardo{stendardo_gnomi.eps}
+razze.tex:\pinup{gnomo_beedha.eps}{Gnomo Beedha al lavoro}
+razze.tex:\Stendardo{stendardo_nani.eps}
+razze.tex:\pinup{nano.eps}{Un tipico abitante di Gennoria}
+razze.tex:\Stendardo{stendardo_orchi.eps}
+razze.tex:\pinup{orco_small.eps}{Kah Dohts}
+razze.tex:\Stendardo{stendardo_reuben.eps}
+razze.tex:\pinup{reuben_guerriero.eps}{Guerriero Reuben}
+razze.tex:\Stendardo{stendardo_giganti.eps}
+scuole.tex:\Simbolo{simb_dem.eps}
+scuole.tex:\pinup{mammon.eps}{Mammon}
+scuole.tex:\includegraphics{arioch3.eps}
+scuole.tex:\pinup{demonecorazza.eps}{Un demone generico (Corazza)}
+scuole.tex:\Simbolo{simb_ele.eps}
+scuole.tex:\pinup{el_aria2.eps}{Elementale dell'aria}
+scuole.tex:\pinup{el_pietra2.eps}{Elementale della Pietra}
+scuole.tex:\pinup{el_fuoco.eps}{Elementale del fuoco}
+scuole.tex:\Simbolo{simb_esi.eps}
+scuole.tex:\includegraphics{baystbig.eps}
+scuole.tex:\includegraphics{johaim.eps}
+scuole.tex:\pinup{adonai.eps}{Adonai}
+scuole.tex:\filler{libro1.eps}
+scuole.tex:\Simbolo{simb_ill.eps}
+scuole.tex:\pinup{braak.eps}{Braak}
+scuole.tex:\pinup{bleargh.eps}{Bleargh}
+scuole.tex:\includegraphics{tolden.eps}}
+scuole.tex:\pinup{krull.eps}{Krull}
+scuole.tex:\includegraphics{benahir.eps}
+scuole.tex:\Simbolo{simb_nec.eps}
+scuole.tex:\pinup{banshee.eps}{Banshee}
+scuole.tex:\pinup{messo.eps}{Messo}
+scuole.tex:\pinup{ombra.eps}{Ombra maggiore}
+scuole.tex:\Simbolo{simb_str.eps}
+scuole.tex:\pinup{trimuligioni.eps}{Trymowlijonee}
+scuole.tex:\pinup{alambicco.eps}{}
+scuole.tex:\pinup{candela.eps}{}

@@ -1,0 +1,12 @@
+#!/bin/sh
+# mysql radix -pradix < dbradix.sql
+# mysql radix -pradix < spells.sql
+perl fromdb.pl 1 > inc_esi.tex
+perl fromdb.pl 2 > inc_nec.tex
+perl fromdb.pl 3 > inc_ill.tex
+perl fromdb.pl 4 > inc_ele.tex
+perl fromdb.pl 5 > inc_str.tex
+perl fromdb.pl 6 > inc_dem.tex
+perl fromdb.pl 7 > inc_uti.tex
+perl fromdb.pl 8 > inc_sal.tex
+

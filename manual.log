@@ -1,0 +1,11230 @@
+This is TeX, Version 3.14159 (Web2C 7.4.5) (format=latex 2004.4.24)  26 APR 2004 21:24
+**manual.tex
+(./manual.tex
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, i
+talian, latin, nohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/book.cls
+Document Class: book 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/bk10.clo
+File: bk10.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/psnfss/newcent.sty
+Package: newcent 2002/09/08 PSNFSS-v9.0a (SPQR) 
+)
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 2001/06/05 v1.94 Standard LaTeX package
+
+(/usr/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 2001/06/05 v1.94 Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 38.
+))
+(/usr/share/texmf/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texmf/tex/latex/tools/afterpage.sty
+Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
+\AP@output=\toks14
+\AP@partial=\box26
+\AP@footins=\box27
+)
+(/usr/share/texmf/tex/latex/tools/longtable.sty
+Package: longtable 2000/10/22 v4.10 Multi-page Table package (DPC)
+\LTleft=\skip43
+\LTright=\skip44
+\LTpre=\skip45
+\LTpost=\skip46
+\LTchunksize=\count88
+\LTcapwidth=\dimen103
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count89
+\LT@rows=\count90
+\c@LT@tables=\count91
+\c@LT@chunks=\count92
+\LT@p@ftn=\toks15
+)
+(/usr/share/texmf/tex/generic/babel/babel.sty
+Package: babel 2001/03/01 v3.7h The Babel package
+
+(/usr/share/texmf/tex/generic/babel/italian.ldf
+Language: italian 2001/01/19 v1.2o Italian support from the babel system
+
+(/usr/share/texmf/tex/generic/babel/babel.def
+File: babel.def 2001/03/01 v3.7h Babel common definitions
+\babel@savecnt=\count93
+\U@D=\dimen104
+)
+Package babel Info: Making " an active character on input line 72.
+))
+(/usr/share/texmf/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 42.
+)
+(/usr/share/texmf/tex/latex/fancyhdr/fancyhdr.sty
+\headwidth=\dimen105
+)
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/usr/share/texmf/tex/latex/config/color.cfg
+File: color.cfg 2001/08/31 v1.1 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 125.
+
+(/usr/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+(/usr/share/texmf/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2001/08/31 v1.1 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+)
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
+)
+(/usr/share/texmf/tex/latex/misc/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count94
+\float@exts=\toks17
+\float@box=\box32
+\@float@everytoks=\toks18
+\@floatcapt=\box33
+)
+(/usr/share/texmf/tex/latex/misc/floatflt.sty
+Package: floatflt 1997/07/16 v. 1.31
+\c@OptionTest=\count95
+\figbox=\box34
+\tabbox=\box35
+\pagebox=\box36
+\ffigcount=\count96
+\ftabcount=\count97
+\fftest=\count98
+\hangcount=\count99
+\nosuccesstryfig=\count100
+\nosuccesstrytab=\count101
+\figgutter=\dimen108
+\tabgutter=\dimen109
+\htdone=\dimen110
+\pageht=\dimen111
+\startpageht=\dimen112
+\tabbredd=\dimen113
+\floatfltwidth=\dimen114
+\fltitemwidth=\dimen115
+\outputpretest=\toks19
+)
+(/usr/share/texmf/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 1998/05/13 v2.3m Tabular extension package (FMi)
+\col@sep=\dimen116
+\extrarowheight=\dimen117
+\NC@list=\toks20
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+\TX@col@width=\dimen118
+\TX@old@table=\dimen119
+\TX@old@col=\dimen120
+\TX@target=\dimen121
+\TX@delta=\dimen122
+\TX@cols=\count102
+\TX@ftn=\toks21
+) (./fullversioncfg.tex)
+\c@esnum=\count103
+\headimgstaffl=\box37
+File: staff2_l.eps Graphic file (type eps)
+
+<staff2_l.eps>
+\headimgstaffr=\box38
+File: staff2_r.eps Graphic file (type eps)
+ <staff2_r.eps>
+\headimglandl=\box39
+File: paesaggiol.eps Graphic file (type eps)
+ <paesaggiol.eps>
+\headimglandr=\box40
+File: paesaggior.eps Graphic file (type eps)
+ <paesaggior.eps>
+\headimgwall=\box41
+File: muraglia.eps Graphic file (type eps)
+ <muraglia.eps>
+\headimgrune=\box42
+File: rune.eps Graphic file (type eps)
+
+<rune.eps>
+\headimgpenl=\box43
+File: penninol.eps Graphic file (type eps)
+ <penninol.eps>
+\headimgpenr=\box44
+File: penninor.eps Graphic file (type eps)
+ <penninor.eps>
+\headimgsword=\box45
+File: spade.eps Graphic file (type eps)
+ <spade.eps>
+\footimg=\box46
+File: foot.eps Graphic file (type eps)
+ <foot.eps>
+\iconcorona=\box47
+File: icon_corona_small.eps Graphic file (type eps)
+
+<icon_corona_small.eps>
+\iconsacco=\box48
+File: icon_sacco_small.eps Graphic file (type eps)
+ <icon_sacco_small.eps>
+\icontiara=\box49
+File: icon_tiara_small.eps Graphic file (type eps)
+ <icon_tiara_small.eps>
+\iconsfera=\box50
+File: icon_sfera_small.eps Graphic file (type eps)
+
+<icon_sfera_small.eps>
+\icongiacca=\box51
+File: icon_giacca_small.eps Graphic file (type eps)
+ <icon_giacca_small.eps>
+\iconmappa=\box52
+File: icon_mappa_small.eps Graphic file (type eps)
+ <icon_mappa_small.eps>
+\iconspada=\box53
+File: icon_spada_small.eps Graphic file (type eps)
+
+<icon_spada_small.eps>
+\iconexcl=\box54
+File: icon_excl_small.eps Graphic file (type eps)
+ <icon_excl_small.eps>
+\icondadi=\box55
+File: icon_dadi_small.eps Graphic file (type eps)
+ <icon_dadi_small.eps>
+\iconmanosx=\box56
+File: icon_mano_sx_small.eps Graphic file (type eps)
+
+<icon_mano_sx_small.eps>
+\iconmanodx=\box57
+File: icon_mano_dx_small.eps Graphic file (type eps)
+ <icon_mano_dx_small.eps>
+\iconbobbie=\box58
+File: icon_bobby_small.eps Graphic file (type eps)
+ <icon_bobby_small.eps>
+\iconoffset=\skip49
+\iconoff=\skip50
+\iconsize=\skip51
+
+(./manual.aux (./michele.aux) (./intro.aux) (./razze.aux) (./personaggio.aux)
+(./movimento.aux) (./droghe.aux) (./combattimento.aux) (./magia.aux)
+(./scuole.aux) (./coda.aux))
+\openout1 = `manual.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 341.
+LaTeX Font Info:    ... okay on input line 341.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 341.
+LaTeX Font Info:    ... okay on input line 341.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 341.
+LaTeX Font Info:    ... okay on input line 341.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 341.
+LaTeX Font Info:    ... okay on input line 341.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 341.
+LaTeX Font Info:    ... okay on input line 341.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 341.
+LaTeX Font Info:    ... okay on input line 341.
+LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 341.
+LaTeX Font Info:    Try loading font information for OT2+cmr on input line 341.
+
+ (/usr/share/texmf/tex/latex/cyrillic/ot2cmr.fd
+File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    ... okay on input line 341.
+LaTeX Font Info:    Try loading font information for T1+pnc on input line 341.
+
+(/usr/share/texmf/tex/latex/psnfss/t1pnc.fd
+File: t1pnc.fd 2001/06/04 font definitions for T1/pnc.
+)
+File: radixlogo5.eps Graphic file (type eps)
+ <radixlogo5.eps>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 360.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 360.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 360.
+
+(/usr/share/texmf/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Font shape `T1/pnc/bx/it' in size <9> not available
+(Font)              Font shape `T1/pnc/b/it' tried instead on input line 384.
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <8> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 395.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 454.
+
+(/usr/share/texmf/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+color push  Black
+color pop
+
+
+
+
+
+
+color push  Black
+color pop
+color push  Black
+color pop
+]
+[2
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+\openout2 = `michele.aux'.
+
+ (./michele.tex
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 2.
+ [3
+color push  Black
+color pop
+
+
+
+
+
+
+
+color push  Black
+color pop
+color push  Black
+color pop
+] [4
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [5
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: michele_arioch.eps Graphic file (type eps)
+ <michele_arioch.eps> [6
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+])
+\openout2 = `intro.aux'.
+
+ (./intro.tex
+Capitolo 1.
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <12> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 7.
+[7
+color push  Black
+color pop
+color push  Black
+color pop
+
+
+
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+] [8
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: fortral.eps Graphic file (type eps)
+ <fortral.eps>
+File: krenay.eps Graphic file (type eps)
+ <krenay.eps> [9
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] (./tab_animali.tex [10
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [11
+color push  Black
+color push  Black
+color pop
+color pop
+
+color push  Black
+color push  Black
+color pop
+color pop
+] [12
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]))
+\openout2 = `razze.aux'.
+
+
+(./razze.tex
+Capitolo 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 167.
+File: ragazzo_falco2.eps Graphic file (type eps)
+<ragazzo_falco2.eps> [13
+color push  Black
+color pop
+color push  Black
+color pop
+
+
+
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+] [14
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: stendardo_levante.eps Graphic file (type eps)
+ <stendardo_levante.eps> [15
+color push  Black
+color push  Black
+color pop
+color pop
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [16
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [17
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [18
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: corona.eps Graphic file (type eps)
+
+<corona.eps>
+File: stendardo_rylex.eps Graphic file (type eps)
+ <stendardo_rylex.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: pugnale_ryless.eps Graphic file (type eps)
+
+<pugnale_ryless.eps> [20
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [21
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [22
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: stendardo_terranova.eps Graphic file (type eps)
+ <stendardo_terranova.eps> [23
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [24
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+[25
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+[27
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: pugnale_rileano.eps Graphic file (type eps)
+ <pugnale_rileano.eps>
+File: stendardo_nordici.eps Graphic file (type eps)
+ <stendardo_nordici.eps> [28
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [29
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [30
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [31
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: stendardo_orientali.eps Graphic file (type eps)
+
+<stendardo_orientali.eps> [32
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [33
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [34
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: libro1.eps Graphic file (type eps)
+ <libro1.eps>
+File: romdellesabbiebig.eps Graphic file (type eps)
+ <romdellesabbiebig.eps>
+[35
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [36
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: stendardo_chire.eps Graphic file (type eps)
+ <stendardo_chire.eps> [37
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: chire.eps Graphic file (type eps)
+ <chire.eps> [38
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [39
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [40
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: stendardo_luxi.eps Graphic file (type eps)
+
+<stendardo_luxi.eps> [41
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [42
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [43
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: elfaluxi2.eps Graphic file (type eps)
+ <elfaluxi2.eps> [44
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [45
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: stendardo_umbra.eps Graphic file (type eps)
+
+<stendardo_umbra.eps> [46
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [47
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: madre.eps Graphic file (type eps)
+ <madre.eps> [48
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: haryell.eps Graphic file (type eps)
+ <haryell.eps> [49
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [50
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: stendardo_gnomi.eps Graphic file (type eps)
+
+<stendardo_gnomi.eps> [51
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: gnomo_beedha.eps Graphic file (type eps)
+ <gnomo_beedha.eps> [52
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [53
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [54
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: stendardo_nani.eps Graphic file (type eps)
+
+<stendardo_nani.eps> [55
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [56
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: nano.eps Graphic file (type eps)
+ <nano.eps>
+Underfull \vbox (badness 3364) has occurred while \output is active []
+
+ [57
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: stendardo_orchi.eps Graphic file (type eps)
+
+<stendardo_orchi.eps> [58
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [59
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: orco_small.eps Graphic file (type eps)
+ <orco_small.eps> [60
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [61
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [62
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: stendardo_reuben.eps Graphic file (type eps)
+
+<stendardo_reuben.eps> [63
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: reuben_guerriero.eps Graphic file (type eps)
+ <reuben_guerriero.eps> [64
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [65
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: stendardo_giganti.eps Graphic file (type eps)
+
+<stendardo_giganti.eps> [66
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [67
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [68
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [69
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]) [70
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+\openout2 = `personaggio.aux'.
+
+ (./personaggio.tex
+Capitolo 3.
+LaTeX Font Info:    Font shape `T1/pnc/bx/it' in size <8> not available
+(Font)              Font shape `T1/pnc/b/it' tried instead on input line 46.
+File: bambino.eps Graphic file (type eps)
+<bambino.eps>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 80.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 80.
+ [71
+color push  Black
+color pop
+color push  Black
+color pop
+
+
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+] [72
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: ren.eps Graphic file (type eps)
+ <ren.eps> [73
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: orcofaccia.eps Graphic file (type eps)
+ <orcofaccia.eps>
+File: elfobarba.eps Graphic file (type eps)
+ <elfobarba.eps>
+[74
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [75
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: elfo1.eps Graphic file (type eps)
+ <elfo1.eps> [76
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+Underfull \vbox (badness 4454) has occurred while \output is active []
+
+ [77
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: candelab.eps Graphic file (type eps)
+
+<candelab.eps> [78
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [79
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [80
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: libro1.eps Graphic file (type eps)
+ <libro1.eps> [81
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <9> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 1080.
+
+[83
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [84
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: alambicco.eps Graphic file (type eps)
+ <alambicco.eps> [85
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [86
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [87
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [88
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [89
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [90
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: birra.eps Graphic file (type eps)
+ <birra.eps> [91
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: penna.eps Graphic file (type eps)
+
+<penna.eps> [92
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: pinza.eps Graphic file (type eps)
+ <pinza.eps> [93
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [94
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: nimh.eps Graphic file (type eps)
+ <nimh.eps> [95
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [96
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [97
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [98
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: pallottoliere_big.eps Graphic file (type eps)
+
+<pallottoliere_big.eps> [99
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: occhio_big.eps Graphic file (type eps)
+ <occhio_big.eps> [100
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]) [101
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+\openout2 = `movimento.aux'.
+
+ (./movimento.tex
+Capitolo 4.
+[102
+color push  Black
+color pop
+color push  Black
+color pop
+
+
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 189.
+ [103
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]) [104
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [105
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [106
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+\openout2 = `droghe.aux'.
+
+ (./droghe.tex
+File: mortaio_big.eps Graphic file (type eps)
+ <mortaio_big.eps> [107
+color push  Black
+color push  Black
+color pop
+color pop
+
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [108
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+Underfull \vbox (badness 4954) has occurred while \output is active []
+
+File: rajina.eps Graphic file (type eps)
+
+<rajina.eps> [109
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [110
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] (./tab_erbe.tex [111
+color push  Black
+color push  Black
+color pop
+color pop
+
+color push  Black
+color push  Black
+color pop
+color pop
+]) (./tab_veleni.tex [112
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+])
+(./tab_malattie.tex [113
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]) (./tab_droghe.tex) [114
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+])
+\openout2 = `combattimento.aux'.
+
+ (./combattimento.tex
+Capitolo 5.
+File: orco_nani.eps Graphic file (type eps)
+<orco_nani.eps> [115
+color push  Black
+color pop
+
+
+
+
+
+color push  Black
+color pop
+color push  Black
+color pop
+] [116
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: picca1.eps Graphic file (type eps)
+ <picca1.eps> [117
+color push  Black
+color push  Black
+color pop
+color pop
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [118
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] (./tab_armi.tex
+Underfull \vbox (badness 10000) detected at line 66
+ []
+
+[119
+color push  Black
+color push  Black
+color pop
+color pop
+
+
+color push  Black
+color push  Black
+color pop
+color pop
+] [120
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [121
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]) [122
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [123
+color push  Black
+color push  Black
+color pop
+color pop
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: spada_2_mani.eps Graphic file (type eps)
+ <spada_2_mani.eps> [124
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+
+LaTeX Warning: Marginpar on page 125 moved.
+
+[125
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [126
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [127
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+
+LaTeX Warning: Marginpar on page 128 moved.
+
+File: spadone_senza_sfondo.eps Graphic file (type eps)
+<spadone_senza_sfondo.eps> [128
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [129
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+
+LaTeX Warning: Marginpar on page 130 moved.
+
+[130
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: spada_nera.eps Graphic file (type eps)
+ <spada_nera.eps> [131
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: mazza_ferrata.eps Graphic file (type eps)
+ <mazza_ferrata.eps> [132
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [133
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [134
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [135
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+[136
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [137
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+
+LaTeX Warning: Marginpar on page 138 moved.
+
+
+LaTeX Warning: Marginpar on page 138 moved.
+
+[138
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [139
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: ascia.eps Graphic file (type eps)
+ <ascia.eps> [140
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [141
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [142
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [143
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: sciabola_elfica_2.eps Graphic file (type eps)
+ <sciabola_elfica_2.eps>
+[144
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+
+LaTeX Warning: Text page 145 contains only floats.
+
+[145
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [146
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]) [147
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+\openout2 = `magia.aux'.
+
+ (./magia.tex
+Capitolo 6.
+File: maga.eps Graphic file (type eps)
+<maga.eps>
+
+LaTeX Warning: Float too large for page by 0.82399pt on input line 78.
+
+[148
+color push  Black
+color pop
+
+
+
+
+color push  Black
+color pop
+color push  Black
+color pop
+] [149
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [150
+color push  Black
+color push  Black
+color pop
+color pop
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: occhio_small.eps Graphic file (type eps)
+ <occhio_small.eps> [151
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [152
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [153
+color push  Black
+color push  Black
+color pop
+color pop
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: mortaio.eps Graphic file (type eps)
+ <mortaio.eps> [154
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+[155
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [156
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [157
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [158
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+LaTeX Font Info:    Font shape `T1/pnc/bx/it' in size <10> not available
+(Font)              Font shape `T1/pnc/b/it' tried instead on input line 999.
+ [159
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [160
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [161
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [162
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [163
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [164
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [165
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [166
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+[167
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [168
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+
+LaTeX Warning: Marginpar on page 169 moved.
+
+[169
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [170
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [171
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [172
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [173
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [174
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [175
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [176
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [177
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [178
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [179
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [180
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+])
+[181
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+\openout2 = `scuole.aux'.
+
+ (./scuole.tex
+Capitolo 7.
+[182
+color push  Black
+color pop
+color push  Black
+color pop
+
+
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+] [183
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: libro1.eps Graphic file (type eps)
+ <libro1.eps> [184
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: simb_dem.eps Graphic file (type eps)
+ <simb_dem.eps> [185
+color push  Black
+color push  Black
+color pop
+color pop
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: mammon.eps Graphic file (type eps)
+ <mammon.eps> [186
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [187
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: arioch3.eps Graphic file (type eps)
+
+<arioch3.eps> [188
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [189
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: demonecorazza.eps Graphic file (type eps)
+ <demonecorazza.eps> [190
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] (./inc_dem.tex [191
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+[192
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [193
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [194
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+])
+File: simb_ele.eps Graphic file (type eps)
+ <simb_ele.eps> [195
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [196
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: el_aria2.eps Graphic file (type eps)
+ <el_aria2.eps> [197
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: el_pietra2.eps Graphic file (type eps)
+
+<el_pietra2.eps> [198
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: el_fuoco.eps Graphic file (type eps)
+ <el_fuoco.eps> [199
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [200
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] (./inc_ele.tex [201
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [202
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+[203
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [204
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [205
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]) [206
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: alambicco.eps Graphic file (type eps)
+ <alambicco.eps>
+File: simb_esi.eps Graphic file (type eps)
+ <simb_esi.eps> [207
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [208
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: baystbig.eps Graphic file (type eps)
+
+<baystbig.eps>
+File: johaim.eps Graphic file (type eps)
+ <johaim.eps> [209
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [210
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [211
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: adonai.eps Graphic file (type eps)
+ <adonai.eps> [212
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [213
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+(./inc_esi.tex [214
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [215
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [216
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [217
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]) [218
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: simb_ill.eps Graphic file (type eps)
+ <simb_ill.eps> [219
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [220
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: braak.eps Graphic file (type eps)
+
+<braak.eps> [221
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [222
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: bleargh.eps Graphic file (type eps)
+ <bleargh.eps> [223
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: tolden.eps Graphic file (type eps)
+ <tolden.eps> [224
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [225
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: krull.eps Graphic file (type eps)
+
+<krull.eps> [226
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: benahir.eps Graphic file (type eps)
+ <benahir.eps> [227
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [228
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] (./inc_ill.tex [229
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [230
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [231
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+[232
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [233
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+])
+File: libro1.eps Graphic file (type eps)
+ <libro1.eps>
+File: simb_nec.eps Graphic file (type eps)
+ <simb_nec.eps> [234
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [235
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [236
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [237
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [238
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [239
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: banshee.eps Graphic file (type eps)
+
+<banshee.eps> [240
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [241
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: messo.eps Graphic file (type eps)
+ <messo.eps> [242
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: ombra.eps Graphic file (type eps)
+ <ombra.eps> [243
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] (./inc_nec.tex
+[244
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [245
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [246
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [247
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [248
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+])
+File: mortaio.eps Graphic file (type eps)
+ <mortaio.eps> [249
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: simb_str.eps Graphic file (type eps)
+ <simb_str.eps> [250
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+[251
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [252
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [253
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [254
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: trimuligioni.eps Graphic file (type eps)
+ <trimuligioni.eps> [255
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [256
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+File: drago_cucciolo.eps Graphic file (type eps)
+ <drago_cucciolo.eps>
+[257
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] (./inc_str.tex [258
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [259
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [260
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [261
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [262
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [263
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+])
+File: alambicco.eps Graphic file (type eps)
+ <alambicco.eps>
+(./inc_uti.tex [264
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]) (./inc_sal.tex [265
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+])) [266
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]
+\openout2 = `coda.aux'.
+
+ (./coda.tex
+Capitolo 8.
+[267
+color push  Black
+color pop
+color push  Black
+color pop
+
+
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+] [268
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] [269
+color push  Black
+color push  Black
+color pop
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+]) [270
+color push  Black
+color push  Black
+color pop
+color pop
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color push  Black
+color pop
+color pop
+] (./manual.toc [271
+color push  Black
+color pop
+
+
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+]
+Overfull \hbox (1.06178pt too wide) detected at line 253
+ []\T1/pnc/m/n/9 102
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 254
+ []\T1/pnc/m/n/9 102
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 255
+ []\T1/pnc/m/n/9 102
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 256
+ []\T1/pnc/m/n/9 102
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 257
+ []\T1/pnc/m/n/9 102
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 258
+ []\T1/pnc/m/n/9 102
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 259
+ []\T1/pnc/m/n/9 103
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 260
+ []\T1/pnc/m/n/9 103
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 261
+ []\T1/pnc/m/n/9 104
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 262
+ []\T1/pnc/m/n/9 104
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 263
+ []\T1/pnc/m/n/9 104
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 264
+ []\T1/pnc/m/n/9 107
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 265
+ []\T1/pnc/m/n/9 107
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 266
+ []\T1/pnc/m/n/9 107
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 267
+ []\T1/pnc/m/n/9 107
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 268
+ []\T1/pnc/m/n/9 108
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 269
+ []\T1/pnc/m/n/9 108
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 271
+ []\T1/pnc/m/n/9 117
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 272
+ []\T1/pnc/m/n/9 117
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 273
+ []\T1/pnc/m/n/9 118
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 274
+ []\T1/pnc/m/n/9 123
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 275
+ []\T1/pnc/m/n/9 123
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 276
+ []\T1/pnc/m/n/9 123
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 277
+ []\T1/pnc/m/n/9 123
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 280
+ []\T1/pnc/m/n/9 124
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 286
+ []\T1/pnc/m/n/9 125
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 293
+ []\T1/pnc/m/n/9 127
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 294
+ []\T1/pnc/m/n/9 127
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 295
+ []\T1/pnc/m/n/9 128
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 296
+ []\T1/pnc/m/n/9 128
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 297
+ []\T1/pnc/m/n/9 128
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 298
+ []\T1/pnc/m/n/9 129
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 299
+ []\T1/pnc/m/n/9 129
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 300
+ []\T1/pnc/m/n/9 129
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 301
+ []\T1/pnc/m/n/9 130
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 302
+ []\T1/pnc/m/n/9 131
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 303
+ []\T1/pnc/m/n/9 131
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 304
+ []\T1/pnc/m/n/9 132
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 305
+ []\T1/pnc/m/n/9 132
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 306
+ []\T1/pnc/m/n/9 133
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 307
+ []\T1/pnc/m/n/9 133
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 308
+ []\T1/pnc/m/n/9 134
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 309
+ []\T1/pnc/m/n/9 134
+ []
+
+[272
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+]
+Overfull \hbox (1.06178pt too wide) detected at line 310
+ []\T1/pnc/m/n/9 134
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 311
+ []\T1/pnc/m/n/9 134
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 312
+ []\T1/pnc/m/n/9 135
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 314
+ []\T1/pnc/m/n/9 137
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 315
+ []\T1/pnc/m/n/9 137
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 316
+ []\T1/pnc/m/n/9 138
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 317
+ []\T1/pnc/m/n/9 138
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 318
+ []\T1/pnc/m/n/9 139
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 326
+ []\T1/pnc/m/n/9 144
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 330
+ []\T1/pnc/m/n/9 146
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 337
+ []\T1/pnc/m/n/9 147
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 339
+ []\T1/pnc/m/n/9 150
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 340
+ []\T1/pnc/m/n/9 150
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 341
+ []\T1/pnc/m/n/9 150
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 342
+ []\T1/pnc/m/n/9 150
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 347
+ []\T1/pnc/m/n/9 152
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 348
+ []\T1/pnc/m/n/9 152
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 349
+ []\T1/pnc/m/n/9 153
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 350
+ []\T1/pnc/m/n/9 153
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 351
+ []\T1/pnc/m/n/9 153
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 352
+ []\T1/pnc/m/n/9 154
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 353
+ []\T1/pnc/m/n/9 154
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 354
+ []\T1/pnc/m/n/9 156
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 355
+ []\T1/pnc/m/n/9 156
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 356
+ []\T1/pnc/m/n/9 156
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 357
+ []\T1/pnc/m/n/9 157
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 359
+ []\T1/pnc/m/n/9 158
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 360
+ []\T1/pnc/m/n/9 158
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 361
+ []\T1/pnc/m/n/9 158
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 362
+ []\T1/pnc/m/n/9 158
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 363
+ []\T1/pnc/m/n/9 158
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 364
+ []\T1/pnc/m/n/9 158
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 372
+ []\T1/pnc/m/n/9 160
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 373
+ []\T1/pnc/m/n/9 160
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 374
+ []\T1/pnc/m/n/9 160
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 375
+ []\T1/pnc/m/n/9 160
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 376
+ []\T1/pnc/m/n/9 161
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 377
+ []\T1/pnc/m/n/9 161
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 380
+ []\T1/pnc/m/n/9 162
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 381
+ []\T1/pnc/m/n/9 162
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 382
+ []\T1/pnc/m/n/9 163
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 383
+ []\T1/pnc/m/n/9 163
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 384
+ []\T1/pnc/m/n/9 163
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 399
+ []\T1/pnc/m/n/9 166
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 407
+ []\T1/pnc/m/n/9 167
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 412
+ []\T1/pnc/m/n/9 167
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 413
+ []\T1/pnc/m/n/9 167
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 414
+ []\T1/pnc/m/n/9 168
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 419
+ []\T1/pnc/m/n/9 169
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 423
+ []\T1/pnc/m/n/9 169
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 431
+ []\T1/pnc/m/n/9 170
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 432
+ []\T1/pnc/m/n/9 170
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 439
+ []\T1/pnc/m/n/9 172
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 442
+ []\T1/pnc/m/n/9 172
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 447
+ []\T1/pnc/m/n/9 172
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 448
+ []\T1/pnc/m/n/9 172
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 460
+ []\T1/pnc/m/n/9 175
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 467
+ []\T1/pnc/m/n/9 175
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 472
+ []\T1/pnc/m/n/9 176
+ []
+
+[273
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+]
+Overfull \hbox (1.06178pt too wide) detected at line 473
+ []\T1/pnc/m/n/9 176
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 474
+ []\T1/pnc/m/n/9 176
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 478
+ []\T1/pnc/m/n/9 177
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 480
+ []\T1/pnc/m/n/9 177
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 485
+ []\T1/pnc/m/n/9 177
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 486
+ []\T1/pnc/m/n/9 177
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 487
+ []\T1/pnc/m/n/9 178
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 496
+ []\T1/pnc/m/n/9 180
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 503
+ []\T1/pnc/m/n/9 180
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 509
+ []\T1/pnc/m/n/9 181
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 511
+ []\T1/pnc/m/n/9 182
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 512
+ []\T1/pnc/m/n/9 182
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 513
+ []\T1/pnc/m/n/9 182
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 514
+ []\T1/pnc/m/n/9 183
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 515
+ []\T1/pnc/m/n/9 183
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 521
+ []\T1/pnc/m/n/9 185
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 522
+ []\T1/pnc/m/n/9 185
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 523
+ []\T1/pnc/m/n/9 185
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 524
+ []\T1/pnc/m/n/9 185
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 525
+ []\T1/pnc/m/n/9 185
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 526
+ []\T1/pnc/m/n/9 185
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 564
+ []\T1/pnc/m/n/9 191
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 565
+ []\T1/pnc/m/n/9 196
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 566
+ []\T1/pnc/m/n/9 196
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 567
+ []\T1/pnc/m/n/9 196
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 568
+ []\T1/pnc/m/n/9 196
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 569
+ []\T1/pnc/m/n/9 196
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 570
+ []\T1/pnc/m/n/9 196
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 612
+ []\T1/pnc/m/n/9 201
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 613
+ []\T1/pnc/m/n/9 207
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 614
+ []\T1/pnc/m/n/9 207
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 615
+ []\T1/pnc/m/n/9 207
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 616
+ []\T1/pnc/m/n/9 207
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 617
+ []\T1/pnc/m/n/9 208
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 618
+ []\T1/pnc/m/n/9 208
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 675
+ []\T1/pnc/m/n/9 214
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 676
+ []\T1/pnc/m/n/9 219
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 677
+ []\T1/pnc/m/n/9 219
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 678
+ []\T1/pnc/m/n/9 219
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 679
+ []\T1/pnc/m/n/9 220
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 680
+ []\T1/pnc/m/n/9 220
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 681
+ []\T1/pnc/m/n/9 220
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 756
+ []\T1/pnc/m/n/9 229
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 757
+ []\T1/pnc/m/n/9 235
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 758
+ []\T1/pnc/m/n/9 235
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 759
+ []\T1/pnc/m/n/9 235
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 760
+ []\T1/pnc/m/n/9 235
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 761
+ []\T1/pnc/m/n/9 235
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 762
+ []\T1/pnc/m/n/9 235
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 830
+ []\T1/pnc/m/n/9 244
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 831
+ []\T1/pnc/m/n/9 250
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 832
+ []\T1/pnc/m/n/9 250
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 833
+ []\T1/pnc/m/n/9 250
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 834
+ []\T1/pnc/m/n/9 250
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 835
+ []\T1/pnc/m/n/9 250
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 836
+ []\T1/pnc/m/n/9 250
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 918
+ []\T1/pnc/m/n/9 258
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 919
+ []\T1/pnc/m/n/9 264
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 920
+ []\T1/pnc/m/n/9 264
+ []
+
+[274
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+]
+Overfull \hbox (1.06178pt too wide) detected at line 921
+ []\T1/pnc/m/n/9 264
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 922
+ []\T1/pnc/m/n/9 264
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 923
+ []\T1/pnc/m/n/9 264
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 924
+ []\T1/pnc/m/n/9 264
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 928
+ []\T1/pnc/m/n/9 267
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 929
+ []\T1/pnc/m/n/9 269
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 930
+ []\T1/pnc/m/n/9 270
+ []
+
+)
+\tf@toc=\write3
+\openout3 = `manual.toc'.
+
+ [275
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+] (./manual.lot
+Overfull \hbox (1.06178pt too wide) detected at line 14
+ []\T1/pnc/m/n/9 103
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 15
+ []\T1/pnc/m/n/9 104
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 16
+ []\T1/pnc/m/n/9 105
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 17
+ []\T1/pnc/m/n/9 105
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 18
+ []\T1/pnc/m/n/9 106
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 19
+ []\T1/pnc/m/n/9 106
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 20
+ []\T1/pnc/m/n/9 106
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 21
+ []\T1/pnc/m/n/9 106
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 22
+ []\T1/pnc/m/n/9 112
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 23
+ []\T1/pnc/m/n/9 113
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 24
+ []\T1/pnc/m/n/9 114
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 25
+ []\T1/pnc/m/n/9 114
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 27
+ []\T1/pnc/m/n/9 122
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 28
+ []\T1/pnc/m/n/9 127
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 29
+ []\T1/pnc/m/n/9 130
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 30
+ []\T1/pnc/m/n/9 133
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 31
+ []\T1/pnc/m/n/9 137
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 33
+ []\T1/pnc/m/n/9 154
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 34
+ []\T1/pnc/m/n/9 155
+ []
+
+
+Overfull \hbox (1.06178pt too wide) detected at line 36
+ []\T1/pnc/m/n/9 201
+ []
+
+)
+\tf@lot=\write4
+\openout4 = `manual.lot'.
+
+ [276
+color push  Black
+color pop
+
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+color push  Black
+color pop
+] (./manual.aux (./michele.aux) (./intro.aux) (./razze.aux)
+(./personaggio.aux) (./movimento.aux) (./droghe.aux) (./combattimento.aux)
+(./magia.aux) (./scuole.aux) (./coda.aux)) ) 
+Here is how much of TeX's memory you used:
+ 2410 strings out of 95839
+ 28834 string characters out of 1195736
+ 185143 words of memory out of 1000001
+ 5089 multiletter control sequences out of 10000+50000
+ 51081 words of font info for 61 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 35i,13n,43p,754b,543s stack positions out of 1500i,500n,5000p,200000b,5000s
+
+Output written on manual.dvi (276 pages, 1922236 bytes).

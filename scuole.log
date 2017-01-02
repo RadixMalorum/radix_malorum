@@ -1,0 +1,25 @@
+This is TeX, Version 3.14159 (Web2C 7.3.1) (format=latex 2000.10.21)  1 APR 2001 23:11
+**scuole.tex
+(scuole.tex
+LaTeX2e <1999/12/01> patch level 1
+Babel <v3.6Z> and hyphenation patterns for american, french, german, ngerman, i
+talian, nohyphenation, loaded.
+! Undefined control sequence.
+l.1 \chapter
+            {Le scuole di Magia}
+? 
+! Emergency stop.
+l.1 \chapter
+            {Le scuole di Magia}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 3 strings out of 25898
+ 26 string characters out of 197516
+ 44020 words of memory out of 384000
+ 3017 multiletter control sequences out of 10000+15000
+ 3640 words of font info for 14 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 5i,0n,1p,41b,7s stack positions out of 300i,100n,500p,50000b,4000s
+No pages of output.

@@ -1,0 +1,625 @@
+%----------------------------------------------------------------------------
+\begin{spell}{Amputazione}{Esistenza}{Attacco}{Danno Mirato}
+%----------------------------------------------------------------------------
+\descrizione{Fa partire una lama luminosa che infligge 6d6 PV/PSC di danno mirato su un target a contatto col mago.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{28}{36}{5}{30}{1}{28}{9}{36}{4}
+\parametro{Danno}{6}{d6}{30}
+\parametro{Base TPC}{0}{}{0}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Anestesia}{Esistenza}{Controllo}{Comando}
+%----------------------------------------------------------------------------
+\descrizione{Fa addormentare un target per 11 minuti se questo non realizza un TV a Diff. 15. Dopo la durata il target dorme per 2d6 ore se non viene svegliato.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{15}{29}{11}{15}{3}{15}{5}{29}{2}
+\parametro{Difficolt\`a del TV}{15}{}{15}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{11 min}{2}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Antidolore}{Esistenza}{Alterazione}{Variazione abilit\`a fisica}
+%----------------------------------------------------------------------------
+\descrizione{Conferisce al target un bonus di +10 all'abilit\`a Resistenza al Dolore per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{16}{29}{18}{10}{1}{16}{5}{29}{2}
+\parametro{Variazione abilit\`a}{10}{punti}{10}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Antishock}{Esistenza}{Controllo}{Variazione PSIche}
+%----------------------------------------------------------------------------
+\descrizione{Conferisce un bonus di +5 alla Psiche del target per 3 minuti. Il target si deve a trovare al massimo a 4 metri dal mago.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{4}{18}{10}{5}{3}{4}{1}{18}{1}
+\parametro{Variazione caratteristica PSI}{5}{punti}{5}
+\fineparametri
+\gittata{4}{1}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Asservimento Angeli I}{Esistenza}{Evocazione}{Controllo}
+%----------------------------------------------------------------------------
+\descrizione{Consente di controllare un Angelo della potenza massima di 12 per un periodo massimo di 3 minuti. Il mago pu\`o impartirgli ordini se vince un Confronto di TV con esso se \`e un essere errante, o con chi lo controlla, se \`e controllato da qualcuno.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{17}{29}{14}{12}{3}{17}{5}{29}{2}
+\parametro{Potenza della creatura}{12}{}{12}
+\fineparametri
+\gittata{4}{1}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Asservimento Angeli II}{Esistenza}{Evocazione}{Controllo}
+%----------------------------------------------------------------------------
+\descrizione{Consente di controllare un Angelo della potenza massima di 19 per un periodo di 3 minuti. Il mago pu\`o impartirgli ordini se vince un Confronto di TV con esso se \`e un essere errante, o con chi lo controlla se esso \`e gia controllato.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{24}{36}{14}{19}{3}{24}{8}{36}{4}
+\parametro{Potenza della creatura}{19}{}{19}
+\fineparametri
+\gittata{4}{1}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Asservimento Angeli III}{Esistenza}{Evocazione}{Controllo}
+%----------------------------------------------------------------------------
+\descrizione{Consente di controllare un Angelo della potenza massima di 23 per 3 minuti. Il mago pu\`o impartirgli ordini se vince un confronto di TV con esso se \`e un essere errante, o con chi lo domina se l'essere \`e gi\`a controllato.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{28}{40}{14}{23}{3}{28}{9}{40}{4}
+\parametro{Potenza della creatura}{23}{}{23}
+\fineparametri
+\gittata{4}{1}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Barella}{Esistenza}{Alterazione}{Spostamento sul piano}
+%----------------------------------------------------------------------------
+\descrizione{Fa apparire una barella che consente di trasportare un target posto a non pi\`u di 1 metro di distanza e pesante fino a 120 kg e con 100 kg di equipaggiamento alla velocit\`a di 10 km/h. L'incantesimo viene tenuto a concentrazione. Al venir meno della concentrazione l'effetto prosegue per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{16}{29}{16}{6}{7}{16}{5}{29}{2}
+\parametro{Massa vivente}{120}{kg}{4}
+\parametro{Velocit\`a}{10}{km/h}{1}
+\parametro{Massa non vivente}{100}{kg}{1}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{concentrazione+3 min}{5+0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Bisturi}{Esistenza}{Alterazione}{Modifica Danni anatomia/armi}
+%----------------------------------------------------------------------------
+\descrizione{Allunga di 10 cm un'unghia del target, rendendola affilatissima e capace di infliggere 1d6 PV/PSC di danno. L'incantesimo perdura a concentrazione, pi\`u 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{19}{32}{20}{6}{6}{19}{6}{32}{3}
+\parametro{Danno}{1}{d6}{5}
+\parametro{Massa}{1}{kg}{1}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{m}{1}
+\durata{concentrazione+3 min}{5+0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Coraggio}{Esistenza}{Controllo}{Variazione VOLont\`a}
+%----------------------------------------------------------------------------
+\descrizione{Conferisce un bonus di +2 alla Volont\`a di un target posto a non pi\`u di un metro dal mago per la durata di tre minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{19}{33}{19}{12}{2}{19}{6}{33}{3}
+\parametro{Variazione caratteristica}{2}{punti}{12}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Cura follia}{Esistenza}{Difesa}{Cura}
+%----------------------------------------------------------------------------
+\descrizione{Restituisce ad un target ad una distanza massima di 1 metro 1d6 di Psiche.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{5}{25}{21}{2}{2}{5}{1}{25}{1}
+\parametro{Riparazione}{1}{d6}{2}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Cura I}{Esistenza}{Difesa}{Cura}
+%----------------------------------------------------------------------------
+\descrizione{Cura 1d6 PV/PSC di danno ad 1 target, purch\'e venga toccato dal mago. Delle ferite guarite non resta alcuna traccia.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{4}{24}{21}{2}{1}{4}{1}{24}{1}
+\parametro{Riparazione}{1}{d6}{2}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Cura II}{Esistenza}{Difesa}{Cura}
+%----------------------------------------------------------------------------
+\descrizione{Cura 3d6 PV/PSC di danno a tutti gli esseri che si trovano in un'area di 1 metro di raggio distante fino a 1 metro dall'usufruitore. Delle ferite guarite non resta alcuna traccia.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{8}{28}{21}{6}{1}{8}{2}{28}{1}
+\parametro{Riparazione}{3}{d6}{6}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{m}{1}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Cura III}{Esistenza}{Difesa}{Cura}
+%----------------------------------------------------------------------------
+\descrizione{Cura 7d6 PV/PSC di danno a tutti gli esseri che si trovano in un'area di 4 metro di raggio distante fino a 7 metri dall'usufruitore. Delle ferite guarite non resta alcuna traccia.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{19}{39}{21}{14}{4}{19}{6}{39}{3}
+\parametro{Riparazione}{7}{d6}{14}
+\fineparametri
+\gittata{4}{1}
+\campo{3}{m}{3}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Devia Colpo I}{Esistenza}{Difesa}{Deviazione}
+%----------------------------------------------------------------------------
+\descrizione{Devia tutti gli attacchi diretti al target per 3 minuti, con Base TPD pari a 10.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{16}{36}{25}{10}{1}{16}{5}{36}{2}
+\parametro{Base TPD}{10}{punti}{10}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Devia Colpo II}{Esistenza}{Difesa}{Deviazione}
+%----------------------------------------------------------------------------
+\descrizione{Devia tutti gli attacchi diretti al target per 3 minuti, con Base TPD pari a 20.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{26}{46}{25}{20}{1}{26}{8}{46}{4}
+\parametro{Base TPD}{20}{punti}{20}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Erboristeria}{Esistenza}{Informazione}{Variazione abilit\`a mentale}
+%----------------------------------------------------------------------------
+\descrizione{Conferisce al target un bonus di +9 all'abilit\`a Conoscere Piante o +3 all'abilit\`a Alchimia, per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{20}{28}{18}{9}{1}{20}{6}{28}{3}
+\parametro{Variazione abilit\`a}{9}{punti}{9}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Eutanasia I}{Esistenza}{Attacco}{Morte}
+%----------------------------------------------------------------------------
+\descrizione{Offre il conforto della morte dolce ad un target. Se il target non vuole spegnersi dolcemente pu\`o vanificare l'effetto dell'incantesimo realizzando un TR a Diff. 10.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{21}{29}{18}{10}{1}{21}{7}{29}{3}
+\parametro{Difficolt\`a del TR}{10}{}{10}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Eutanasia II}{Esistenza}{Attacco}{Morte}
+%----------------------------------------------------------------------------
+\descrizione{Offre il conforto della morte dolce ad un target. Se il target non vuole spegnersi dolcemente pu\`o vanificare l'effetto dell'incantesimo realizzando un TR a Diff. 20.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{31}{39}{18}{20}{1}{31}{10}{39}{5}
+\parametro{Difficolt\`a del TR}{20}{}{20}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Evoca Angeli I}{Esistenza}{Evocazione}{Richiamo}
+%----------------------------------------------------------------------------
+\descrizione{Evoca un Caduto, un Rugiel o un Custode Minore per 3 minuti. Il mago pu\`o impartirgli ordini se vince un confronto di TV con esso.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{20}{32}{18}{12}{2}{20}{6}{32}{3}
+\parametro{Potenza della creatura}{12}{}{12}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Evoca Angeli II}{Esistenza}{Evocazione}{Richiamo}
+%----------------------------------------------------------------------------
+\descrizione{Evoca un Bayst, un Johaim o un Custode Maggiore (o Angeli di potenza inferiore) per 3 minuti. Il mago pu\`o impartirgli ordini se vince un confronto di TV con esso.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{27}{39}{18}{19}{2}{27}{9}{39}{4}
+\parametro{Potenza della creatura}{19}{}{19}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Evoca Angeli III}{Esistenza}{Evocazione}{Richiamo}
+%----------------------------------------------------------------------------
+\descrizione{Evoca un Uziel o un Adonai (o un Angelo di potenza inferiore) per 3 minuti. Il mago pu\`o impartirgli ordini se vince un confronto di TV con esso.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{31}{43}{18}{23}{2}{31}{10}{43}{5}
+\parametro{Potenza della creatura}{23}{}{23}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Filtro I}{Esistenza}{Difesa}{Scudo antidinamico}
+%----------------------------------------------------------------------------
+\descrizione{Crea un filtro di luce azzurra che rallenta tutti gli attacchi fisici o quelli magici di danno mirato diretti al target dividendone il danno per 2. L'incantesimo dura 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{12}{32}{21}{10}{1}{12}{4}{32}{2}
+\parametro{Divisore}{2}{unit\`a}{10}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Filtro II}{Esistenza}{Difesa}{Scudo antidinamico}
+%----------------------------------------------------------------------------
+\descrizione{Crea un filtro di luce bianca che rallenta tutti gli attacchi fisici o quelli magici di danno mirato diretti al target dividendone il danno per 4. L'incantesimo dura 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{22}{42}{21}{20}{1}{22}{7}{42}{3}
+\parametro{Divisore}{4}{unit\`a}{20}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Grandezza}{Esistenza}{Alterazione}{Variazione dimensioni}
+%----------------------------------------------------------------------------
+\descrizione{Dimezza o raddoppia le dimensioni di un target, posto a contatto col mago, pesante fino a 90 kg e che trasporti un equipaggiamento pesante fino a 100 kg. Il target pu\`o opporsi all'incantesimo realizzando un TR a Diff. 18. Dopo 3 minuti il target riprende le sue dimensioni normali.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{13}{26}{17}{8}{1}{13}{4}{26}{2}
+\parametro{Massa vivente}{90}{kg}{3}
+\parametro{Massa non vivente}{100}{kg}{1}
+\parametro{Fattore dimensione}{2}{unit\`a}{4}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Guarigione I}{Esistenza}{Difesa}{Resurrezione}
+%----------------------------------------------------------------------------
+\descrizione{Guarisce in 1d6 giorni un target da una malattia mortale, se la somma del lancio di 5d6 supera il numero di PV originari del target (COSx3 + BON FOR escludendo le variazioni dovute a droghe, incantesimi, etc...) .}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{9}{29}{21}{10}{-2}{9}{3}{29}{1}
+\parametro{Riparazione}{5}{d6}{10}
+\parametro{Tempo trascorso dalla morte}{0}{giorni}{0}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\azionetempo{1d6 giorni}{-3}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Guarigione II}{Esistenza}{Difesa}{Resurrezione}
+%----------------------------------------------------------------------------
+\descrizione{Guarisce in 1d6 giorni da una malattia mortale tutti gli esseri che si trovano in un'area di 3 metri di raggio con centro sul guaritore, se la somma del lancio di 10d6 supera il numero di PV originari dei target (COSx3 + BON FOR escludendo le variazioni dovute a droghe, incantesimi, etc...).}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{20}{40}{21}{20}{-1}{20}{6}{40}{3}
+\parametro{Riparazione}{10}{d6}{20}
+\parametro{Tempo trascorso dalla morte}{0}{giorni}{0}
+\fineparametri
+\gittatanulla
+\campo{3}{m}{3}
+\duratanulla
+\azionetempo{1d6 giorni}{-3}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Guarigione III}{Esistenza}{Difesa}{Resurrezione}
+%----------------------------------------------------------------------------
+\descrizione{Guarisce in 1d6 giorni da una malattia mortale tutti gli esseri che si trovano in un'area di 3 metri di raggio con centro sul guaritore, se la somma del lancio di 15d6 supera il numero di PV originari del target (COSx3 + BON FOR escludendo le variazioni dovute a droghe, incantesimi, etc...) .}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{30}{50}{21}{30}{-1}{30}{10}{50}{5}
+\parametro{Riparazione}{15}{d6}{30}
+\parametro{Tempo trascorso dalla morte}{0}{giorni}{0}
+\fineparametri
+\gittatanulla
+\campo{3}{m}{3}
+\duratanulla
+\azionetempo{1d6 giorni}{-3}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Ibernazione}{Esistenza}{Alterazione}{Variazione propriet\`a fisiche}
+%----------------------------------------------------------------------------
+\descrizione{Conserva permanentemente un corpo di massimo 120 kg di peso, abbassandone la temperatura interna. Pu\`o essere usato anche per conservare cadaveri o cibarie.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{34}{47}{15}{16}{16}{34}{11}{47}{5}
+\parametro{Complessit\`a}{12}{}{12}
+\parametro{Massa vivente}{120}{kg}{4}
+\parametro{Massa non vivente}{0}{kg}{0}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{permanente }{15}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Implanto}{Esistenza}{Alterazione}{Modifica Anatomia per nuove funzioni}
+%----------------------------------------------------------------------------
+\descrizione{Crea un secondo organo per coadiuvare le funzioni di un organo esistente, per 15 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{17}{30}{15}{11}{4}{17}{5}{30}{2}
+\parametro{Complessit\`a}{10}{}{10}
+\parametro{Massa vivente}{30}{kg}{1}
+\parametro{Fattore dimensione}{0}{unit\`a}{0}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{15 min}{3}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Incarnazione}{Esistenza}{Controllo}{Possessione}
+%----------------------------------------------------------------------------
+\descrizione{Come Trasferimento Vitale, ma l'usufruitore si incarna definitivamente nel corpo del target, fino allo scioglimento dell'incantesimo. Alla morte del corpo originario del mago, l'incantesimo non potr\`a pi\`u essere sciolto.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{33}{47}{11}{20}{16}{33}{11}{47}{5}
+\parametro{Difficolt\`a del TV}{20}{}{20}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{permanente }{15}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Infondi vita}{Esistenza}{Alterazione}{Creazione Esseri Viventi}
+%----------------------------------------------------------------------------
+\descrizione{Dona la vita a tutti gli oggetti inanimati inclusi in un'area di 1 metro di raggio, di piccole dimensioni, fino a 30 kg di massa totale (sassi, tavolini, suppellettili) conferendo loro un numero massimo di PCAT di 40. L'incantesimo infonde la vita in 1d6 giorni.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{24}{37}{29}{11}{-3}{24}{8}{37}{4}
+\parametro{Massa vivente}{30}{kg}{1}
+\parametro{punti CAraTteristica}{40}{punti}{10}
+\fineparametri
+\gittatanulla
+\campo{1}{m}{1}
+\duratanulla
+\azionetempo{1d6 giorni}{-3}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Medicina}{Esistenza}{Informazione}{Variazione abilit\`a mentale}
+%----------------------------------------------------------------------------
+\descrizione{Attribuisce al target un bonus di +5 all'abilit\`a Medicina per 15 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{29}{37}{18}{15}{4}{29}{9}{37}{4}
+\parametro{Variazione abilit\`a}{15}{punti}{15}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{15 min}{3}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Para Urti I}{Esistenza}{Difesa}{Parata}
+%----------------------------------------------------------------------------
+\descrizione{Crea due sfere luminose orbitanti attorno al target aventi lo scopo di parare ciascuna un attacco diretto ad esso, con Base TPD pari a 20. Ognuna delle sfere scompare dopo aver parato un attacco. Le sfere scompaiono comunque dopo 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{20}{40}{15}{24}{1}{20}{6}{40}{3}
+\parametro{Base TPD}{20}{punti}{20}
+\parametro{Parate}{2}{}{4}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Para Urti II}{Esistenza}{Difesa}{Parata}
+%----------------------------------------------------------------------------
+\descrizione{Crea 5 sfere luminose orbitanti attorno al target aventi lo scopo di parare ciascuna un attacco diretto ad esso, con Base TPD pari a 20. Ognuna delle sfere scompare dopo aver parato un attacco. Le sfere scompaiono comunque dopo 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{26}{46}{15}{30}{1}{26}{8}{46}{4}
+\parametro{Base TPD}{20}{punti}{20}
+\parametro{Parate}{5}{}{10}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Protezione Angeli I}{Esistenza}{Evocazione}{Protezione}
+%----------------------------------------------------------------------------
+\descrizione{Viene creata attorno al mago un'area di 3 metri di raggio all'interno della quale gli angeli di potenza inferiore o uguale a 12 non possono entrare se non realizzando un TV a Diff. 22. Realizzando un TV le creature potranno avanzare di 1 metro, subendo 1d6 PV di danno netto per ogni metro all'interno dell'area, L'incantesimo scompare se un essere all'interno dell'area protetta attacca le creature dalle quali si sta proteggendo. Per ogni metro all'interno dell'area il TV delle creature \`e penalizzato di -1. L'incantesimo perdura per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{12}{24}{10}{12}{2}{12}{4}{24}{2}
+\parametro{Potenza della creatura}{12}{}{12}
+\fineparametri
+\gittatanulla
+\campo{3}{m}{3}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Protezione Angeli II}{Esistenza}{Evocazione}{Protezione}
+%----------------------------------------------------------------------------
+\descrizione{Viene creata attorno al mago un'area di 3 metri di raggio all'interno della quale gli angeli di potenza inferiore o uguale a 19 non possono entrare se non realizzando un TV a Diff. 29 Realizzando un TV le creature potranno avanzare di 1 metro, subendo 1d6 PV di danno netto per ogni metro all'interno dell'area, L'incantesimo scompare se un essere all'interno dell'area protetta attacca le creature dalle quali si sta proteggendo. Per ogni metro all'interno dell'area il TV delle creature \`e penalizzato di -1. L'incantesimo perdura per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{19}{31}{10}{19}{2}{19}{6}{31}{3}
+\parametro{Potenza della creatura}{19}{}{19}
+\fineparametri
+\gittatanulla
+\campo{3}{m}{3}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Protezione Angeli III}{Esistenza}{Evocazione}{Protezione}
+%----------------------------------------------------------------------------
+\descrizione{Viene creata attorno al mago un'area di 3 metri di raggio all'interno della quale gli angeli di potenza inferiore o uguale a 23 non possono entrare se non realizzando un TV a Diff. 33. Realizzando un TV le creature potranno avanzare di 1 metro, subendo 1d6 PV di danno netto per ogni metro all'interno dell'area, L'incantesimo scompare se un essere all'interno dell'area protetta attacca le creature dalle quali si sta proteggendo. Per ogni metro all'interno dell'area il TV delle creature \`e penalizzato di -1. L'incantesimo perdura per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{23}{35}{10}{23}{2}{23}{7}{35}{3}
+\parametro{Potenza della creatura}{23}{}{23}
+\fineparametri
+\gittatanulla
+\campo{3}{m}{3}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Purificazione}{Esistenza}{Alterazione}{Variazione propriet\`a fisiche}
+%----------------------------------------------------------------------------
+\descrizione{Sterilizza cibo e acqua fino ad una massa totale di 100 kg. Se il cibo purificato non viene conservato in maniera idonea entro 3 minuti, potr\`a nuovamente andare a male.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{9}{22}{15}{7}{0}{9}{3}{22}{1}
+\parametro{Complessit\`a}{6}{}{6}
+\parametro{Massa vivente}{0}{kg}{0}
+\parametro{Massa non vivente}{100}{kg}{1}
+\fineparametri
+\gittatanulla
+\campo{1}{m}{1}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Raggio di luce}{Esistenza}{Attacco}{Danno Netto}
+%----------------------------------------------------------------------------
+\descrizione{Investe un target di un lampo luminoso di energia che gli infligge 10d6 PV (Pi\`u eventuali Danni Addizionali da ustione) di danno netto dimezzabile con un TR a Diff. 30. L'incantesimo deve essere effettuato a contatto.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{34}{42}{21}{20}{1}{34}{11}{42}{5}
+\parametro{Danno}{10}{d6}{20}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Restauro}{Esistenza}{Difesa}{Riparazione danni}
+%----------------------------------------------------------------------------
+\descrizione{Ripara danni a tutti gli oggetti posti all'interno di un'area di 3 metri di raggio, per un totale di 5d6 Punti Struttura per ogni oggetto. Il centro dell'area di 3 metri pu\`o distare fino ad 1 metro dal mago.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{8}{28}{15}{10}{3}{8}{2}{28}{1}
+\parametro{Riparazione}{5}{d6}{10}
+\fineparametri
+\gittata{1}{0}
+\campo{3}{m}{3}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Resurrezione I}{Esistenza}{Difesa}{Resurrezione}
+%----------------------------------------------------------------------------
+\descrizione{Resuscita un target se il risultato del lancio di 7d6 supera o eguaglia il numero totale dei PV originari del target (COSx3 + BON FOR escludendo gli effetti di droghe, incantesimi, etc...), purch\'e non sia trascorso pi\`u di 1 giorno dal decesso.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{17}{37}{21}{15}{1}{17}{5}{37}{2}
+\parametro{Riparazione}{7}{d6}{14}
+\parametro{Tempo trascorso dalla morte}{1}{giorno}{1}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Resurrezione II}{Esistenza}{Difesa}{Resurrezione}
+%----------------------------------------------------------------------------
+\descrizione{Resuscita un target se il risultato del lancio di 10d6 supera o eguaglia il numero totale dei PV originari del target (COSx3 + BON FOR escludendo gli effetti di droghe, incantesimi, etc...), purch\'e non siano trascorsi pi\`u di 5 giorni dal decesso.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{27}{47}{21}{25}{1}{27}{9}{47}{4}
+\parametro{Riparazione}{10}{d6}{20}
+\parametro{Tempo trascorso dalla morte}{5}{giorni}{5}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Ricostruzione}{Esistenza}{Difesa}{Riparazione danni}
+%----------------------------------------------------------------------------
+\descrizione{Ripara danni a tutti gli oggetti posti all'interno di un'area di 10 metri di raggio, per un totale di 10d6 Punti Struttura per ogni oggetto. Il centro dell'area di 10 metri pu\`o distare fino a 4 metri dal mago. I danni verranno riparati gradualmente in 1d6 giorni.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{23}{43}{15}{20}{8}{23}{7}{43}{3}
+\parametro{Riparazione}{10}{d6}{20}
+\fineparametri
+\gittata{4}{1}
+\campo{10}{m}{10}
+\durata{3 min}{0}
+\azionetempo{1d6 giorni}{-3}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Riposo}{Esistenza}{Difesa}{Cura}
+%----------------------------------------------------------------------------
+\descrizione{Restituisce al target 4d6 PF o 4d6 PM.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{10}{30}{21}{8}{1}{10}{3}{30}{1}
+\parametro{Riparazione}{4}{d6}{8}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Risveglio I}{Esistenza}{Difesa}{Rianimazione}
+%----------------------------------------------------------------------------
+\descrizione{Rianima dal coma un target se il risultato del lancio di 5d6 eguaglia o supera il numero totale dei PV originari del target (COSx3 + BON FOR escludendo gli effetti di droghe, incantesimi, etc...).}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{6}{26}{15}{10}{1}{6}{2}{26}{1}
+\parametro{Riparazione}{5}{d6}{10}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Risveglio II}{Esistenza}{Difesa}{Rianimazione}
+%----------------------------------------------------------------------------
+\descrizione{Rianima dal coma un target se il risultato del lancio di 10d6 eguaglia o supera il numero totale dei PV originari del target (COSx3 + BON FOR escludendo gli effetti di droghe, incantesimi, etc...).}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{16}{36}{15}{20}{1}{16}{5}{36}{2}
+\parametro{Riparazione}{10}{d6}{20}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Sfera di immunit\`a}{Esistenza}{Difesa}{Protezione Magica}
+%----------------------------------------------------------------------------
+\descrizione{Protegge tutti i target che stanno all'interno di un'area di 1 metro di raggio, distante fino a 1 metro dall'usufruitore, da ogni incantesimo di Attacco/Danno netto, assorbendo 7d6 di danno, nel corso di 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{15}{35}{20}{14}{1}{15}{5}{35}{2}
+\parametro{Protezione}{7}{d6}{14}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{m}{1}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Sfera di vita}{Esistenza}{Difesa}{Armatura}
+%----------------------------------------------------------------------------
+\descrizione{Crea una sfera di 1 metro di raggio che garantisce una protezione pari a 10 PP a tutti coloro che stanno al suo interno. La protezione dura 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{20}{40}{19}{20}{1}{20}{6}{40}{3}
+\parametro{Protezione}{10}{PP}{20}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{m}{1}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Trasferimento vitale}{Esistenza}{Controllo}{Possessione}
+%----------------------------------------------------------------------------
+\descrizione{L'usufruitore trasferisce la sua essenza vitale all'interno di un ospite per 15 minuti. Durante questo tempo il corpo dell'usufruitore rester\`a in catalessi. Il target potr\`a sottrarsi all'incantesimo realizzando un TV a Diff. 20.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{21}{35}{11}{20}{4}{21}{7}{35}{3}
+\parametro{Difficolt\`a del TV}{20}{}{20}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{15 min}{3}
+\end{spell}

@@ -1,0 +1,635 @@
+%----------------------------------------------------------------------------
+\begin{spell}{Ali}{Stregoneria}{Alterazione}{Modifica Anatomia per nuove funzioni}
+%----------------------------------------------------------------------------
+\descrizione{Fa spuntare dalla schiena del target due grandi ali di corvo che gli consentono di volare ad una velocit\`a massima pari a 4 volte la sua velocit\`a in corsa per 15 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{10}{30}{15}{11}{4}{10}{3}{30}{1}
+\parametro{Complessit\`a}{10}{}{10}
+\parametro{Massa vivente}{30}{kg}{1}
+\parametro{Fattore dimensione}{0}{unit\`a}{0}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{15 min}{3}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Armiere}{Stregoneria}{Alterazione}{Creazione Oggetti}
+%----------------------------------------------------------------------------
+\descrizione{Crea un'Arma da Taglio, da Botta o in Asta,  composta da un solo pezzo di osso o legno, per 11 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{8}{28}{19}{6}{3}{8}{2}{28}{1}
+\parametro{Complessit\`a}{5}{}{5}
+\parametro{Massa non vivente}{30}{kg}{1}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{11 min}{2}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Artiglio della tigre}{Stregoneria}{Alterazione}{Modifica Danni anatomia/armi}
+%----------------------------------------------------------------------------
+\descrizione{Trasforma la mano del target in un artiglio di tigre, capace di infliggere 4d6 PV/PSC di danno, pi\`u eventuali danni addizionali, se si colpisce il target.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{22}{42}{20}{21}{1}{22}{7}{42}{3}
+\parametro{Danno}{4}{d6}{20}
+\parametro{Massa}{10}{kg}{1}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Aspide}{Stregoneria}{Attacco}{Morte}
+%----------------------------------------------------------------------------
+\descrizione{Uccide istantaneamente per avvelenamento le vittime poste entro un metro di distanza dal mago ed in un'area di un metro di raggio, se queste non realizzano un TR a Diff. 20.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{30}{39}{18}{20}{1}{30}{10}{39}{5}
+\parametro{Difficolt\`a del TR}{20}{}{20}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{m}{1}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Assorbimento}{Stregoneria}{Difesa}{Protezione Magica}
+%----------------------------------------------------------------------------
+\descrizione{Manifesta una barriera di petali di rosa che assorbe 3d6 PV di danno causato da incantesimi di Attacco/Danno netto. I petali permangono per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{16}{27}{20}{6}{1}{16}{5}{27}{2}
+\parametro{Protezione}{3}{d6}{6}
+\fineparametri
+\gittatanulla
+\campo{2}{m}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Barriera Antimagia}{Stregoneria}{Difesa}{Antimagia}
+%----------------------------------------------------------------------------
+\descrizione{Crea attorno al Mago una barriera antimagia, che si manifesta come un intrico di edere, e che ha una base Antimagia pari ai 25. La barriera dura per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{30}{41}{15}{25}{1}{30}{10}{41}{5}
+\parametro{Base antimagia}{25}{punti}{25}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Branchie}{Stregoneria}{Alterazione}{Modifica Anatomia per nuove funzioni}
+%----------------------------------------------------------------------------
+\descrizione{Fa spuntare al target una coppia di branchie alla base del collo, consentendogli di respirare sott'acqua finch\'e il mago resta concentrato.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{12}{32}{15}{11}{6}{12}{4}{32}{2}
+\parametro{Complessit\`a}{10}{}{10}
+\parametro{Massa vivente}{1}{kg}{1}
+\parametro{Fattore dimensione}{0}{unit\`a}{0}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{concentrazione }{5}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Camaleonte}{Stregoneria}{Alterazione}{Variazione propriet\`a fisiche}
+%----------------------------------------------------------------------------
+\descrizione{Cambia il colore di un target di 90 kg di peso massimo con 100 kg massimo di carico rendendolo simile a quello dell'ambiente circostante, per la durata della concentrazione, pi\`u ulteriori 3 minuti quando questa viene persa. Il target potr\`a essere individuato realizzando un TOSS a Diff. 16.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{7}{27}{15}{6}{6}{7}{2}{27}{1}
+\parametro{Complessit\`a}{2}{}{2}
+\parametro{Massa vivente}{90}{kg}{3}
+\parametro{Massa non vivente}{100}{kg}{1}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{concentrazione }{5}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Cambia Dimensioni}{Stregoneria}{Alterazione}{Variazione dimensioni}
+%----------------------------------------------------------------------------
+\descrizione{Consente di aumentare o ridurre di 4 volte le dimensioni di un essere vivente che pesi fino a 90 kg e fino a 300 kg di materia inerte (legno, osso o comunque materiali facenti parte del dominio di stregoneria) se questo si trova entro 10 metri e non realizza un TR a Diff. 24.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{16}{36}{17}{14}{5}{16}{5}{36}{2}
+\parametro{Massa vivente}{90}{kg}{3}
+\parametro{Massa non vivente}{300}{kg}{3}
+\parametro{Fattore dimensione}{4}{unit\`a}{8}
+\fineparametri
+\gittata{10}{3}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Capanna}{Stregoneria}{Alterazione}{Creazione Oggetti}
+%----------------------------------------------------------------------------
+\descrizione{Crea permanentemente una capanna di foglie e piante.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{30}{50}{19}{14}{17}{30}{10}{50}{5}
+\parametro{Complessit\`a}{4}{}{4}
+\parametro{Massa non vivente}{300}{kg}{10}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{permanente }{15}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Carapace}{Stregoneria}{Difesa}{Armatura}
+%----------------------------------------------------------------------------
+\descrizione{Copre il target di scaglie, simili a quelle che compongono il carapace delle tartarughe, che agiscono come un'armatura capace di assorbire 6 PP per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{21}{32}{19}{12}{1}{21}{7}{32}{3}
+\parametro{Protezione}{6}{PP}{12}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Conoscenza}{Stregoneria}{Informazione}{Variazione abilit\`a mentale}
+%----------------------------------------------------------------------------
+\descrizione{Conferisce al target un bonus di +10 all'abilit\`a Conoscere Animali Magici per 7 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{15}{30}{18}{10}{2}{15}{5}{30}{2}
+\parametro{Variazione abilit\`a}{10}{punti}{10}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{7 min}{1}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Controllo Animali Magici I}{Stregoneria}{Evocazione}{Controllo}
+%----------------------------------------------------------------------------
+\descrizione{Consente di controllare un Animale Magico di potenza massima 7 per 3 minuti. Perch\'e il controllo abbia luogo, il mago deve vincere un confronto di TV con la creatura se questa \`e una creatura errante o realizzare un TV maggiore del TV effettuato da colui che ne detiene il controllo.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{18}{23}{14}{7}{2}{18}{6}{23}{3}
+\parametro{Potenza della creatura}{7}{}{7}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Controllo Animali Magici II}{Stregoneria}{Evocazione}{Controllo}
+%----------------------------------------------------------------------------
+\descrizione{Consente di controllare un Animale Magico di potenza massima 14 per 3 minuti. Perch\'e il controllo abbia luogo, il mago deve vincere un confronto di TV con la creatura se questa \`e una creatura errante o realizzare un TV maggiore del TV effettuato da colui che ne detiene il controllo.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{25}{30}{14}{14}{2}{25}{8}{30}{4}
+\parametro{Potenza della creatura}{14}{}{14}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Controllo Animali Magici III}{Stregoneria}{Evocazione}{Controllo}
+%----------------------------------------------------------------------------
+\descrizione{Consente di controllare un Animale Magico di potenza massima 21 per 3 minuti. Perch\'e il controllo abbia luogo, il mago deve vincere un confronto di volont\`a con la creatura se questa \`e una creatura errante o realizzare un TV maggiore del TV effettuato da colui che ne detiene il controllo.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{32}{37}{14}{21}{2}{32}{10}{37}{5}
+\parametro{Potenza della creatura}{21}{}{21}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Controllo Liane}{Stregoneria}{Alterazione}{Spostamento 3 dimensioni}
+%----------------------------------------------------------------------------
+\descrizione{Permette di spostare una liana (o una fune, o simili) pesante fino a 100 Kg alla velocit\`a di 10 km/h per 7 minuti. La fune ha FOR 2 perci\`o pu\`o sopportare sforzi solo se assicurata a sostegni o se annodata.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{3}{23}{19}{2}{2}{3}{1}{23}{1}
+\parametro{Massa vivente}{0}{kg}{0}
+\parametro{Velocit\`a}{10}{km/h}{1}
+\parametro{Massa non vivente}{100}{kg}{1}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{7 min}{1}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Cura animale}{Stregoneria}{Difesa}{Cura}
+%----------------------------------------------------------------------------
+\descrizione{Cura 3d6 PV/PSC di danno, lasciando per\`o le tracce dell'avvenuta cura facendo assumere le sembianze del corpo di un animale alle parti interessate dalla cura; ad esempio, su una ferita pu\`o restare una cicatrice squamosa come la pelle di un pesce, su un'ustione pu\`o crescere pelo, etc.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{17}{28}{21}{6}{1}{17}{5}{28}{2}
+\parametro{Riparazione}{3}{d6}{6}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Delfino}{Stregoneria}{Alterazione}{Variazione abilit\`a fisica}
+%----------------------------------------------------------------------------
+\descrizione{Conferisce al target un bonus di +15 all'abilit\`a Nuotare per 15 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{17}{37}{18}{15}{4}{17}{5}{37}{2}
+\parametro{Variazione abilit\`a}{15}{punti}{15}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{15 min}{3}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Dissimulazione}{Stregoneria}{Alterazione}{Variazione propriet\`a fisiche}
+%----------------------------------------------------------------------------
+\descrizione{Rende il target del peso massimo di 100 kg con 90 kg di carico massimo, totalmente trasparente, e quindi quasi invisibile (individuabile con TOSS a Diff. 25), per 7 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{12}{32}{15}{15}{2}{12}{4}{32}{2}
+\parametro{Complessit\`a}{10}{}{10}
+\parametro{Massa vivente}{100}{kg}{4}
+\parametro{Massa non vivente}{90}{kg}{1}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{7 min}{1}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Fieno}{Stregoneria}{Alterazione}{Creazione Oggetti}
+%----------------------------------------------------------------------------
+\descrizione{Crea una balla di fieno pesante 120 kg entro una distanza di 10 metri dallo stregone. Il fieno scompare dopo 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{10}{30}{19}{6}{5}{10}{3}{30}{1}
+\parametro{Complessit\`a}{2}{}{2}
+\parametro{Massa non vivente}{120}{kg}{4}
+\fineparametri
+\gittata{10}{3}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Fuga}{Stregoneria}{Alterazione}{Teletrasporto standard}
+%----------------------------------------------------------------------------
+\descrizione{Teletrasporta 1 target di massimo 90 kg con 100 kg massimo di equipaggiamento a 100 mt di distanza. Al posto del target apparir\`a una nube di polline. Il target pu\`o subire danni a discrezione del Master.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{14}{34}{19}{14}{1}{14}{4}{34}{2}
+\parametro{Massa vivente}{90}{kg}{3}
+\parametro{Massa non vivente}{100}{kg}{1}
+\parametro{Distanza di spostamento}{100}{m}{10}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Fulmine}{Stregoneria}{Attacco}{Danno Netto}
+%----------------------------------------------------------------------------
+\descrizione{Un fulmine che parte dal mago infligge 4d6 PV (pi\`u eventuali Danni Addizionali da ustione) di danno netto su un'area di 2 metro di raggio, investendo anche tutti coloro che si trovano nella traiettoria. Il fulmine potr\`a percorrere un massimo di 10 metri. Se il fulmine sbatte contro oggetti solidi come muri o rocce, rimbalza a specchio per un massimo di tre volte e prosegue la sua corsa.  \`E necessario effettuare un tiro Calcolare per valutare la traiettoria dei fulmine dopo il rimbalzo. A seconda del rimbalzo oggetti e esseri potranno essere colpiti pi\`u volte, subendo pi\`u volte il danno. Gli esseri colpiti potranno dimezzare il danno realizzando un TR a Diff. 18.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{31}{40}{21}{8}{11}{31}{10}{40}{5}
+\parametro{Danno}{4}{d6}{8}
+\fineparametri
+\gittata{10}{3}
+\rimbalzi{3}
+\azionegittata
+\campo{2}{m}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Furto del corpo}{Stregoneria}{Controllo}{Possessione}
+%----------------------------------------------------------------------------
+\descrizione{Lo stregone si impossessa per 3 minuti del corpo di 1 target che si trova a meno di 4 metri di distanza, se questo non realizza un TV a Diff. 20.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{19}{34}{11}{20}{3}{19}{6}{34}{3}
+\parametro{Difficolt\`a del TV}{20}{}{20}
+\fineparametri
+\gittata{4}{1}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Guscio chitinoso}{Stregoneria}{Difesa}{Armatura}
+%----------------------------------------------------------------------------
+\descrizione{L'incantesimo riveste il target di un guscio chitinoso simile a quello dei coleotteri conferendogli 3 PP da danni fisici o magici da Attacco/ Danno Mirato per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{15}{26}{19}{6}{1}{15}{5}{26}{2}
+\parametro{Protezione}{3}{PP}{6}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Istrice}{Stregoneria}{Attacco}{Danno Mirato}
+%----------------------------------------------------------------------------
+\descrizione{Fa partire dal mago una spina acuminata capace di infliggere 2d6 PV/PSC di danno mirato ad un target distante fino a 7 metri. La base TPC \`e pari a 20.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{30}{39}{5}{30}{4}{30}{10}{39}{5}
+\parametro{Danno}{2}{d6}{10}
+\parametro{Base TPC}{20}{}{20}
+\fineparametri
+\gittata{7}{2}
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Malia}{Stregoneria}{Controllo}{Comando}
+%----------------------------------------------------------------------------
+\descrizione{Un target che dista al massimo 4 metri dallo stregone e che non realizza un TV a Diff. 20 si innamorer\`a all'istante di un essere a scelta del mago. Il TV potr\`a essere penalizzato o favorito a seconda di precedenti affinit\`a tra il target e l'essere scelto, a discrezione del Master. L'innamoramento durer\`a 3 minuti, dopodich\'e... chiss\`a?.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{19}{34}{11}{20}{3}{19}{6}{34}{3}
+\parametro{Difficolt\`a del TV}{20}{}{20}
+\fineparametri
+\gittata{4}{1}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Mantide}{Stregoneria}{Alterazione}{Modifica Danni anatomia/armi}
+%----------------------------------------------------------------------------
+\descrizione{Crea delle escrescenze chitinose sugli avambracci del target, capaci di infliggere 3d6 PSC/PV di danno da taglio oltre al danno del PUGno. Le escrescenze permangono per 3 minuti e vanno utilizzate con CAC.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{22}{42}{20}{16}{6}{22}{7}{42}{3}
+\parametro{Danno}{3}{d6}{15}
+\parametro{Massa}{10}{kg}{1}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{concentrazione }{5}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Medusa}{Stregoneria}{Attacco}{Danno Mirato}
+%----------------------------------------------------------------------------
+\descrizione{Fa partire un filamento urticante capace di infliggere su un target posto ad una distanza massima di 7 metri un danno pari a 2d6 PV/PSC pi\`u danni addizionali da ustione. La base TPC \`e pari a 10. Danni addizionali: da ustione.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{20}{29}{5}{20}{4}{20}{6}{29}{3}
+\parametro{Danno}{2}{d6}{10}
+\parametro{Base TPC}{10}{}{10}
+\fineparametri
+\gittata{7}{2}
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Occhio di falco}{Stregoneria}{Alterazione}{Variazione abilit\`a fisica}
+%----------------------------------------------------------------------------
+\descrizione{Conferisce all'occhio del target la precisione dell'occhio di un uccello rapace, conferendogli +15 all'abilit\`a ADT per 7 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{15}{35}{18}{15}{2}{15}{5}{35}{2}
+\parametro{Variazione abilit\`a}{15}{punti}{15}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{7 min}{1}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Parlare agli animali}{Stregoneria}{Informazione}{Dialogo}
+%----------------------------------------------------------------------------
+\descrizione{Consente di dialogare con un animale distante fino a 4 metri dallo stregone per 3 minuti. l'animale risponder\`a arbitrariamente realizzando un TV a Diff. 10 per ogni domanda. Fallendolo, risponder\`a sinceramente.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{5}{20}{7}{10}{3}{5}{1}{20}{1}
+\parametro{Difficolt\`a del TV}{10}{}{10}
+\fineparametri
+\gittata{4}{1}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Parlare alle piante}{Stregoneria}{Informazione}{Interrogazione}
+%----------------------------------------------------------------------------
+\descrizione{Consente di effettuare 2d6 domande alle piante. Le piante risponderanno in base alla loro esperienza degli ultimi 10 anni,comunicando con lo stregone attraverso il profumo.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{12}{27}{6}{10}{11}{12}{4}{27}{2}
+\parametro{Difficolt\`a del TV}{0}{}{0}
+\parametro{Tempo trascorso}{10}{anni}{10}
+\fineparametri
+\gittatanulla
+\campo{2}{d6 target}{12}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Protezione Animali Magici I}{Stregoneria}{Evocazione}{Protezione}
+%----------------------------------------------------------------------------
+\descrizione{Viene creata attorno al mago un'area di 3 metri di raggio all'interno della quale gli Animali Magici di potenza inferiore o uguale a 7 non possono entrare se non realizzando un TV a Diff. 17. Realizzando un TV le creature potranno avanzare di 1 metro, subendo 1d6 PV di danno per ogni metro all'interno dell'area. L'incantesimo scompare se un essere all'interno dell'area attacca le creature dalle quali ci si sta proteggendo. Per ogni metro all'interno dell'area il TV delle creature \`e penalizzato di -1. L'incantesimo perdura per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{14}{19}{10}{7}{2}{14}{4}{19}{2}
+\parametro{Potenza della creatura}{7}{}{7}
+\fineparametri
+\gittatanulla
+\campo{3}{m}{3}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Protezione Animali Magici II}{Stregoneria}{Evocazione}{Protezione}
+%----------------------------------------------------------------------------
+\descrizione{Viene creata attorno al mago un'area di 3 metri di raggio all'interno della quale gli Animali Magici di potenza inferiore o pari a 17 non possono entrare se non realizzando un TV a Diff. 27. Realizzando un TV le creature potranno avanzare di 1 metro, subendo 1d6 PV di danno per ogni metro all'interno dell'area. L'incantesimo scompare se un essere all'interno dell'area attacca le creature dalle quali ci si sta proteggendo. Per ogni metro all'interno dell'area il TV delle creature \`e penalizzato di -1. L'incantesimo perdura per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{24}{29}{10}{17}{2}{24}{8}{29}{4}
+\parametro{Potenza della creatura}{17}{}{17}
+\fineparametri
+\gittatanulla
+\campo{3}{m}{3}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Protezione Animali Magici III}{Stregoneria}{Evocazione}{Protezione}
+%----------------------------------------------------------------------------
+\descrizione{Viene creata attorno al mago un'area di 3 metri di raggio all'interno della quale gli Animali Magici di potenza inferiore o uguale a 21 non possono entrare se non realizzando un TV a Diff. 31. Realizzando un TV le creature potranno avanzare di 1 metro, subendo 1d6 PV di danno per ogni metro all'interno dell'area. L'incantesimo scompare se un essere all'interno dell'area attacca le creature dalle quali ci si sta proteggendo. Per ogni metro all'interno dell'area il TV delle creature \`e penalizzato di -1. L'incantesimo perdura per 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{28}{33}{10}{21}{2}{28}{9}{33}{4}
+\parametro{Potenza della creatura}{21}{}{21}
+\fineparametri
+\gittatanulla
+\campo{3}{m}{3}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Rampicante}{Stregoneria}{Alterazione}{Spostamento verticale}
+%----------------------------------------------------------------------------
+\descrizione{Fa spuntare da terra una pianta capace di crescere istantaneamente che con i suoi viticci solleva massimo 120 kg di massa vivente e 300 kg di massa inerte alla velocit\`a di 10 km/h. La pianta si origina da un punto distante fino ad un metro dal mago e potr\`a sollevare oggetti in un'area di 1 metro di raggio. Dopo 3 minuti la pianta scompare istantaneamente riducendosi in polvere.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{6}{26}{17}{8}{1}{6}{2}{26}{1}
+\parametro{Massa vivente}{120}{kg}{4}
+\parametro{Velocit\`a}{10}{km/h}{1}
+\parametro{Massa non vivente}{300}{kg}{3}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{m}{1}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Richiama Animali Magici I}{Stregoneria}{Evocazione}{Richiamo}
+%----------------------------------------------------------------------------
+\descrizione{Richiama un Erkythow o un Animale Magico di potenza inferiore, consentendo al mago di impartirgli ordini per 3 minuti se vince un confronto di TV.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{22}{27}{18}{7}{2}{22}{7}{27}{3}
+\parametro{Potenza della creatura}{7}{}{7}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Richiama Animali Magici II}{Stregoneria}{Evocazione}{Richiamo}
+%----------------------------------------------------------------------------
+\descrizione{Richiama un Drago Cucciolo o un Animale Magico di potenza inferiore, consentendo al mago di impartirgli ordini per 3 minuti se vince un confronto di TV.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{32}{37}{18}{17}{2}{32}{10}{37}{5}
+\parametro{Potenza della creatura}{17}{}{17}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Richiama Animali Magici III}{Stregoneria}{Evocazione}{Richiamo}
+%----------------------------------------------------------------------------
+\descrizione{Richiama un'Amhunta o un Animale Magico di potenza inferiore, consentendo al mago di impartirgli ordini per 3 minuti se vince un confronto di TV.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{36}{41}{18}{21}{2}{36}{12}{41}{6}
+\parametro{Potenza della creatura}{21}{}{21}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Riflessi felini}{Stregoneria}{Alterazione}{Variazione caratteristica fisica}
+%----------------------------------------------------------------------------
+\descrizione{Aumenta i riflessi e l'agilit\`a del target conferndogli un bonus di +3 all'AGI per 7 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{19}{39}{19}{18}{2}{19}{6}{39}{3}
+\parametro{Variazione caratteristica}{3}{punti}{18}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{7 min}{1}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Rospo}{Stregoneria}{Alterazione}{Modifica Anatomia per nuove funzioni}
+%----------------------------------------------------------------------------
+\descrizione{Trasforma permanentemente un target umanoide distante fino a 4 metri in un grosso rospo se questi non realizza un TR a Diff. 31. Il target potr\`a tornare normale in seguito ad un evento qualunque deciso dal mago (ad es. il bacio di una principessa). La trasformazione avviene gradualmente in 1d4 settimane.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{34}{54}{15}{26}{13}{34}{11}{54}{5}
+\parametro{Complessit\`a}{15}{}{15}
+\parametro{Massa vivente}{90}{kg}{3}
+\parametro{Fattore dimensione}{4}{unit\`a}{8}
+\fineparametri
+\gittata{4}{1}
+\campo{1}{target}{2}
+\durata{permanente }{15}
+\azionetempo{1d4 settimane}{-5}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Salice}{Stregoneria}{Attacco}{Morte}
+%----------------------------------------------------------------------------
+\descrizione{Uccide un target che si trova alla distanza massima di 4 metri dallo stregone, trasformandolo in un grande Salice Piangente, se il target non realizza un TR a Diff. 20. Le vittime possono essere riportate in vita con un incantesimo di Resurrezione.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{32}{41}{18}{20}{3}{32}{10}{41}{5}
+\parametro{Difficolt\`a del TR}{20}{}{20}
+\fineparametri
+\gittata{4}{1}
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Scossa Tellurica}{Stregoneria}{Attacco}{Danno Netto}
+%----------------------------------------------------------------------------
+\descrizione{Provoca una scossa tellurica con epicentro il mago, che provoca 6d6 (pi\`u eventuali danni addizionali da Fratture) di danno a tutti coloro che si trovano in un'area di 15 metri di raggio. Il Mago non subisce alcun danno. Le vittime possono dimezzare i danni realizzando un TR a Diff. 23. Danni addizionali: da Frattura.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{39}{48}{21}{12}{15}{39}{13}{48}{6}
+\parametro{Danno}{6}{d6}{12}
+\fineparametri
+\gittatanulla
+\campo{15}{m}{15}
+\duratanulla
+\bonustr{1}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Sfera di cristallo}{Stregoneria}{Informazione}{Divinazione}
+%----------------------------------------------------------------------------
+\descrizione{Mostra attraverso una sfera di cristallo gli eventi che accadranno ad una persona o ad un oggetto che sta ad 1 metro dal mago nelle 24 ore successive. La conoscenza degli eventi pu\`o cambiarne il corso.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{30}{45}{9}{34}{2}{30}{10}{45}{5}
+\parametro{DIFF reperimento informazione}{10}{}{10}
+\parametro{Previsione}{24}{ore}{24}
+\fineparametri
+\gittata{1}{0}
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Spine}{Stregoneria}{Attacco}{Danno Netto}
+%----------------------------------------------------------------------------
+\descrizione{Crea delle spine che si ergono verticalmente in un'area di 3 metri di raggio posta entro 10 metri dallo Stregone e capaci di infliggere 7d6 PV di danno a tutti gli esseri presenti nell'area. Le spine secernono un acido urticante (Danno Addizionale da Ustione). I danni diretti possono essere dimezzati dalle vittime realizzando un TR a Diff. 24.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{32}{41}{21}{14}{6}{32}{10}{41}{5}
+\parametro{Danno}{7}{d6}{14}
+\fineparametri
+\gittata{10}{3}
+\campo{3}{m}{3}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Spugna}{Stregoneria}{Difesa}{Scudo antidinamico}
+%----------------------------------------------------------------------------
+\descrizione{Tutt'attorno al corpo del target si forma un rivestimento spugnoso che attutisce i colpi dividendo per 2 i danni fisici e magici da Attacco/Danno mirato subiti. L'incantesimo dura 3 minuti.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{21}{32}{21}{10}{1}{21}{7}{32}{3}
+\parametro{Divisore}{2}{unit\`a}{10}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Squalo}{Stregoneria}{Alterazione}{Modifica Danni anatomia/armi}
+%----------------------------------------------------------------------------
+\descrizione{Ricopre un'arma da taglio o da botta di file di denti triangolari simili a quelli dello squalo. Il danno dell'arma aumenta di 2d6.La trasformazione dell'arma dura per 3 minuti. L'incantesimo funziona a contatto.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{12}{32}{20}{11}{1}{12}{4}{32}{2}
+\parametro{Danno}{2}{d6}{10}
+\parametro{Massa}{10}{kg}{1}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Tempesta di fulmini}{Stregoneria}{Attacco}{Danno Netto}
+%----------------------------------------------------------------------------
+\descrizione{Una scarica di fulmini che viene dall'alto infligge 6d6 PV di danno netto su un'area di 3 metri di raggio distante fino a 10 metri dal mago. I targets possono dimezzare i danni realizzando un TR a Diff. 22. L'incantesimo infligge danni addizionali ustione.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{31}{40}{21}{12}{7}{31}{10}{40}{5}
+\parametro{Danno}{6}{d6}{12}
+\fineparametri
+\gittata{10}{3}
+\campo{4}{m}{4}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Torpedine}{Stregoneria}{Attacco}{Danno Mirato}
+%----------------------------------------------------------------------------
+\descrizione{Infligge al contatto, attraverso una scarica elettrica, 3d6 PV/PSC di danno, oltre ad eventuali danni addizionali da ustione.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{12}{21}{5}{15}{1}{12}{4}{21}{2}
+\parametro{Danno}{3}{d6}{15}
+\parametro{Base TPC}{0}{}{0}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\duratanulla
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Ululato}{Stregoneria}{Controllo}{Illusione uditiva}
+%----------------------------------------------------------------------------
+\descrizione{L'incantesimo far\`a udire un ululato a tutti coloro che si trovano in un'area di 2 metri di raggio posta, al momento dell'attivazione, a 10 metri o meno dallo stregone. La riuscita di un TOSS a Diff. 20 far\`a capire alle vittime che si \`e trattato solo di un'illusione.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{11}{26}{1}{20}{5}{11}{3}{26}{1}
+\parametro{Difficolt\`a del TV e del TOSS}{20}{}{20}
+\fineparametri
+\gittata{10}{3}
+\campo{2}{m}{2}
+\durata{3 min}{0}
+\end{spell}
+%----------------------------------------------------------------------------
+\begin{spell}{Zampe di mosca}{Stregoneria}{Alterazione}{Modifica Anatomia per nuove funzioni}
+%----------------------------------------------------------------------------
+\descrizione{Trasforma gli arti del target in zampe di mosca, rendendolo capace di arrampicarsi praticamente su qualunque superficie, o addirittura di restare appeso a volte o soffitti, come le mosche. L'incantesimo dura fino a 15 minuti ed agisce a contatto.}
+%% DR DA DT DB MOD PM PF PE TL
+\incvalori{10}{30}{15}{11}{4}{10}{3}{30}{1}
+\parametro{Complessit\`a}{8}{}{8}
+\parametro{Massa vivente}{90}{kg}{3}
+\parametro{Fattore dimensione}{0}{unit\`a}{0}
+\fineparametri
+\gittatanulla
+\campo{1}{target}{2}
+\durata{15 min}{3}
+\end{spell}

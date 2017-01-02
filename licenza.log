@@ -1,0 +1,62 @@
+This is TeX, Version 3.14159 (Web2C 7.4.5) (format=latex 2003.9.5)  21 SEP 2003 18:05
+**licenza.tex
+(./licenza.tex
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, i
+talian, latin, nohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/book.cls
+Document Class: book 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/bk10.clo
+File: bk10.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+
+LaTeX Warning: Unused global option(s):
+    [italian,xdvi].
+
+(./licenza.aux)
+\openout1 = `licenza.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+
+Overfull \hbox (9.71727pt too wide) in paragraph at lines 8--16
+[]\OT1/cmr/m/n/8 L'``uso per-son-ale'' e la dis-tribuzione to-tale o parziale d
+el ma-te-ri-ale con-tenuto in quest'opera
+ []
+
+[1
+
+] (./licenza.aux) ) 
+Here is how much of TeX's memory you used:
+ 240 strings out of 95839
+ 2395 string characters out of 1195737
+ 49479 words of memory out of 1000001
+ 3253 multiletter control sequences out of 10000+50000
+ 5413 words of font info for 20 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 23i,4n,21p,129b,196s stack positions out of 1500i,500n,5000p,200000b,5000s
+
+Output written on licenza.dvi (1 page, 4552 bytes).

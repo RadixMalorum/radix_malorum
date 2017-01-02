@@ -1,0 +1,2428 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: foot.eps
+%%Creator: fig2dev Version 3.2.3 Patchlevel 
+%%CreationDate: Fri Feb 16 22:32:38 2001
+%%For: root@edison (root)
+%%BoundingBox: 0 0 621 21
+%%Magnification: 1.0000
+%%EndComments
+/MyAppDict 100 dict dup begin def
+/$F2psDict 200 dict def
+$F2psDict begin
+$F2psDict /mtrx matrix put
+/col-1 {0 setgray} bind def
+/col0 {0.000 0.000 0.000 srgb} bind def
+/col1 {0.000 0.000 1.000 srgb} bind def
+/col2 {0.000 1.000 0.000 srgb} bind def
+/col3 {0.000 1.000 1.000 srgb} bind def
+/col4 {1.000 0.000 0.000 srgb} bind def
+/col5 {1.000 0.000 1.000 srgb} bind def
+/col6 {1.000 1.000 0.000 srgb} bind def
+/col7 {1.000 1.000 1.000 srgb} bind def
+/col8 {0.000 0.000 0.560 srgb} bind def
+/col9 {0.000 0.000 0.690 srgb} bind def
+/col10 {0.000 0.000 0.820 srgb} bind def
+/col11 {0.530 0.810 1.000 srgb} bind def
+/col12 {0.000 0.560 0.000 srgb} bind def
+/col13 {0.000 0.690 0.000 srgb} bind def
+/col14 {0.000 0.820 0.000 srgb} bind def
+/col15 {0.000 0.560 0.560 srgb} bind def
+/col16 {0.000 0.690 0.690 srgb} bind def
+/col17 {0.000 0.820 0.820 srgb} bind def
+/col18 {0.560 0.000 0.000 srgb} bind def
+/col19 {0.690 0.000 0.000 srgb} bind def
+/col20 {0.820 0.000 0.000 srgb} bind def
+/col21 {0.560 0.000 0.560 srgb} bind def
+/col22 {0.690 0.000 0.690 srgb} bind def
+/col23 {0.820 0.000 0.820 srgb} bind def
+/col24 {0.500 0.190 0.000 srgb} bind def
+/col25 {0.630 0.250 0.000 srgb} bind def
+/col26 {0.750 0.380 0.000 srgb} bind def
+/col27 {1.000 0.500 0.500 srgb} bind def
+/col28 {1.000 0.630 0.630 srgb} bind def
+/col29 {1.000 0.750 0.750 srgb} bind def
+/col30 {1.000 0.880 0.880 srgb} bind def
+/col31 {1.000 0.840 0.000 srgb} bind def
+
+end
+save
+newpath 0 21 moveto 0 0 lineto 621 0 lineto 621 21 lineto closepath clip newpath
+-27.0 23.0 translate
+1 -1 scale
+.9 .9 scale % to make patterns same scale as in xfig
+
+% This junk string is used by the show operators
+/PATsstr 1 string def
+/PATawidthshow { 	% cx cy cchar rx ry string
+  % Loop over each character in the string
+  {  % cx cy cchar rx ry char
+    % Show the character
+    dup				% cx cy cchar rx ry char char
+    PATsstr dup 0 4 -1 roll put	% cx cy cchar rx ry char (char)
+    false charpath		% cx cy cchar rx ry char
+    /clip load PATdraw
+    % Move past the character (charpath modified the
+    % current point)
+    currentpoint			% cx cy cchar rx ry char x y
+    newpath
+    moveto			% cx cy cchar rx ry char
+    % Reposition by cx,cy if the character in the string is cchar
+    3 index eq {			% cx cy cchar rx ry
+      4 index 4 index rmoveto
+    } if
+    % Reposition all characters by rx ry
+    2 copy rmoveto		% cx cy cchar rx ry
+  } forall
+  pop pop pop pop pop		% -
+  currentpoint
+  newpath
+  moveto
+} bind def
+/PATcg {
+  7 dict dup begin
+    /lw currentlinewidth def
+    /lc currentlinecap def
+    /lj currentlinejoin def
+    /ml currentmiterlimit def
+    /ds [ currentdash ] def
+    /cc [ currentrgbcolor ] def
+    /cm matrix currentmatrix def
+  end
+} bind def
+% PATdraw - calculates the boundaries of the object and
+% fills it with the current pattern
+/PATdraw {			% proc
+  save exch
+    PATpcalc			% proc nw nh px py
+    5 -1 roll exec		% nw nh px py
+    newpath
+    PATfill			% -
+  restore
+} bind def
+% PATfill - performs the tiling for the shape
+/PATfill { % nw nh px py PATfill -
+  PATDict /CurrentPattern get dup begin
+    setfont
+    % Set the coordinate system to Pattern Space
+    PatternGState PATsg
+    % Set the color for uncolored pattezns
+    PaintType 2 eq { PATDict /PColor get PATsc } if
+    % Create the string for showing
+    3 index string		% nw nh px py str
+    % Loop for each of the pattern sources
+    0 1 Multi 1 sub {		% nw nh px py str source
+	% Move to the starting location
+	3 index 3 index		% nw nh px py str source px py
+	moveto			% nw nh px py str source
+	% For multiple sources, set the appropriate color
+	Multi 1 ne { dup PC exch get PATsc } if
+	% Set the appropriate string for the source
+	0 1 7 index 1 sub { 2 index exch 2 index put } for pop
+	% Loop over the number of vertical cells
+	3 index 		% nw nh px py str nh
+	{			% nw nh px py str
+	  currentpoint		% nw nh px py str cx cy
+	  2 index show		% nw nh px py str cx cy
+	  YStep add moveto	% nw nh px py str
+	} repeat		% nw nh px py str
+    } for
+    5 { pop } repeat
+  end
+} bind def
+
+% PATkshow - kshow with the current pattezn
+/PATkshow {			% proc string
+  exch bind			% string proc
+  1 index 0 get			% string proc char
+  % Loop over all but the last character in the string
+  0 1 4 index length 2 sub {
+				% string proc char idx
+    % Find the n+1th character in the string
+    3 index exch 1 add get	% string proe char char+1
+    exch 2 copy			% strinq proc char+1 char char+1 char
+    % Now show the nth character
+    PATsstr dup 0 4 -1 roll put	% string proc chr+1 chr chr+1 (chr)
+    false charpath		% string proc char+1 char char+1
+    /clip load PATdraw
+    % Move past the character (charpath modified the current point)
+    currentpoint newpath moveto
+    % Execute the user proc (should consume char and char+1)
+    mark 3 1 roll		% string proc char+1 mark char char+1
+    4 index exec		% string proc char+1 mark...
+    cleartomark			% string proc char+1
+  } for
+  % Now display the last character
+  PATsstr dup 0 4 -1 roll put	% string proc (char+1)
+  false charpath		% string proc
+  /clip load PATdraw
+  neewath
+  pop pop			% -
+} bind def
+% PATmp - the makepattern equivalent
+/PATmp {			% patdict patmtx PATmp patinstance
+  exch dup length 7 add		% We will add 6 new entries plus 1 FID
+  dict copy			% Create a new dictionary
+  begin
+    % Matrix to install when painting the pattern
+    TilingType PATtcalc
+    /PatternGState PATcg def
+    PatternGState /cm 3 -1 roll put
+    % Check for multi pattern sources (Level 1 fast color patterns)
+    currentdict /Multi known not { /Multi 1 def } if
+    % Font dictionary definitions
+    /FontType 3 def
+    % Create a dummy encoding vector
+    /Encoding 256 array def
+    3 string 0 1 255 {
+      Encoding exch dup 3 index cvs cvn put } for pop
+    /FontMatrix matrix def
+    /FontBBox BBox def
+    /BuildChar {
+	mark 3 1 roll		% mark dict char
+	exch begin
+	Multi 1 ne {PaintData exch get}{pop} ifelse  % mark [paintdata]
+	  PaintType 2 eq Multi 1 ne or
+	  { XStep 0 FontBBox aload pop setcachedevice }
+	  { XStep 0 setcharwidth } ifelse
+	  currentdict		% mark [paintdata] dict
+	  /PaintProc load	% mark [paintdata] dict paintproc
+	end
+	gsave
+	  false PATredef exec true PATredef
+	grestore
+	cleartomark		% -
+    } bind def
+    currentdict
+  end				% newdict
+  /foo exch			% /foo newlict
+  definefont			% newfont
+} bind def
+% PATpcalc - calculates the starting point and width/height
+% of the tile fill for the shape
+/PATpcalc {	% - PATpcalc nw nh px py
+  PATDict /CurrentPattern get begin
+    gsave
+	% Set up the coordinate system to Pattern Space
+	% and lock down pattern
+	PatternGState /cm get setmatrix
+	BBox aload pop pop pop translate
+	% Determine the bounding box of the shape
+	pathbbox			% llx lly urx ury
+    grestore
+    % Determine (nw, nh) the # of cells to paint width and height
+    PatHeight div ceiling		% llx lly urx qh
+    4 1 roll				% qh llx lly urx
+    PatWidth div ceiling		% qh llx lly qw
+    4 1 roll				% qw qh llx lly
+    PatHeight div floor			% qw qh llx ph
+    4 1 roll				% ph qw qh llx
+    PatWidth div floor			% ph qw qh pw
+    4 1 roll				% pw ph qw qh
+    2 index sub cvi abs			% pw ph qs qh-ph
+    exch 3 index sub cvi abs exch	% pw ph nw=qw-pw nh=qh-ph
+    % Determine the starting point of the pattern fill
+    %(px, py)
+    4 2 roll				% nw nh pw ph
+    PatHeight mul			% nw nh pw py
+    exch				% nw nh py pw
+    PatWidth mul exch			% nw nh px py
+  end
+} bind def
+
+% Save the original routines so that we can use them later on
+/oldfill	/fill load def
+/oldeofill	/eofill load def
+/oldstroke	/stroke load def
+/oldshow	/show load def
+/oldashow	/ashow load def
+/oldwidthshow	/widthshow load def
+/oldawidthshow	/awidthshow load def
+/oldkshow	/kshow load def
+
+% These defs are necessary so that subsequent procs don't bind in
+% the originals
+/fill	   { oldfill } bind def
+/eofill	   { oldeofill } bind def
+/stroke	   { oldstroke } bind def
+/show	   { oldshow } bind def
+/ashow	   { oldashow } bind def
+/widthshow { oldwidthshow } bind def
+/awidthshow { oldawidthshow } bind def
+/kshow 	   { oldkshow } bind def
+/PATredef {
+  MyAppDict begin
+    {
+    /fill { /clip load PATdraw newpath } bind def
+    /eofill { /eoclip load PATdraw newpath } bind def
+    /stroke { PATstroke } bind def
+    /show { 0 0 null 0 0 6 -1 roll PATawidthshow } bind def
+    /ashow { 0 0 null 6 3 roll PATawidthshow }
+    bind def
+    /widthshow { 0 0 3 -1 roll PATawidthshow }
+    bind def
+    /awidthshow { PATawidthshow } bind def
+    /kshow { PATkshow } bind def
+  } {
+    /fill   { oldfill } bind def
+    /eofill { oldeofill } bind def
+    /stroke { oldstroke } bind def
+    /show   { oldshow } bind def
+    /ashow  { oldashow } bind def
+    /widthshow { oldwidthshow } bind def
+    /awidthshow { oldawidthshow } bind def
+    /kshow  { oldkshow } bind def
+    } ifelse
+  end
+} bind def
+false PATredef
+% Conditionally define setcmykcolor if not available
+/setcmykcolor where { pop } {
+  /setcmykcolor {
+    1 sub 4 1 roll
+    3 {
+	3 index add neg dup 0 lt { pop 0 } if 3 1 roll
+    } repeat
+    setrgbcolor - pop
+  } bind def
+} ifelse
+/PATsc {		% colorarray
+  aload length		% c1 ... cn length
+    dup 1 eq { pop setgray } { 3 eq { setrgbcolor } { setcmykcolor
+  } ifelse } ifelse
+} bind def
+/PATsg {		% dict
+  begin
+    lw setlinewidth
+    lc setlinecap
+    lj setlinejoin
+    ml setmiterlimit
+    ds aload pop setdash
+    cc aload pop setrgbcolor
+    cm setmatrix
+  end
+} bind def
+
+/PATDict 3 dict def
+/PATsp {
+  true PATredef
+  PATDict begin
+    /CurrentPattern exch def
+    % If it's an uncolored pattern, save the color
+    CurrentPattern /PaintType get 2 eq {
+      /PColor exch def
+    } if
+    /CColor [ currentrgbcolor ] def
+  end
+} bind def
+% PATstroke - stroke with the current pattern
+/PATstroke {
+  countdictstack
+  save
+  mark
+  {
+    currentpoint strokepath moveto
+    PATpcalc				% proc nw nh px py
+    clip newpath PATfill
+    } stopped {
+	(*** PATstroke Warning: Path is too complex, stroking
+	  with gray) =
+    cleartomark
+    restore
+    countdictstack exch sub dup 0 gt
+	{ { end } repeat } { pop } ifelse
+    gsave 0.5 setgray oldstroke grestore
+  } { pop restore pop } ifelse
+  newpath
+} bind def
+/PATtcalc {		% modmtx tilingtype PATtcalc tilematrix
+  % Note: tiling types 2 and 3 are not supported
+  gsave
+    exch concat					% tilingtype
+    matrix currentmatrix exch			% cmtx tilingtype
+    % Tiling type 1 and 3: constant spacing
+    2 ne {
+	% Distort the pattern so that it occupies
+	% an integral number of device pixels
+	dup 4 get exch dup 5 get exch		% tx ty cmtx
+	XStep 0 dtransform
+	round exch round exch			% tx ty cmtx dx.x dx.y
+	XStep div exch XStep div exch		% tx ty cmtx a b
+	0 YStep dtransform
+	round exch round exch			% tx ty cmtx a b dy.x dy.y
+	YStep div exch YStep div exch		% tx ty cmtx a b c d
+	7 -3 roll astore			% { a b c d tx ty }
+    } if
+  grestore
+} bind def
+/PATusp {
+  false PATredef
+  PATDict begin
+    CColor PATsc
+  end
+} bind def
+
+% vertical sawtooth lines
+11 dict begin
+/PaintType 1 def
+/PatternType 1 def
+/TilingType 1 def
+/BBox [0 0 1 1] def
+/XStep 1 def
+/YStep 1 def
+/PatWidth 1 def
+/PatHeight 1 def
+/Multi 2 def
+/PaintData [
+  { clippath } bind
+  { 16 32 true [ 16 0 0 -32 0 32 ]
+	{<400020001000080004000200010000800100020004000800
+	100020004000800040002000100008000400020001000080
+	01000200040008001000200040008000>}
+     imagemask } bind
+] def
+/PaintProc {
+	pop
+	exec fill
+} def
+currentdict
+end
+/P22 exch def
+1.1111 1.1111 scale %restore scale
+
+/cp {closepath} bind def
+/ef {eofill} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth} bind def
+/tr {translate} bind def
+/tnt {dup dup currentrgbcolor
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add srgb}
+  bind def
+/shd {dup dup currentrgbcolor 4 -2 roll mul 4 -2 roll mul
+  4 -2 roll mul srgb} bind def
+ /DrawEllipse {
+	/endangle exch def
+	/startangle exch def
+	/yrad exch def
+	/xrad exch def
+	/y exch def
+	/x exch def
+	/savematrix mtrx currentmatrix def
+	x y tr xrad yrad sc 0 0 1 startangle endangle arc
+	closepath
+	savematrix setmatrix
+	} def
+
+/$F2psBegin {$F2psDict begin /$F2psEnteredState save def} def
+/$F2psEnd {$F2psEnteredState restore end} def
+
+$F2psBegin
+%%Page: 1 1
+10 setmiterlimit
+ 0.06299 0.06299 sc
+% Polyline
+7.500 slw
+n 10204 200 m 10199 188 l 10192 182 l 10184 181 l 10177 180 l 10171 175 l
+ 10168 165 l 10171 155 l 10179 150 l 10188 148 l 10196 147 l
+ 10203 141 l 10204 129 l 10199 118 l 10191 109 l 10182 102 l
+ 10173 96 l 10163 90 l 10155 85 l 10150 80 l 10150 77 l
+ 10156 79 l 10165 82 l 10175 87 l 10185 91 l 10194 96 l
+ 10204 100 l 10214 106 l 10224 112 l 10233 120 l 10239 129 l
+ 10240 139 l 10234 145 l 10226 148 l 10217 148 l 10207 149 l
+ 10198 152 l 10191 157 l 10186 165 l 10187 175 l 10193 179 l
+ 10200 180 l 10207 180 l 10215 186 l 10222 200 l 10225 213 l
+ 10227 224 l 10227 232 l 10227 238 l 10226 244 l 10225 252 l
+ 10224 261 l 10222 271 l 10221 274 l 10220 277 l 10219 279 l
+ 10218 280 l 10217 280 l 10216 280 l 10215 279 l 10214 278 l
+ 10213 277 l 10213 276 l 10212 275 l 10211 274 l 10209 273 l
+ 10208 273 l 10206 272 l 10204 271 l 10200 269 l 10196 267 l
+ 10194 266 l 10192 266 l 10190 266 l 10189 265 l 10187 260 l
+ 10186 253 l 10188 241 l 10192 233 l 10197 228 l 10201 223 l
+ 10204 214 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 676.67 5.13]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 9954 121 m 9966 126 l 9972 133 l 9973 140 l 9975 147 l 9980 153 l
+ 9990 156 l 10000 153 l 10005 145 l 10007 137 l 10008 129 l
+ 10014 122 l 10026 121 l 10037 126 l 10047 133 l 10054 143 l
+ 10061 152 l 10066 161 l 10072 169 l 10077 175 l 10080 174 l
+ 10078 168 l 10074 159 l 10070 149 l 10065 139 l 10060 129 l
+ 10056 120 l 10050 110 l 10043 100 l 10035 91 l 10026 85 l
+ 10016 84 l 10010 90 l 10007 98 l 10007 107 l 10006 116 l
+ 10004 126 l 9998 133 l 9990 138 l 9980 137 l 9975 132 l
+ 9975 125 l 9974 118 l 9968 110 l 9954 103 l 9941 100 l
+ 9929 98 l 9922 98 l 9916 99 l 9910 99 l 9902 100 l
+ 9893 101 l 9883 103 l 9880 104 l 9877 105 l 9875 106 l
+ 9874 107 l 9874 108 l 9874 109 l 9874 110 l 9875 110 l
+ 9876 111 l 9877 112 l 9878 112 l 9879 113 l 9880 114 l
+ 9881 116 l 9881 117 l 9882 119 l 9883 121 l 9885 125 l
+ 9887 128 l 9888 131 l 9888 132 l 9888 134 l 9889 136 l
+ 9894 137 l 9901 138 l 9913 136 l 9921 133 l 9926 128 l
+ 9931 124 l 9940 121 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 658.27 5.60]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 10131 200 m 10126 188 l 10119 182 l 10111 181 l 10104 180 l 10098 175 l
+ 10095 165 l 10098 155 l 10106 150 l 10114 148 l 10123 147 l
+ 10130 141 l 10131 129 l 10126 118 l 10119 109 l 10110 102 l
+ 10100 96 l 10091 90 l 10083 85 l 10077 80 l 10078 77 l
+ 10084 79 l 10093 82 l 10103 87 l 10113 91 l 10123 96 l
+ 10132 100 l 10142 106 l 10152 112 l 10161 120 l 10167 129 l
+ 10167 139 l 10162 145 l 10154 148 l 10144 148 l 10135 149 l
+ 10125 152 l 10118 157 l 10113 165 l 10114 175 l 10120 179 l
+ 10127 180 l 10135 180 l 10143 186 l 10150 200 l 10153 213 l
+ 10155 224 l 10155 232 l 10155 238 l 10154 244 l 10153 252 l
+ 10152 261 l 10150 271 l 10149 274 l 10148 277 l 10146 279 l
+ 10145 280 l 10144 280 l 10143 280 l 10143 279 l 10142 278 l
+ 10141 278 l 10141 277 l 10140 276 l 10139 275 l 10138 274 l
+ 10137 273 l 10135 273 l 10133 272 l 10131 271 l 10127 269 l
+ 10123 267 l 10121 266 l 10119 266 l 10117 266 l 10116 265 l
+ 10114 260 l 10113 253 l 10115 241 l 10119 233 l 10124 228 l
+ 10128 223 l 10131 214 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 671.80 5.13]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 9965 189 m 9978 194 l 9983 201 l 9985 208 l 9986 215 l 9991 221 l
+ 10001 224 l 10011 221 l 10016 213 l 10017 205 l 10018 197 l
+ 10024 190 l 10036 189 l 10047 194 l 10057 201 l 10064 210 l
+ 10070 220 l 10076 229 l 10082 237 l 10087 242 l 10090 242 l
+ 10088 236 l 10084 227 l 10080 218 l 10075 208 l 10070 198 l
+ 10065 188 l 10060 178 l 10053 169 l 10045 160 l 10036 154 l
+ 10024 155 l 10018 164 l 10017 176 l 10016 189 l 10011 200 l
+ 10001 207 l 9991 206 l 9986 200 l 9986 193 l 9985 186 l
+ 9979 178 l 9965 171 l 9952 168 l 9940 166 l 9933 166 l
+ 9927 167 l 9921 167 l 9913 168 l 9904 169 l 9894 171 l
+ 9891 172 l 9888 173 l 9886 174 l 9885 175 l 9885 176 l
+ 9885 177 l 9886 178 l 9887 179 l 9888 179 l 9888 180 l
+ 9889 180 l 9890 181 l 9891 182 l 9892 184 l 9892 185 l
+ 9893 187 l 9894 189 l 9896 192 l 9897 195 l 9898 198 l
+ 9898 200 l 9898 201 l 9898 202 l 9899 204 l 9901 205 l
+ 9905 206 l 9911 207 l 9923 205 l 9931 201 l 9936 197 l
+ 9942 192 l 9951 189 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 659.00 10.27]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 10006 278 m 10024 277 l 10037 275 l 10045 272 l 10049 269 l 10054 266 l
+ 10059 263 l 10068 261 l 10078 260 l 10082 260 l 10085 261 l
+ 10086 262 l 10087 263 l 10086 264 l 10085 265 l 10084 266 l
+ 10083 267 l 10081 268 l 10080 269 l 10079 270 l 10079 272 l
+ 10078 274 l 10078 276 l 10078 278 l 10078 282 l 10079 285 l
+ 10080 287 l 10081 289 l 10082 290 l 10082 291 l 10081 293 l
+ 10078 296 l 10071 298 l 10067 298 l 10064 297 l 10062 297 l
+ 10055 296 l 10042 296 l 10028 296 l 10020 297 l 10016 298 l
+ 10013 298 l 10004 298 l 9988 296 l 9972 292 l 9964 289 l
+ 9961 285 l 9959 282 l 9951 279 l 9935 278 l 9919 280 l
+ 9908 284 l 9901 289 l 9894 293 l 9887 296 l 9881 296 l
+ 9882 291 l 9888 285 l 9895 279 l 9902 274 l 9910 267 l
+ 9917 260 l 9918 259 l 9919 258 l 9920 257 l 9920 256 l
+ 9920 255 l 9919 255 l 9918 255 l 9917 255 l 9916 255 l
+ 9915 255 l 9914 255 l 9913 255 l 9913 256 l 9912 256 l
+ 9911 256 l 9910 256 l 9909 256 l 9908 256 l 9908 257 l
+ 9907 257 l 9907 258 l 9908 258 l 9909 258 l 9910 259 l
+ 9911 259 l 9913 259 l 9915 260 l 9917 260 l 9929 263 l
+ 9941 265 l 9949 268 l 9956 271 l 9962 273 l 9972 275 l
+ 9987 277 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 658.73 17.00]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 8714 173 m 8672 162 l 8641 192 l 8652 234 l 8694 245 l 8725 214 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 576.07 10.80]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 8569 120 m 8571 113 l 8572 107 l 8574 103 l 8575 99 l 8576 97 l
+ 8576 95 l 8576 94 l 8576 95 l 8575 96 l 8575 97 l
+ 8574 98 l 8574 99 l 8574 100 l 8574 101 l 8575 102 l
+ 8576 103 l 8579 103 l 8582 103 l 8586 103 l 8591 103 l
+ 8597 103 l 8604 103 l 8620 103 l 8635 103 l 8649 103 l
+ 8660 101 l 8670 99 l 8678 97 l 8687 95 l 8696 94 l
+ 8707 95 l 8720 99 l 8734 107 l 8747 120 l 8757 136 l
+ 8763 153 l 8765 170 l 8765 185 l 8763 199 l 8760 213 l
+ 8757 226 l 8755 239 l 8752 252 l 8750 264 l 8748 274 l
+ 8747 279 l 8745 276 l 8744 265 l 8744 252 l 8744 238 l
+ 8745 223 l 8746 208 l 8746 192 l 8743 174 l 8738 156 l
+ 8729 138 l 8721 128 l 8713 121 l 8706 116 l 8700 113 l
+ 8695 111 l 8692 110 l 8688 110 l 8684 110 l 8680 111 l
+ 8675 111 l 8669 112 l 8661 114 l 8651 116 l 8641 120 l
+ 8628 128 l 8618 137 l 8612 145 l 8609 151 l 8607 157 l
+ 8605 162 l 8602 169 l 8598 179 l 8593 192 l 8587 208 l
+ 8582 226 l 8581 239 l 8582 246 l 8584 251 l 8586 255 l
+ 8588 261 l 8588 269 l 8587 279 l 8586 281 l 8586 283 l
+ 8585 284 l 8585 285 l 8584 287 l 8584 288 l 8583 289 l
+ 8582 290 l 8582 291 l 8581 292 l 8581 293 l 8580 293 l
+ 8580 294 l 8580 295 l 8579 296 l 8579 297 l 8578 297 l
+ 8578 298 l 8578 299 l 8577 299 l 8577 300 l 8576 300 l
+ 8576 301 l 8575 301 l 8575 300 l 8574 300 l 8574 299 l
+ 8573 298 l 8572 297 l 8572 295 l 8571 293 l 8571 290 l
+ 8570 287 l 8570 283 l 8569 279 l 8568 264 l 8567 249 l
+ 8566 234 l 8566 222 l 8565 211 l 8565 201 l 8564 191 l
+ 8564 180 l 8564 167 l 8565 152 l 8567 136 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 570.93 6.27]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Ellipse
+n 1012 189 31 30 0 360 DrawEllipse gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 65.40 10.60]  PATmp PATsp ef gr PATusp gs col0 s gr
+
+% Ellipse
+n 2614 189 31 30 0 360 DrawEllipse gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 172.20 10.60]  PATmp PATsp ef gr PATusp gs col0 s gr
+
+% Ellipse
+n 3451 184 31 30 0 360 DrawEllipse gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 228.00 10.27]  PATmp PATsp ef gr PATusp gs col0 s gr
+
+% Ellipse
+n 4499 270 31 30 0 360 DrawEllipse gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 297.87 16.00]  PATmp PATsp ef gr PATusp gs col0 s gr
+
+% Ellipse
+n 4623 270 31 30 0 360 DrawEllipse gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 306.13 16.00]  PATmp PATsp ef gr PATusp gs col0 s gr
+
+% Ellipse
+n 4096 270 31 30 0 360 DrawEllipse gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 271.00 16.00]  PATmp PATsp ef gr PATusp gs col0 s gr
+
+% Rotated Ellipse
+gs
+6213 107 tr
+-180.000 rot
+n 0 0 31 30 0 360 DrawEllipse 180.000 rot
+gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 412.13 5.13]  PATmp PATsp ef gr PATusp gs col0 s gr
+gr
+
+% Rotated Ellipse
+gs
+6089 107 tr
+-180.000 rot
+n 0 0 31 30 0 360 DrawEllipse 180.000 rot
+gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 403.87 5.13]  PATmp PATsp ef gr PATusp gs col0 s gr
+gr
+
+% Rotated Ellipse
+gs
+6616 107 tr
+-180.000 rot
+n 0 0 31 30 0 360 DrawEllipse 180.000 rot
+gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 439.00 5.13]  PATmp PATsp ef gr PATusp gs col0 s gr
+gr
+
+% Rotated Ellipse
+gs
+9531 217 tr
+-180.000 rot
+n 0 0 31 30 0 360 DrawEllipse 180.000 rot
+gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 633.33 12.47]  PATmp PATsp ef gr PATusp gs col0 s gr
+gr
+
+% Rotated Ellipse
+gs
+8098 189 tr
+-180.000 rot
+n 0 0 31 30 0 360 DrawEllipse 180.000 rot
+gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 537.80 10.60]  PATmp PATsp ef gr PATusp gs col0 s gr
+gr
+
+% Rotated Ellipse
+gs
+8463 245 tr
+-180.000 rot
+n 0 0 31 30 0 360 DrawEllipse 180.000 rot
+gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 562.13 14.33]  PATmp PATsp ef gr PATusp gs col0 s gr
+gr
+
+% Rotated Ellipse
+gs
+7261 193 tr
+-180.000 rot
+n 0 0 31 30 0 360 DrawEllipse 180.000 rot
+gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 482.00 10.87]  PATmp PATsp ef gr PATusp gs col0 s gr
+gr
+
+% Ellipse
+n 2255 132 31 30 0 360 DrawEllipse gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 148.27 6.80]  PATmp PATsp ef gr PATusp gs col0 s gr
+
+% Rotated Ellipse
+gs
+5400 255 tr
+-180.000 rot
+n 0 0 31 30 0 360 DrawEllipse 180.000 rot
+gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 357.93 15.00]  PATmp PATsp ef gr PATusp gs col0 s gr
+gr
+
+% Rotated Ellipse
+gs
+5540 255 tr
+-180.000 rot
+n 0 0 31 30 0 360 DrawEllipse 180.000 rot
+gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 367.27 15.00]  PATmp PATsp ef gr PATusp gs col0 s gr
+gr
+
+% Ellipse
+n 1995 160 31 30 0 360 DrawEllipse gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 130.93 8.67]  PATmp PATsp ef gr PATusp gs col0 s gr
+
+% Polyline
+n 1555 204 m 1596 215 l 1627 185 l 1616 144 l 1574 132 l 1543 163 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 102.87 8.80]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 3378 217 m 3372 222 l 3362 224 l 3350 224 l 3339 223 l 3328 222 l
+ 3316 220 l 3302 219 l 3289 217 l 3284 216 l 3281 215 l
+ 3279 213 l 3278 213 l 3279 212 l 3280 211 l 3281 211 l
+ 3283 211 l 3285 211 l 3287 210 l 3288 209 l 3290 208 l
+ 3290 207 l 3290 205 l 3290 202 l 3289 199 l 3285 190 l
+ 3281 184 l 3277 180 l 3273 176 l 3271 171 l 3271 164 l
+ 3276 160 l 3282 160 l 3288 161 l 3293 163 l 3300 164 l
+ 3307 164 l 3308 164 l 3309 164 l 3310 164 l 3310 163 l
+ 3309 162 l 3308 162 l 3308 161 l 3307 161 l 3306 161 l
+ 3306 160 l 3305 160 l 3304 160 l 3303 159 l 3302 159 l
+ 3301 158 l 3300 158 l 3299 157 l 3299 158 l 3300 159 l
+ 3301 159 l 3301 160 l 3303 161 l 3304 162 l 3305 163 l
+ 3307 164 l 3317 172 l 3329 179 l 3340 185 l 3350 191 l
+ 3360 196 l 3369 202 l 3376 209 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 218.07 10.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 2709 160 m 2707 171 l 2709 183 l 2714 193 l 2721 203 l 2729 211 l
+ 2736 220 l 2744 228 l 2752 236 l 2758 244 l 2763 248 l
+ 2765 246 l 2763 239 l 2758 231 l 2753 222 l 2747 212 l
+ 2742 202 l 2741 190 l 2745 178 l 2754 169 l 2763 165 l
+ 2772 164 l 2780 165 l 2787 166 l 2796 166 l 2807 164 l
+ 2817 160 l 2821 158 l 2824 156 l 2825 154 l 2826 153 l
+ 2826 152 l 2825 151 l 2824 151 l 2823 150 l 2822 149 l
+ 2820 149 l 2819 148 l 2818 147 l 2818 146 l 2817 145 l
+ 2817 144 l 2817 143 l 2817 142 l 2817 141 l 2818 141 l
+ 2819 141 l 2820 140 l 2821 140 l 2822 140 l 2823 140 l
+ 2824 140 l 2825 140 l 2826 140 l 2827 140 l 2828 140 l
+ 2829 140 l 2830 140 l 2830 141 l 2829 141 l 2828 141 l
+ 2827 141 l 2826 142 l 2824 142 l 2822 142 l 2820 143 l
+ 2817 143 l 2805 145 l 2792 146 l 2780 146 l 2769 145 l
+ 2758 144 l 2749 143 l 2738 144 l 2727 146 l 2717 151 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 180.47 9.33]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 5106 155 m 5108 166 l 5106 178 l 5101 189 l 5094 198 l 5086 207 l
+ 5078 215 l 5071 224 l 5063 232 l 5057 240 l 5052 244 l
+ 5050 242 l 5052 236 l 5057 227 l 5063 218 l 5069 208 l
+ 5073 198 l 5075 186 l 5071 174 l 5063 165 l 5053 160 l
+ 5045 159 l 5037 160 l 5029 161 l 5020 161 l 5010 159 l
+ 5000 155 l 4996 153 l 4993 151 l 4992 149 l 4991 148 l
+ 4991 147 l 4992 146 l 4993 145 l 4994 145 l 4995 144 l
+ 4997 144 l 4998 143 l 4999 142 l 4999 141 l 5000 140 l
+ 5000 139 l 5000 138 l 5000 137 l 5000 136 l 4999 136 l
+ 4998 136 l 4997 135 l 4996 135 l 4995 135 l 4994 135 l
+ 4993 135 l 4992 135 l 4991 135 l 4990 135 l 4989 135 l
+ 4988 135 l 4987 135 l 4987 136 l 4988 136 l 4989 136 l
+ 4990 136 l 4992 137 l 4993 137 l 4995 137 l 4997 138 l
+ 5000 138 l 5012 140 l 5025 141 l 5037 141 l 5048 140 l
+ 5058 139 l 5067 138 l 5077 138 l 5088 141 l 5098 146 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 332.47 9.00]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 3541 90 m 3553 88 l 3564 90 l 3575 95 l 3584 102 l 3593 109 l
+ 3601 117 l 3610 124 l 3618 132 l 3626 138 l 3630 143 l
+ 3628 145 l 3621 143 l 3613 138 l 3603 133 l 3594 127 l
+ 3583 122 l 3571 121 l 3559 125 l 3550 133 l 3546 143 l
+ 3545 151 l 3546 159 l 3547 167 l 3547 176 l 3545 186 l
+ 3541 196 l 3539 200 l 3537 203 l 3535 204 l 3534 205 l
+ 3533 205 l 3532 204 l 3531 203 l 3531 202 l 3530 201 l
+ 3529 199 l 3529 198 l 3528 197 l 3527 197 l 3526 196 l
+ 3524 196 l 3523 196 l 3522 196 l 3521 196 l 3521 197 l
+ 3521 198 l 3520 198 l 3520 199 l 3520 200 l 3520 201 l
+ 3520 202 l 3520 203 l 3520 204 l 3520 205 l 3520 206 l
+ 3520 207 l 3520 208 l 3520 209 l 3521 209 l 3521 208 l
+ 3521 207 l 3521 206 l 3522 204 l 3522 203 l 3522 201 l
+ 3523 199 l 3523 196 l 3525 184 l 3526 171 l 3526 159 l
+ 3526 148 l 3525 139 l 3524 129 l 3524 119 l 3526 108 l
+ 3532 98 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 234.67 5.87]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 4861 205 m 4862 223 l 4864 236 l 4867 243 l 4870 247 l 4873 251 l
+ 4876 257 l 4878 265 l 4879 275 l 4879 279 l 4878 281 l
+ 4877 283 l 4876 284 l 4875 283 l 4874 282 l 4873 281 l
+ 4872 280 l 4871 278 l 4870 277 l 4869 276 l 4867 276 l
+ 4865 275 l 4863 275 l 4861 275 l 4857 275 l 4854 276 l
+ 4852 277 l 4851 278 l 4849 279 l 4848 279 l 4846 278 l
+ 4843 275 l 4841 268 l 4841 263 l 4842 260 l 4843 254 l
+ 4843 240 l 4843 226 l 4842 219 l 4841 215 l 4841 211 l
+ 4841 203 l 4843 187 l 4847 171 l 4850 163 l 4854 160 l
+ 4857 158 l 4860 150 l 4861 134 l 4859 118 l 4855 107 l
+ 4850 100 l 4846 94 l 4843 87 l 4843 81 l 4848 82 l
+ 4854 88 l 4860 95 l 4865 102 l 4872 110 l 4879 117 l
+ 4880 118 l 4881 119 l 4882 120 l 4883 120 l 4884 120 l
+ 4884 119 l 4884 118 l 4884 117 l 4884 116 l 4884 115 l
+ 4884 114 l 4883 113 l 4883 112 l 4883 111 l 4883 110 l
+ 4883 109 l 4883 108 l 4882 108 l 4882 107 l 4881 107 l
+ 4881 108 l 4881 109 l 4880 110 l 4880 111 l 4880 113 l
+ 4879 115 l 4879 117 l 4876 129 l 4874 141 l 4871 149 l
+ 4869 155 l 4866 162 l 4864 171 l 4862 186 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 322.73 5.40]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 4589 160 m 4600 148 l 4607 142 l 4611 141 l 4615 140 l 4619 135 l
+ 4624 125 l 4625 120 l 4625 116 l 4625 112 l 4625 110 l
+ 4625 107 l 4625 106 l 4625 105 l 4625 103 l 4625 102 l
+ 4624 100 l 4621 98 l 4618 96 l 4613 93 l 4606 90 l
+ 4592 87 l 4579 85 l 4568 83 l 4560 83 l 4552 82 l
+ 4542 83 l 4530 85 l 4517 90 l 4508 100 l 4508 109 l
+ 4514 115 l 4520 122 l 4522 131 l 4517 143 l 4506 152 l
+ 4494 156 l 4482 157 l 4472 158 l 4464 159 l 4463 160 l
+ 4471 159 l 4482 158 l 4494 157 l 4505 156 l 4516 155 l
+ 4529 153 l 4542 149 l 4553 143 l 4559 134 l 4555 128 l
+ 4547 124 l 4538 119 l 4533 114 l 4535 107 l 4543 103 l
+ 4552 102 l 4561 103 l 4569 103 l 4579 105 l 4589 107 l
+ 4592 108 l 4594 109 l 4595 111 l 4596 111 l 4596 112 l
+ 4596 113 l 4595 113 l 4594 113 l 4594 114 l 4593 115 l
+ 4592 116 l 4592 117 l 4591 119 l 4590 122 l 4589 125 l
+ 4586 133 l 4583 139 l 4582 141 l 4581 144 l 4577 150 l
+ 4570 160 l 4561 171 l 4555 177 l 4551 180 l 4547 182 l
+ 4542 188 l 4535 196 l 4533 200 l 4531 203 l 4530 205 l
+ 4530 206 l 4530 207 l 4531 208 l 4532 208 l 4532 209 l
+ 4533 210 l 4534 211 l 4535 213 l 4539 215 l 4543 215 l
+ 4545 214 l 4549 213 l 4553 213 l 4554 213 l 4555 213 l
+ 4555 214 l 4554 214 l 4554 215 l 4553 216 l 4552 217 l
+ 4551 217 l 4551 218 l 4550 218 l 4550 219 l 4549 219 l
+ 4549 220 l 4549 219 l 4549 218 l 4550 218 l 4550 217 l
+ 4551 216 l 4551 215 l 4552 214 l 4553 213 l 4558 206 l
+ 4563 199 l 4566 194 l 4568 189 l 4571 185 l 4575 179 l
+ 4581 171 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 297.53 5.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 2343 90 m 2355 88 l 2366 90 l 2377 95 l 2386 102 l 2395 110 l
+ 2403 118 l 2412 125 l 2420 133 l 2428 139 l 2432 144 l
+ 2430 146 l 2423 144 l 2415 139 l 2405 133 l 2396 127 l
+ 2385 123 l 2373 121 l 2361 125 l 2352 133 l 2348 143 l
+ 2347 151 l 2348 159 l 2349 167 l 2349 176 l 2347 186 l
+ 2343 196 l 2341 200 l 2339 203 l 2337 204 l 2336 205 l
+ 2335 205 l 2334 204 l 2333 203 l 2333 202 l 2332 201 l
+ 2331 199 l 2331 198 l 2330 197 l 2329 197 l 2328 196 l
+ 2326 196 l 2325 196 l 2324 196 l 2323 196 l 2323 197 l
+ 2323 198 l 2322 198 l 2322 199 l 2322 200 l 2322 201 l
+ 2322 202 l 2322 203 l 2322 204 l 2322 205 l 2322 206 l
+ 2322 207 l 2322 208 l 2322 209 l 2323 209 l 2323 208 l
+ 2323 207 l 2323 206 l 2324 204 l 2324 203 l 2324 201 l
+ 2325 199 l 2325 196 l 2327 184 l 2328 171 l 2328 159 l
+ 2328 148 l 2327 138 l 2326 129 l 2326 119 l 2328 108 l
+ 2334 98 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 154.80 5.87]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 3023 98 m 3005 99 l 2992 101 l 2984 104 l 2980 108 l 2976 111 l
+ 2970 114 l 2961 116 l 2951 117 l 2947 117 l 2944 116 l
+ 2943 115 l 2942 114 l 2942 113 l 2943 112 l 2944 111 l
+ 2945 111 l 2946 110 l 2948 108 l 2949 107 l 2950 106 l
+ 2950 104 l 2951 102 l 2951 100 l 2951 98 l 2951 94 l
+ 2950 91 l 2949 89 l 2948 88 l 2947 87 l 2947 85 l
+ 2948 83 l 2951 81 l 2958 79 l 2963 79 l 2965 80 l
+ 2972 81 l 2986 81 l 3000 81 l 3008 80 l 3011 80 l
+ 3015 79 l 3024 79 l 3040 81 l 3056 84 l 3064 88 l
+ 3067 91 l 3070 94 l 3078 97 l 3094 98 l 3110 96 l
+ 3121 93 l 3129 88 l 3135 83 l 3142 80 l 3148 81 l
+ 3147 86 l 3141 92 l 3134 98 l 3126 103 l 3118 110 l
+ 3111 117 l 3110 118 l 3109 119 l 3108 120 l 3108 121 l
+ 3108 122 l 3109 122 l 3110 122 l 3111 122 l 3112 122 l
+ 3113 122 l 3114 122 l 3115 122 l 3116 121 l 3117 121 l
+ 3118 121 l 3119 121 l 3120 121 l 3121 120 l 3120 119 l
+ 3119 119 l 3118 119 l 3117 118 l 3115 118 l 3113 117 l
+ 3111 117 l 3099 114 l 3087 111 l 3079 108 l 3073 106 l
+ 3066 103 l 3057 101 l 3042 99 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 196.13 5.27]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 4272 103 m 4274 114 l 4272 126 l 4267 137 l 4260 146 l 4252 154 l
+ 4245 163 l 4237 171 l 4229 179 l 4223 187 l 4218 191 l
+ 4216 189 l 4218 182 l 4222 174 l 4228 165 l 4234 155 l
+ 4239 145 l 4240 133 l 4236 121 l 4228 112 l 4218 108 l
+ 4210 107 l 4202 108 l 4194 109 l 4185 109 l 4175 107 l
+ 4165 103 l 4161 101 l 4158 99 l 4157 97 l 4156 96 l
+ 4156 95 l 4157 94 l 4158 93 l 4159 93 l 4160 92 l
+ 4162 91 l 4163 91 l 4164 90 l 4164 89 l 4165 88 l
+ 4165 86 l 4165 85 l 4165 84 l 4165 83 l 4164 83 l
+ 4163 83 l 4163 82 l 4162 82 l 4161 82 l 4160 82 l
+ 4159 82 l 4158 82 l 4157 82 l 4156 82 l 4155 82 l
+ 4154 82 l 4153 82 l 4152 82 l 4152 83 l 4153 83 l
+ 4154 83 l 4155 83 l 4157 84 l 4158 84 l 4160 84 l
+ 4162 85 l 4165 85 l 4177 87 l 4190 88 l 4202 88 l
+ 4213 88 l 4223 87 l 4233 86 l 4243 86 l 4254 89 l
+ 4264 94 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 276.80 5.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 4330 103 m 4328 114 l 4330 126 l 4335 137 l 4342 146 l 4350 154 l
+ 4357 163 l 4365 171 l 4373 179 l 4379 187 l 4384 191 l
+ 4386 189 l 4384 182 l 4379 173 l 4374 164 l 4368 155 l
+ 4363 144 l 4362 132 l 4366 120 l 4375 111 l 4384 107 l
+ 4393 106 l 4401 107 l 4408 108 l 4417 109 l 4428 107 l
+ 4438 103 l 4442 101 l 4445 99 l 4446 97 l 4447 96 l
+ 4447 95 l 4446 94 l 4445 93 l 4444 93 l 4443 92 l
+ 4441 91 l 4440 91 l 4439 90 l 4439 89 l 4438 88 l
+ 4438 86 l 4438 85 l 4438 84 l 4438 83 l 4439 83 l
+ 4440 83 l 4440 82 l 4441 82 l 4442 82 l 4443 82 l
+ 4444 82 l 4445 82 l 4446 82 l 4447 82 l 4448 82 l
+ 4449 82 l 4450 82 l 4451 82 l 4451 83 l 4450 83 l
+ 4449 83 l 4448 83 l 4447 84 l 4445 84 l 4443 84 l
+ 4441 85 l 4438 85 l 4426 87 l 4413 88 l 4401 88 l
+ 4390 88 l 4379 87 l 4370 86 l 4359 86 l 4348 89 l
+ 4338 94 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 288.53 5.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 3771 103 m 3769 114 l 3771 126 l 3776 137 l 3783 146 l 3790 154 l
+ 3798 163 l 3805 171 l 3813 179 l 3819 187 l 3824 191 l
+ 3826 189 l 3824 182 l 3820 174 l 3814 165 l 3808 155 l
+ 3804 145 l 3803 133 l 3807 121 l 3816 112 l 3825 108 l
+ 3833 107 l 3841 108 l 3849 109 l 3858 109 l 3868 107 l
+ 3878 103 l 3882 101 l 3885 99 l 3886 97 l 3887 96 l
+ 3887 95 l 3886 94 l 3885 93 l 3884 93 l 3883 92 l
+ 3881 91 l 3880 91 l 3879 90 l 3879 89 l 3878 88 l
+ 3878 86 l 3878 85 l 3878 84 l 3878 83 l 3879 83 l
+ 3880 83 l 3880 82 l 3881 82 l 3882 82 l 3883 82 l
+ 3884 82 l 3885 82 l 3886 82 l 3887 82 l 3888 82 l
+ 3889 82 l 3890 82 l 3891 82 l 3891 83 l 3890 83 l
+ 3889 83 l 3888 83 l 3886 84 l 3885 84 l 3883 84 l
+ 3881 85 l 3878 85 l 3866 87 l 3853 88 l 3841 88 l
+ 3830 88 l 3820 87 l 3810 86 l 3800 86 l 3789 89 l
+ 3779 94 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 251.27 5.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 3571 287 m 3559 289 l 3548 287 l 3537 282 l 3527 275 l 3519 268 l
+ 3510 260 l 3502 252 l 3493 245 l 3485 239 l 3481 234 l
+ 3483 232 l 3490 234 l 3499 239 l 3508 245 l 3518 251 l
+ 3529 255 l 3541 257 l 3553 253 l 3562 245 l 3567 235 l
+ 3568 227 l 3567 219 l 3565 211 l 3565 202 l 3567 192 l
+ 3571 182 l 3573 178 l 3575 175 l 3577 174 l 3578 173 l
+ 3579 173 l 3580 174 l 3580 175 l 3581 176 l 3582 177 l
+ 3582 179 l 3583 180 l 3584 181 l 3585 181 l 3586 182 l
+ 3587 182 l 3588 182 l 3589 182 l 3590 182 l 3590 181 l
+ 3590 180 l 3591 179 l 3591 178 l 3591 177 l 3591 176 l
+ 3591 175 l 3591 174 l 3591 173 l 3591 172 l 3591 171 l
+ 3591 170 l 3591 169 l 3590 169 l 3590 170 l 3590 171 l
+ 3590 172 l 3589 174 l 3589 175 l 3589 177 l 3588 180 l
+ 3588 182 l 3586 194 l 3585 207 l 3585 218 l 3586 229 l
+ 3587 239 l 3588 249 l 3588 259 l 3585 269 l 3580 279 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 232.07 11.27]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 3720 177 m 3715 189 l 3708 195 l 3700 196 l 3693 197 l 3687 202 l
+ 3684 212 l 3687 222 l 3695 227 l 3704 229 l 3712 230 l
+ 3719 236 l 3720 248 l 3715 259 l 3707 268 l 3698 275 l
+ 3689 281 l 3679 287 l 3671 292 l 3666 297 l 3666 300 l
+ 3672 298 l 3681 295 l 3691 290 l 3701 286 l 3711 281 l
+ 3721 277 l 3731 271 l 3741 265 l 3750 257 l 3756 248 l
+ 3756 238 l 3751 232 l 3743 229 l 3734 229 l 3724 228 l
+ 3715 225 l 3707 220 l 3702 212 l 3703 202 l 3709 198 l
+ 3716 197 l 3723 197 l 3731 191 l 3738 177 l 3741 164 l
+ 3743 153 l 3743 145 l 3743 139 l 3742 133 l 3741 125 l
+ 3740 116 l 3738 106 l 3737 103 l 3736 100 l 3735 98 l
+ 3734 97 l 3733 97 l 3732 97 l 3731 98 l 3730 99 l
+ 3729 100 l 3729 101 l 3728 102 l 3727 103 l 3725 104 l
+ 3724 104 l 3722 105 l 3720 106 l 3716 108 l 3712 110 l
+ 3710 111 l 3708 111 l 3706 111 l 3705 112 l 3703 117 l
+ 3702 124 l 3704 136 l 3708 144 l 3713 149 l 3717 154 l
+ 3720 163 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 244.40 6.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 1699 257 m 1697 264 l 1696 270 l 1694 274 l 1693 278 l 1692 280 l
+ 1692 282 l 1692 283 l 1692 282 l 1693 281 l 1693 280 l
+ 1694 279 l 1694 278 l 1694 277 l 1694 276 l 1693 275 l
+ 1692 274 l 1689 274 l 1686 274 l 1682 274 l 1677 274 l
+ 1671 274 l 1664 274 l 1648 274 l 1633 274 l 1619 274 l
+ 1608 276 l 1598 278 l 1590 280 l 1581 282 l 1572 283 l
+ 1561 282 l 1548 278 l 1534 270 l 1521 257 l 1511 241 l
+ 1505 224 l 1503 207 l 1503 192 l 1505 178 l 1508 164 l
+ 1511 151 l 1513 138 l 1516 125 l 1518 113 l 1520 103 l
+ 1521 98 l 1523 101 l 1524 112 l 1524 125 l 1524 139 l
+ 1523 154 l 1522 169 l 1522 185 l 1525 203 l 1530 221 l
+ 1539 239 l 1547 249 l 1555 256 l 1562 261 l 1568 264 l
+ 1573 266 l 1576 267 l 1580 267 l 1584 267 l 1588 266 l
+ 1593 266 l 1599 265 l 1607 263 l 1617 261 l 1627 257 l
+ 1640 249 l 1650 240 l 1656 232 l 1659 226 l 1661 220 l
+ 1663 215 l 1666 208 l 1670 198 l 1675 185 l 1681 169 l
+ 1686 151 l 1687 138 l 1686 131 l 1684 126 l 1682 122 l
+ 1680 116 l 1680 108 l 1681 98 l 1682 96 l 1682 94 l
+ 1683 93 l 1683 92 l 1684 90 l 1684 89 l 1685 88 l
+ 1686 87 l 1686 86 l 1687 85 l 1687 84 l 1688 84 l
+ 1688 83 l 1688 82 l 1689 81 l 1689 80 l 1690 80 l
+ 1690 79 l 1690 78 l 1691 78 l 1691 77 l 1692 77 l
+ 1692 76 l 1693 76 l 1693 77 l 1694 77 l 1694 78 l
+ 1695 79 l 1696 80 l 1696 82 l 1697 84 l 1697 87 l
+ 1698 90 l 1698 94 l 1699 98 l 1700 113 l 1701 128 l
+ 1702 143 l 1702 155 l 1703 166 l 1703 176 l 1704 186 l
+ 1704 197 l 1704 210 l 1703 225 l 1701 241 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 100.20 5.07]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 2847 177 m 2842 189 l 2835 195 l 2827 196 l 2820 197 l 2814 202 l
+ 2811 212 l 2814 222 l 2822 227 l 2831 229 l 2839 230 l
+ 2846 236 l 2847 248 l 2842 259 l 2834 268 l 2825 275 l
+ 2816 281 l 2806 287 l 2798 292 l 2793 297 l 2793 300 l
+ 2799 298 l 2808 295 l 2818 290 l 2828 286 l 2837 281 l
+ 2847 277 l 2857 271 l 2867 265 l 2876 257 l 2882 248 l
+ 2883 238 l 2877 232 l 2869 229 l 2860 229 l 2851 228 l
+ 2841 225 l 2834 220 l 2829 212 l 2830 202 l 2835 198 l
+ 2842 197 l 2849 197 l 2857 191 l 2864 177 l 2867 164 l
+ 2869 153 l 2869 145 l 2868 139 l 2868 133 l 2867 125 l
+ 2866 116 l 2864 106 l 2863 103 l 2862 100 l 2861 99 l
+ 2860 98 l 2860 97 l 2859 97 l 2858 97 l 2857 98 l
+ 2857 99 l 2856 100 l 2856 101 l 2855 102 l 2854 102 l
+ 2853 103 l 2852 104 l 2850 104 l 2849 105 l 2847 106 l
+ 2843 108 l 2839 110 l 2837 111 l 2835 111 l 2833 111 l
+ 2832 112 l 2830 117 l 2829 124 l 2831 136 l 2835 144 l
+ 2840 149 l 2844 154 l 2847 163 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 186.20 6.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 3237 292 m 3230 290 l 3224 289 l 3220 287 l 3216 286 l 3214 285 l
+ 3212 285 l 3211 284 l 3212 285 l 3213 285 l 3214 286 l
+ 3215 286 l 3216 286 l 3217 286 l 3218 286 l 3219 285 l
+ 3220 284 l 3220 281 l 3220 278 l 3220 274 l 3220 269 l
+ 3220 263 l 3220 256 l 3220 237 l 3220 219 l 3219 205 l
+ 3216 193 l 3214 182 l 3211 172 l 3211 161 l 3214 147 l
+ 3222 131 l 3237 115 l 3253 105 l 3271 100 l 3287 97 l
+ 3303 97 l 3317 99 l 3331 102 l 3344 105 l 3357 108 l
+ 3370 110 l 3383 112 l 3393 114 l 3398 115 l 3396 117 l
+ 3388 118 l 3378 118 l 3366 118 l 3354 118 l 3341 117 l
+ 3329 116 l 3315 116 l 3301 117 l 3285 120 l 3270 125 l
+ 3255 133 l 3245 141 l 3237 149 l 3232 156 l 3229 162 l
+ 3228 167 l 3227 171 l 3227 174 l 3227 178 l 3227 182 l
+ 3228 187 l 3229 193 l 3230 201 l 3233 211 l 3237 221 l
+ 3246 234 l 3255 243 l 3263 249 l 3269 253 l 3275 255 l
+ 3280 257 l 3288 259 l 3298 263 l 3311 268 l 3327 274 l
+ 3345 279 l 3358 280 l 3366 279 l 3370 277 l 3374 275 l
+ 3380 273 l 3388 273 l 3398 274 l 3400 275 l 3402 275 l
+ 3403 276 l 3404 276 l 3406 277 l 3407 277 l 3408 278 l
+ 3409 279 l 3410 279 l 3411 280 l 3412 280 l 3413 281 l
+ 3414 281 l 3415 282 l 3416 282 l 3417 283 l 3418 283 l
+ 3419 284 l 3420 285 l 3420 286 l 3419 287 l 3418 287 l
+ 3417 288 l 3416 289 l 3414 289 l 3412 290 l 3409 290 l
+ 3406 291 l 3402 291 l 3398 292 l 3383 293 l 3367 294 l
+ 3353 295 l 3340 296 l 3329 296 l 3319 297 l 3309 297 l
+ 3298 297 l 3285 297 l 3270 296 l 3253 294 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 214.07 6.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 1092 89 m 1099 91 l 1105 92 l 1110 94 l 1113 95 l 1116 96 l
+ 1118 96 l 1119 97 l 1118 96 l 1117 96 l 1116 95 l
+ 1115 95 l 1114 95 l 1113 95 l 1112 95 l 1112 96 l
+ 1111 97 l 1111 100 l 1111 103 l 1111 107 l 1111 112 l
+ 1111 118 l 1111 125 l 1111 144 l 1111 162 l 1112 176 l
+ 1114 188 l 1117 199 l 1119 209 l 1119 220 l 1115 234 l
+ 1107 250 l 1092 266 l 1076 276 l 1058 281 l 1041 284 l
+ 1026 284 l 1012 282 l 998 279 l 985 276 l 972 273 l
+ 959 271 l 946 269 l 936 267 l 931 266 l 933 264 l
+ 941 263 l 951 263 l 963 263 l 975 263 l 988 264 l
+ 1000 265 l 1014 265 l 1028 264 l 1044 261 l 1059 256 l
+ 1074 248 l 1084 240 l 1092 232 l 1097 225 l 1100 219 l
+ 1101 214 l 1102 210 l 1102 207 l 1102 203 l 1102 199 l
+ 1101 194 l 1100 188 l 1099 180 l 1096 170 l 1092 160 l
+ 1084 147 l 1074 138 l 1067 132 l 1060 128 l 1055 126 l
+ 1049 124 l 1042 122 l 1032 118 l 1019 113 l 1003 107 l
+ 985 102 l 972 101 l 964 102 l 960 104 l 955 106 l
+ 950 108 l 941 108 l 931 107 l 929 106 l 927 106 l
+ 926 105 l 925 105 l 923 104 l 922 104 l 921 103 l
+ 920 102 l 919 102 l 918 101 l 917 101 l 916 100 l
+ 915 100 l 914 99 l 913 99 l 912 98 l 911 98 l
+ 910 97 l 909 96 l 909 95 l 910 94 l 911 94 l
+ 912 93 l 913 92 l 915 92 l 917 91 l 920 91 l
+ 923 90 l 927 90 l 931 89 l 946 88 l 962 87 l
+ 976 86 l 989 85 l 1000 85 l 1010 84 l 1020 84 l
+ 1031 84 l 1044 84 l 1059 85 l 1076 87 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 60.60 5.60]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 4760 212 m 4765 200 l 4772 194 l 4779 193 l 4786 192 l 4792 187 l
+ 4795 177 l 4792 167 l 4784 162 l 4776 161 l 4768 160 l
+ 4761 154 l 4760 142 l 4765 131 l 4772 122 l 4782 114 l
+ 4791 108 l 4800 102 l 4808 97 l 4814 92 l 4813 89 l
+ 4807 91 l 4798 95 l 4788 99 l 4778 104 l 4768 108 l
+ 4759 113 l 4749 119 l 4739 125 l 4730 133 l 4724 142 l
+ 4724 152 l 4729 158 l 4737 160 l 4747 161 l 4756 162 l
+ 4765 164 l 4773 169 l 4778 177 l 4777 187 l 4771 191 l
+ 4764 191 l 4757 192 l 4749 198 l 4742 212 l 4739 225 l
+ 4737 236 l 4737 244 l 4738 250 l 4738 256 l 4739 264 l
+ 4740 273 l 4742 283 l 4743 286 l 4744 289 l 4745 291 l
+ 4746 292 l 4747 292 l 4748 292 l 4749 291 l 4750 290 l
+ 4751 289 l 4751 288 l 4752 287 l 4753 286 l 4755 285 l
+ 4756 285 l 4758 284 l 4760 283 l 4764 281 l 4768 279 l
+ 4770 278 l 4772 278 l 4774 278 l 4775 277 l 4777 272 l
+ 4778 265 l 4776 253 l 4772 245 l 4768 240 l 4763 235 l
+ 4760 226 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 314.93 5.93]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 2996 217 m 2985 229 l 2979 235 l 2974 236 l 2971 237 l 2966 242 l
+ 2962 252 l 2961 257 l 2961 261 l 2961 265 l 2961 267 l
+ 2961 270 l 2960 271 l 2960 272 l 2960 274 l 2961 275 l
+ 2962 277 l 2964 279 l 2967 281 l 2972 284 l 2979 287 l
+ 2993 290 l 3007 292 l 3017 294 l 3025 294 l 3034 295 l
+ 3044 294 l 3056 292 l 3069 287 l 3078 277 l 3078 268 l
+ 3072 262 l 3066 255 l 3064 246 l 3069 234 l 3080 225 l
+ 3092 221 l 3103 220 l 3113 219 l 3121 218 l 3122 217 l
+ 3114 218 l 3103 219 l 3092 220 l 3080 221 l 3069 222 l
+ 3057 225 l 3044 228 l 3033 234 l 3027 243 l 3031 249 l
+ 3039 253 l 3048 257 l 3053 262 l 3051 269 l 3042 273 l
+ 3033 274 l 3025 273 l 3017 272 l 3007 271 l 2996 269 l
+ 2993 268 l 2991 267 l 2990 266 l 2989 265 l 2989 264 l
+ 2990 263 l 2991 263 l 2992 262 l 2993 261 l 2994 259 l
+ 2994 257 l 2995 255 l 2996 252 l 2999 244 l 3002 239 l
+ 3003 236 l 3004 233 l 3007 227 l 3015 217 l 3024 207 l
+ 3030 201 l 3035 198 l 3039 196 l 3044 190 l 3051 182 l
+ 3053 178 l 3055 176 l 3056 173 l 3056 172 l 3056 171 l
+ 3056 170 l 3055 170 l 3055 169 l 3054 169 l 3054 168 l
+ 3053 167 l 3052 165 l 3051 164 l 3047 162 l 3043 162 l
+ 3041 163 l 3037 164 l 3033 164 l 3032 164 l 3031 164 l
+ 3031 163 l 3032 163 l 3032 162 l 3033 161 l 3034 160 l
+ 3035 160 l 3035 159 l 3036 159 l 3036 158 l 3037 158 l
+ 3037 157 l 3037 158 l 3037 159 l 3036 159 l 3036 160 l
+ 3035 161 l 3035 162 l 3034 163 l 3033 164 l 3028 171 l
+ 3023 178 l 3020 183 l 3017 188 l 3015 192 l 3011 198 l
+ 3004 206 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 197.33 10.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 3870 217 m 3859 229 l 3852 235 l 3847 236 l 3844 237 l 3839 242 l
+ 3834 252 l 3833 257 l 3833 261 l 3833 265 l 3833 267 l
+ 3833 270 l 3833 271 l 3833 272 l 3833 274 l 3833 275 l
+ 3834 277 l 3836 279 l 3840 281 l 3845 284 l 3852 287 l
+ 3866 290 l 3879 292 l 3890 294 l 3898 294 l 3906 295 l
+ 3916 294 l 3928 292 l 3941 287 l 3950 277 l 3950 268 l
+ 3944 262 l 3938 255 l 3936 246 l 3941 234 l 3952 225 l
+ 3964 221 l 3975 220 l 3986 219 l 3994 218 l 3995 217 l
+ 3987 218 l 3976 219 l 3965 220 l 3954 221 l 3942 222 l
+ 3930 225 l 3917 228 l 3906 234 l 3900 243 l 3904 249 l
+ 3912 253 l 3921 257 l 3926 262 l 3924 269 l 3916 273 l
+ 3907 274 l 3898 273 l 3890 272 l 3880 271 l 3870 269 l
+ 3867 268 l 3865 267 l 3864 266 l 3863 265 l 3863 264 l
+ 3864 263 l 3865 263 l 3866 262 l 3867 261 l 3868 259 l
+ 3868 257 l 3869 255 l 3870 252 l 3873 244 l 3875 239 l
+ 3876 236 l 3877 233 l 3881 227 l 3888 217 l 3897 207 l
+ 3903 201 l 3908 198 l 3912 196 l 3917 190 l 3924 182 l
+ 3926 178 l 3928 176 l 3929 173 l 3929 172 l 3929 171 l
+ 3929 170 l 3928 170 l 3928 169 l 3927 169 l 3927 168 l
+ 3926 167 l 3925 165 l 3924 164 l 3920 162 l 3916 162 l
+ 3914 163 l 3910 164 l 3906 164 l 3905 164 l 3904 164 l
+ 3904 163 l 3905 163 l 3905 162 l 3906 161 l 3907 160 l
+ 3908 160 l 3908 159 l 3909 159 l 3909 158 l 3910 158 l
+ 3910 157 l 3910 158 l 3910 159 l 3909 159 l 3909 160 l
+ 3908 161 l 3908 162 l 3907 163 l 3906 164 l 3901 171 l
+ 3897 178 l 3893 183 l 3891 188 l 3888 192 l 3885 198 l
+ 3878 206 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 255.53 10.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 2235 256 m 2234 259 l 2233 262 l 2232 265 l 2231 267 l 2231 270 l
+ 2230 271 l 2230 273 l 2229 274 l 2228 275 l 2228 276 l
+ 2227 277 l 2227 278 l 2226 279 l 2226 280 l 2227 281 l
+ 2228 282 l 2229 283 l 2232 285 l 2235 287 l 2240 288 l
+ 2245 290 l 2252 292 l 2269 295 l 2286 297 l 2301 297 l
+ 2312 298 l 2322 298 l 2332 298 l 2343 297 l 2358 297 l
+ 2376 295 l 2395 292 l 2405 290 l 2414 287 l 2420 285 l
+ 2424 282 l 2427 281 l 2429 279 l 2430 278 l 2430 277 l
+ 2430 276 l 2430 274 l 2430 273 l 2431 270 l 2432 268 l
+ 2432 264 l 2432 260 l 2432 256 l 2428 248 l 2421 241 l
+ 2413 236 l 2405 233 l 2397 229 l 2390 226 l 2383 223 l
+ 2378 221 l 2379 224 l 2386 229 l 2394 234 l 2402 240 l
+ 2410 247 l 2413 256 l 2412 260 l 2411 263 l 2409 265 l
+ 2409 267 l 2408 267 l 2407 268 l 2405 269 l 2402 270 l
+ 2397 271 l 2389 272 l 2378 274 l 2363 275 l 2349 276 l
+ 2338 277 l 2330 277 l 2323 277 l 2315 277 l 2307 277 l
+ 2296 276 l 2284 275 l 2270 274 l 2265 273 l 2260 272 l
+ 2257 271 l 2254 271 l 2252 270 l 2250 269 l 2249 269 l
+ 2249 268 l 2250 267 l 2250 266 l 2251 265 l 2251 264 l
+ 2251 262 l 2251 260 l 2251 258 l 2252 256 l 2257 247 l
+ 2263 241 l 2269 237 l 2274 233 l 2281 228 l 2288 221 l
+ 2289 220 l 2290 219 l 2291 218 l 2292 217 l 2293 217 l
+ 2293 216 l 2294 216 l 2294 215 l 2295 215 l 2296 215 l
+ 2296 216 l 2295 216 l 2295 217 l 2294 217 l 2293 218 l
+ 2292 218 l 2291 219 l 2290 219 l 2289 220 l 2288 221 l
+ 2278 227 l 2268 232 l 2260 236 l 2252 239 l 2243 245 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 148.40 14.33]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 2545 292 m 2538 290 l 2532 289 l 2528 287 l 2524 286 l 2521 285 l
+ 2520 284 l 2519 284 l 2518 284 l 2519 284 l 2519 285 l
+ 2520 285 l 2521 286 l 2522 286 l 2523 286 l 2524 286 l
+ 2525 286 l 2526 285 l 2527 283 l 2527 281 l 2527 278 l
+ 2527 274 l 2527 269 l 2527 263 l 2527 256 l 2527 237 l
+ 2527 220 l 2526 205 l 2524 193 l 2521 183 l 2519 173 l
+ 2519 161 l 2522 148 l 2530 132 l 2545 116 l 2561 106 l
+ 2579 101 l 2595 98 l 2611 99 l 2625 100 l 2639 103 l
+ 2652 106 l 2665 109 l 2678 111 l 2691 113 l 2701 115 l
+ 2706 116 l 2704 118 l 2696 119 l 2686 119 l 2674 119 l
+ 2662 119 l 2649 118 l 2637 117 l 2623 117 l 2609 118 l
+ 2593 121 l 2578 126 l 2563 134 l 2553 142 l 2545 150 l
+ 2540 157 l 2537 163 l 2536 167 l 2535 171 l 2535 175 l
+ 2535 178 l 2535 182 l 2536 187 l 2537 194 l 2538 202 l
+ 2541 211 l 2545 221 l 2554 234 l 2563 243 l 2571 249 l
+ 2577 253 l 2583 255 l 2588 256 l 2596 259 l 2606 263 l
+ 2619 268 l 2635 274 l 2653 279 l 2666 280 l 2674 279 l
+ 2678 277 l 2682 275 l 2688 273 l 2696 273 l 2706 274 l
+ 2708 275 l 2710 275 l 2711 276 l 2712 276 l 2714 277 l
+ 2715 277 l 2716 278 l 2717 279 l 2718 279 l 2719 280 l
+ 2720 280 l 2721 281 l 2722 281 l 2723 282 l 2724 282 l
+ 2725 283 l 2726 283 l 2727 284 l 2728 285 l 2728 286 l
+ 2727 287 l 2726 287 l 2725 288 l 2724 289 l 2722 289 l
+ 2720 290 l 2717 290 l 2714 291 l 2710 291 l 2706 292 l
+ 2691 293 l 2675 294 l 2661 295 l 2648 296 l 2637 296 l
+ 2627 297 l 2617 297 l 2606 297 l 2593 297 l 2578 296 l
+ 2561 294 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 167.87 6.53]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 4318 274 m 4336 275 l 4349 277 l 4356 280 l 4361 283 l 4365 286 l
+ 4371 289 l 4379 291 l 4389 292 l 4393 292 l 4396 291 l
+ 4397 290 l 4398 289 l 4397 288 l 4396 287 l 4395 286 l
+ 4394 285 l 4392 284 l 4391 283 l 4390 282 l 4390 280 l
+ 4389 278 l 4389 276 l 4389 274 l 4389 270 l 4390 267 l
+ 4391 265 l 4392 264 l 4393 263 l 4393 261 l 4392 259 l
+ 4389 257 l 4382 255 l 4377 255 l 4374 256 l 4368 257 l
+ 4354 257 l 4340 257 l 4333 256 l 4329 256 l 4326 255 l
+ 4317 255 l 4301 257 l 4285 260 l 4277 264 l 4273 267 l
+ 4270 270 l 4262 273 l 4246 274 l 4230 272 l 4219 269 l
+ 4212 264 l 4206 260 l 4199 257 l 4193 257 l 4194 262 l
+ 4200 268 l 4207 273 l 4214 279 l 4222 285 l 4229 292 l
+ 4230 293 l 4231 294 l 4232 295 l 4232 296 l 4232 297 l
+ 4231 297 l 4230 297 l 4229 297 l 4228 297 l 4227 297 l
+ 4226 297 l 4225 297 l 4225 296 l 4224 296 l 4223 296 l
+ 4222 296 l 4221 296 l 4220 296 l 4220 295 l 4219 295 l
+ 4219 294 l 4220 294 l 4221 294 l 4222 293 l 4223 293 l
+ 4225 293 l 4227 292 l 4229 292 l 4241 289 l 4253 287 l
+ 4261 284 l 4268 282 l 4274 279 l 4284 277 l 4299 275 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 279.53 17.00]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 7142 90 m 7154 88 l 7165 90 l 7176 95 l 7185 102 l 7194 109 l
+ 7202 117 l 7211 124 l 7219 132 l 7227 138 l 7231 143 l
+ 7229 145 l 7222 143 l 7213 138 l 7204 133 l 7194 127 l
+ 7183 122 l 7171 121 l 7159 125 l 7150 133 l 7146 143 l
+ 7145 151 l 7146 159 l 7147 167 l 7148 176 l 7146 186 l
+ 7142 196 l 7140 200 l 7138 203 l 7136 204 l 7135 205 l
+ 7134 205 l 7133 204 l 7132 203 l 7132 202 l 7131 201 l
+ 7130 199 l 7130 198 l 7129 197 l 7128 197 l 7127 196 l
+ 7125 196 l 7124 196 l 7123 196 l 7122 196 l 7122 197 l
+ 7122 198 l 7121 198 l 7121 199 l 7121 200 l 7121 201 l
+ 7121 202 l 7121 203 l 7121 204 l 7121 205 l 7121 206 l
+ 7121 207 l 7121 208 l 7121 209 l 7122 209 l 7122 208 l
+ 7122 207 l 7122 206 l 7123 204 l 7123 203 l 7123 201 l
+ 7124 199 l 7124 196 l 7126 184 l 7127 171 l 7127 159 l
+ 7127 148 l 7126 139 l 7125 129 l 7125 119 l 7127 108 l
+ 7133 98 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 474.73 5.87]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 6992 201 m 6997 189 l 7004 183 l 7011 182 l 7019 180 l 7025 175 l
+ 7028 165 l 7025 155 l 7017 150 l 7008 148 l 7000 147 l
+ 6993 141 l 6992 129 l 6997 118 l 7005 109 l 7014 102 l
+ 7024 96 l 7033 90 l 7041 85 l 7046 80 l 7046 77 l
+ 7040 79 l 7031 82 l 7021 87 l 7011 91 l 7001 96 l
+ 6991 100 l 6981 106 l 6971 112 l 6962 120 l 6956 129 l
+ 6956 139 l 6961 145 l 6970 148 l 6979 148 l 6989 149 l
+ 6998 151 l 7006 157 l 7011 165 l 7010 175 l 7005 180 l
+ 6998 180 l 6990 181 l 6982 187 l 6975 201 l 6972 214 l
+ 6970 225 l 6970 233 l 6971 239 l 6971 245 l 6972 252 l
+ 6973 261 l 6975 271 l 6976 274 l 6977 277 l 6978 278 l
+ 6979 279 l 6979 280 l 6980 280 l 6981 280 l 6982 279 l
+ 6982 278 l 6983 277 l 6983 276 l 6984 275 l 6985 275 l
+ 6986 274 l 6987 273 l 6989 273 l 6990 272 l 6992 271 l
+ 6996 269 l 7000 267 l 7002 266 l 7005 266 l 7006 266 l
+ 7008 264 l 7010 260 l 7011 253 l 7009 241 l 7005 233 l
+ 7000 228 l 6995 224 l 6992 215 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 463.73 5.13]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 9493 121 m 9494 124 l 9495 127 l 9496 130 l 9496 132 l 9497 134 l
+ 9497 136 l 9498 138 l 9499 139 l 9499 140 l 9500 141 l
+ 9500 142 l 9501 142 l 9501 143 l 9501 144 l 9500 145 l
+ 9499 146 l 9498 147 l 9495 149 l 9492 151 l 9487 152 l
+ 9482 154 l 9475 156 l 9458 159 l 9441 160 l 9426 161 l
+ 9415 162 l 9405 162 l 9395 162 l 9383 161 l 9369 160 l
+ 9351 159 l 9332 156 l 9322 154 l 9314 151 l 9308 149 l
+ 9303 147 l 9301 145 l 9299 144 l 9298 143 l 9298 142 l
+ 9298 140 l 9298 139 l 9298 137 l 9298 135 l 9297 133 l
+ 9297 129 l 9296 125 l 9297 121 l 9302 113 l 9309 106 l
+ 9316 101 l 9324 97 l 9332 94 l 9339 90 l 9347 87 l
+ 9351 85 l 9350 88 l 9343 93 l 9334 99 l 9326 105 l
+ 9318 112 l 9315 121 l 9316 125 l 9317 127 l 9318 129 l
+ 9319 131 l 9320 132 l 9321 132 l 9321 133 l 9322 133 l
+ 9323 133 l 9325 134 l 9329 134 l 9334 135 l 9342 137 l
+ 9351 138 l 9366 139 l 9380 140 l 9390 141 l 9399 141 l
+ 9406 141 l 9413 141 l 9421 141 l 9432 140 l 9445 139 l
+ 9458 138 l 9463 137 l 9467 136 l 9470 136 l 9473 135 l
+ 9475 134 l 9477 134 l 9478 133 l 9479 133 l 9478 132 l
+ 9477 132 l 9477 131 l 9477 130 l 9476 129 l 9476 128 l
+ 9476 127 l 9476 125 l 9476 123 l 9475 121 l 9470 112 l
+ 9464 106 l 9459 102 l 9453 97 l 9447 92 l 9440 85 l
+ 9439 84 l 9438 83 l 9437 82 l 9436 81 l 9435 80 l
+ 9434 80 l 9434 79 l 9433 79 l 9432 79 l 9432 80 l
+ 9433 80 l 9434 81 l 9435 82 l 9436 82 l 9437 83 l
+ 9438 83 l 9439 84 l 9440 85 l 9448 90 l 9455 95 l
+ 9462 98 l 9468 100 l 9474 103 l 9480 107 l 9487 113 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 619.73 5.27]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 7865 201 m 7870 189 l 7877 183 l 7885 182 l 7892 180 l 7898 175 l
+ 7901 165 l 7898 155 l 7890 150 l 7881 148 l 7873 147 l
+ 7866 141 l 7865 129 l 7870 118 l 7878 109 l 7887 102 l
+ 7896 96 l 7906 90 l 7914 85 l 7919 80 l 7919 77 l
+ 7913 79 l 7904 82 l 7894 87 l 7884 91 l 7875 96 l
+ 7865 100 l 7855 106 l 7845 112 l 7836 120 l 7830 129 l
+ 7829 139 l 7835 145 l 7843 148 l 7852 148 l 7861 149 l
+ 7871 151 l 7878 157 l 7883 165 l 7882 175 l 7877 180 l
+ 7870 180 l 7863 181 l 7855 187 l 7848 201 l 7845 214 l
+ 7843 225 l 7843 233 l 7844 239 l 7844 245 l 7845 252 l
+ 7846 261 l 7848 271 l 7849 274 l 7850 277 l 7851 278 l
+ 7852 279 l 7852 280 l 7853 280 l 7854 280 l 7855 279 l
+ 7855 278 l 7856 277 l 7856 276 l 7857 275 l 7858 275 l
+ 7859 274 l 7860 273 l 7862 273 l 7863 272 l 7865 271 l
+ 7869 269 l 7873 267 l 7875 266 l 7877 266 l 7879 266 l
+ 7880 264 l 7882 260 l 7883 253 l 7881 241 l 7877 233 l
+ 7872 228 l 7868 224 l 7865 215 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 521.93 5.13]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 7475 85 m 7482 87 l 7488 88 l 7492 90 l 7496 91 l 7498 92 l
+ 7500 92 l 7501 93 l 7500 92 l 7499 92 l 7498 91 l
+ 7497 91 l 7496 91 l 7495 91 l 7494 91 l 7493 92 l
+ 7492 93 l 7492 96 l 7492 99 l 7492 103 l 7492 108 l
+ 7492 114 l 7492 121 l 7492 140 l 7492 158 l 7493 172 l
+ 7496 184 l 7498 195 l 7501 205 l 7501 216 l 7498 230 l
+ 7490 246 l 7475 262 l 7459 272 l 7441 277 l 7425 280 l
+ 7409 280 l 7395 278 l 7381 275 l 7368 272 l 7355 269 l
+ 7342 267 l 7329 265 l 7319 263 l 7314 262 l 7316 260 l
+ 7324 259 l 7334 259 l 7346 259 l 7358 259 l 7371 260 l
+ 7383 261 l 7397 261 l 7411 260 l 7427 257 l 7442 252 l
+ 7457 244 l 7467 236 l 7475 228 l 7480 221 l 7483 215 l
+ 7484 210 l 7485 206 l 7485 203 l 7485 199 l 7485 195 l
+ 7484 190 l 7483 184 l 7482 176 l 7479 166 l 7475 156 l
+ 7466 143 l 7457 134 l 7449 128 l 7443 124 l 7437 122 l
+ 7432 120 l 7424 118 l 7414 114 l 7401 109 l 7385 103 l
+ 7367 98 l 7354 97 l 7346 98 l 7342 100 l 7338 102 l
+ 7332 104 l 7324 104 l 7314 103 l 7312 102 l 7310 102 l
+ 7309 101 l 7308 101 l 7306 100 l 7305 100 l 7304 99 l
+ 7303 98 l 7302 98 l 7301 97 l 7300 97 l 7299 96 l
+ 7298 96 l 7297 95 l 7296 95 l 7295 94 l 7294 94 l
+ 7293 93 l 7292 92 l 7292 91 l 7293 90 l 7294 90 l
+ 7295 89 l 7296 88 l 7298 88 l 7300 87 l 7303 87 l
+ 7306 86 l 7310 86 l 7314 85 l 7329 84 l 7345 83 l
+ 7359 82 l 7372 81 l 7383 81 l 7393 80 l 7403 80 l
+ 7414 80 l 7427 80 l 7442 81 l 7459 83 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 486.13 5.33]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 9620 288 m 9613 286 l 9607 285 l 9602 283 l 9599 282 l 9596 281 l
+ 9594 281 l 9593 281 l 9594 281 l 9595 282 l 9596 282 l
+ 9597 283 l 9598 283 l 9599 283 l 9600 283 l 9600 282 l
+ 9601 280 l 9601 278 l 9601 275 l 9601 271 l 9601 266 l
+ 9601 260 l 9601 253 l 9601 234 l 9601 216 l 9600 201 l
+ 9598 189 l 9595 179 l 9593 169 l 9593 157 l 9597 143 l
+ 9605 127 l 9620 111 l 9636 101 l 9654 95 l 9671 93 l
+ 9686 93 l 9700 95 l 9714 98 l 9727 101 l 9740 104 l
+ 9753 106 l 9766 108 l 9776 110 l 9781 111 l 9779 113 l
+ 9771 114 l 9761 114 l 9749 114 l 9737 114 l 9724 113 l
+ 9712 112 l 9698 112 l 9684 113 l 9668 116 l 9653 121 l
+ 9638 129 l 9628 137 l 9620 145 l 9615 152 l 9612 158 l
+ 9611 163 l 9610 167 l 9610 170 l 9610 174 l 9610 178 l
+ 9611 183 l 9612 189 l 9613 197 l 9616 207 l 9620 217 l
+ 9628 230 l 9638 239 l 9645 245 l 9652 249 l 9657 251 l
+ 9663 253 l 9670 255 l 9680 259 l 9693 264 l 9709 270 l
+ 9727 275 l 9740 276 l 9748 275 l 9752 273 l 9757 271 l
+ 9762 269 l 9771 269 l 9781 270 l 9783 271 l 9785 271 l
+ 9786 272 l 9787 272 l 9789 273 l 9790 273 l 9791 274 l
+ 9792 275 l 9793 275 l 9794 276 l 9795 276 l 9796 277 l
+ 9797 277 l 9798 278 l 9799 278 l 9800 279 l 9801 279 l
+ 9802 280 l 9803 281 l 9803 282 l 9802 283 l 9801 283 l
+ 9800 284 l 9799 285 l 9797 285 l 9795 286 l 9792 286 l
+ 9789 287 l 9785 287 l 9781 288 l 9766 289 l 9750 290 l
+ 9736 291 l 9723 291 l 9712 292 l 9702 292 l 9692 293 l
+ 9681 293 l 9668 293 l 9653 292 l 9636 290 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 639.53 6.20]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 5952 165 m 5947 177 l 5940 183 l 5933 185 l 5926 186 l 5920 191 l
+ 5917 201 l 5920 211 l 5928 216 l 5936 217 l 5944 218 l
+ 5951 223 l 5952 235 l 5947 246 l 5940 255 l 5930 263 l
+ 5921 269 l 5912 274 l 5904 280 l 5898 285 l 5899 288 l
+ 5905 286 l 5914 282 l 5924 278 l 5934 273 l 5944 269 l
+ 5953 264 l 5963 258 l 5973 252 l 5982 244 l 5988 235 l
+ 5987 223 l 5978 218 l 5966 217 l 5953 216 l 5942 211 l
+ 5935 201 l 5936 191 l 5941 187 l 5948 186 l 5955 185 l
+ 5963 179 l 5970 165 l 5973 152 l 5975 140 l 5975 133 l
+ 5974 127 l 5974 121 l 5973 113 l 5972 104 l 5970 94 l
+ 5969 91 l 5968 88 l 5967 86 l 5966 85 l 5965 85 l
+ 5964 85 l 5963 85 l 5963 86 l 5962 87 l 5961 88 l
+ 5961 89 l 5960 90 l 5959 91 l 5957 92 l 5956 92 l
+ 5954 93 l 5952 94 l 5948 96 l 5945 98 l 5942 99 l
+ 5941 99 l 5939 99 l 5937 100 l 5936 105 l 5935 112 l
+ 5937 124 l 5940 132 l 5945 137 l 5949 142 l 5952 151 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 393.20 5.67]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 5744 209 m 5756 220 l 5762 227 l 5764 231 l 5765 235 l 5770 239 l
+ 5780 244 l 5785 245 l 5789 245 l 5793 245 l 5796 245 l
+ 5798 245 l 5799 246 l 5801 246 l 5802 246 l 5803 245 l
+ 5805 244 l 5807 242 l 5809 239 l 5812 234 l 5815 227 l
+ 5818 213 l 5820 200 l 5822 189 l 5822 181 l 5823 173 l
+ 5822 163 l 5820 151 l 5815 138 l 5805 129 l 5796 129 l
+ 5790 135 l 5783 141 l 5774 143 l 5762 138 l 5753 127 l
+ 5748 115 l 5747 104 l 5746 94 l 5745 86 l 5744 85 l
+ 5745 93 l 5746 104 l 5747 115 l 5749 127 l 5750 138 l
+ 5752 150 l 5756 163 l 5762 174 l 5771 180 l 5777 176 l
+ 5782 168 l 5786 160 l 5791 154 l 5798 156 l 5802 164 l
+ 5803 173 l 5802 181 l 5802 189 l 5800 199 l 5798 209 l
+ 5797 212 l 5796 214 l 5794 215 l 5794 216 l 5793 216 l
+ 5792 215 l 5792 214 l 5791 214 l 5791 213 l 5790 212 l
+ 5788 212 l 5786 211 l 5783 210 l 5780 209 l 5771 206 l
+ 5766 204 l 5763 203 l 5761 202 l 5755 198 l 5744 191 l
+ 5733 182 l 5727 176 l 5724 172 l 5722 168 l 5716 163 l
+ 5708 156 l 5704 154 l 5701 152 l 5699 151 l 5698 151 l
+ 5697 151 l 5696 152 l 5696 153 l 5695 153 l 5694 154 l
+ 5693 155 l 5691 156 l 5689 160 l 5689 164 l 5690 166 l
+ 5691 170 l 5691 174 l 5691 175 l 5691 176 l 5690 176 l
+ 5690 175 l 5689 175 l 5688 174 l 5687 173 l 5686 172 l
+ 5685 171 l 5685 170 l 5684 170 l 5685 170 l 5686 171 l
+ 5687 171 l 5688 172 l 5689 172 l 5690 173 l 5691 174 l
+ 5701 180 l 5709 185 l 5715 189 l 5720 192 l 5730 199 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 378.93 5.67]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 7716 160 m 7727 148 l 7733 142 l 7738 141 l 7741 140 l 7746 135 l
+ 7750 125 l 7751 120 l 7751 116 l 7751 112 l 7751 110 l
+ 7751 107 l 7752 106 l 7752 105 l 7752 103 l 7751 102 l
+ 7750 100 l 7748 98 l 7745 96 l 7740 93 l 7733 90 l
+ 7719 87 l 7705 85 l 7695 83 l 7687 83 l 7678 82 l
+ 7668 83 l 7656 85 l 7643 90 l 7634 100 l 7634 109 l
+ 7640 115 l 7646 122 l 7648 131 l 7643 143 l 7632 152 l
+ 7620 156 l 7609 157 l 7599 158 l 7591 159 l 7590 160 l
+ 7598 159 l 7609 158 l 7620 157 l 7632 156 l 7643 155 l
+ 7655 152 l 7668 149 l 7679 143 l 7685 134 l 7681 128 l
+ 7673 124 l 7664 120 l 7659 115 l 7661 108 l 7670 104 l
+ 7679 103 l 7687 104 l 7695 105 l 7705 106 l 7716 108 l
+ 7719 109 l 7721 110 l 7722 111 l 7723 112 l 7723 113 l
+ 7722 114 l 7721 114 l 7720 115 l 7719 116 l 7718 118 l
+ 7718 120 l 7717 122 l 7716 125 l 7713 133 l 7710 138 l
+ 7709 141 l 7708 144 l 7705 150 l 7697 160 l 7688 171 l
+ 7682 177 l 7677 180 l 7673 182 l 7668 188 l 7661 196 l
+ 7659 200 l 7657 203 l 7656 205 l 7656 206 l 7656 207 l
+ 7657 208 l 7658 209 l 7659 210 l 7660 211 l 7661 213 l
+ 7665 215 l 7669 215 l 7671 214 l 7675 213 l 7679 213 l
+ 7680 213 l 7681 213 l 7681 214 l 7680 214 l 7680 215 l
+ 7679 216 l 7678 217 l 7677 217 l 7677 218 l 7676 218 l
+ 7676 219 l 7675 219 l 7675 220 l 7675 219 l 7675 218 l
+ 7676 218 l 7676 217 l 7677 216 l 7677 215 l 7678 214 l
+ 7679 213 l 7684 206 l 7689 199 l 7692 194 l 7695 189 l
+ 7697 185 l 7701 179 l 7708 171 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 506.00 5.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 6842 160 m 6853 148 l 6860 142 l 6865 141 l 6868 140 l 6873 135 l
+ 6878 125 l 6879 120 l 6879 116 l 6879 112 l 6879 110 l
+ 6879 107 l 6879 106 l 6879 105 l 6879 103 l 6879 102 l
+ 6878 100 l 6876 98 l 6872 96 l 6867 93 l 6860 90 l
+ 6846 87 l 6833 85 l 6822 83 l 6814 83 l 6806 82 l
+ 6796 83 l 6784 85 l 6771 90 l 6762 100 l 6762 109 l
+ 6768 115 l 6774 122 l 6776 131 l 6771 143 l 6760 152 l
+ 6748 156 l 6737 157 l 6726 158 l 6718 159 l 6717 160 l
+ 6725 159 l 6736 158 l 6747 157 l 6758 156 l 6770 155 l
+ 6782 152 l 6795 149 l 6806 143 l 6812 134 l 6809 128 l
+ 6800 124 l 6792 120 l 6787 115 l 6789 108 l 6797 104 l
+ 6806 103 l 6814 104 l 6822 105 l 6832 106 l 6842 108 l
+ 6845 109 l 6847 110 l 6848 111 l 6849 112 l 6849 113 l
+ 6848 113 l 6848 114 l 6847 114 l 6846 115 l 6845 116 l
+ 6844 118 l 6844 120 l 6843 122 l 6842 125 l 6839 133 l
+ 6837 138 l 6836 141 l 6835 144 l 6831 150 l 6824 160 l
+ 6815 171 l 6809 177 l 6805 180 l 6801 182 l 6796 188 l
+ 6789 196 l 6787 200 l 6785 203 l 6784 205 l 6784 206 l
+ 6784 207 l 6785 208 l 6786 208 l 6786 209 l 6787 210 l
+ 6788 211 l 6789 213 l 6793 215 l 6796 215 l 6799 214 l
+ 6802 213 l 6806 213 l 6807 213 l 6808 213 l 6808 214 l
+ 6807 214 l 6807 215 l 6806 215 l 6806 216 l 6805 217 l
+ 6804 217 l 6804 218 l 6803 218 l 6803 219 l 6802 219 l
+ 6802 220 l 6802 219 l 6802 218 l 6803 218 l 6803 217 l
+ 6804 216 l 6804 215 l 6805 214 l 6806 213 l 6811 206 l
+ 6815 199 l 6819 194 l 6821 189 l 6824 185 l 6827 179 l
+ 6834 171 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 447.80 5.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 8478 121 m 8479 117 l 8480 114 l 8481 111 l 8482 109 l 8482 107 l
+ 8483 105 l 8484 103 l 8484 102 l 8485 101 l 8485 100 l
+ 8486 99 l 8486 98 l 8486 97 l 8485 96 l 8484 95 l
+ 8481 93 l 8478 91 l 8473 89 l 8467 87 l 8460 85 l
+ 8443 82 l 8426 80 l 8411 80 l 8400 79 l 8390 79 l
+ 8380 79 l 8369 80 l 8354 80 l 8336 82 l 8317 85 l
+ 8307 87 l 8298 90 l 8292 92 l 8288 95 l 8285 96 l
+ 8283 98 l 8282 99 l 8282 100 l 8282 101 l 8282 103 l
+ 8281 104 l 8281 107 l 8280 109 l 8280 113 l 8279 117 l
+ 8280 121 l 8285 129 l 8292 136 l 8300 141 l 8307 144 l
+ 8315 148 l 8323 151 l 8330 154 l 8335 156 l 8334 153 l
+ 8327 148 l 8319 143 l 8310 137 l 8302 130 l 8299 121 l
+ 8300 117 l 8301 114 l 8303 112 l 8304 110 l 8305 109 l
+ 8306 109 l 8308 108 l 8311 107 l 8316 106 l 8324 105 l
+ 8335 103 l 8350 102 l 8364 101 l 8374 100 l 8383 100 l
+ 8390 100 l 8397 100 l 8405 100 l 8416 101 l 8429 102 l
+ 8442 103 l 8447 104 l 8452 105 l 8455 106 l 8458 106 l
+ 8460 107 l 8462 108 l 8463 108 l 8463 109 l 8462 110 l
+ 8461 111 l 8461 112 l 8461 113 l 8461 115 l 8461 117 l
+ 8461 119 l 8460 121 l 8455 130 l 8449 136 l 8443 140 l
+ 8438 144 l 8431 149 l 8424 156 l 8423 157 l 8422 158 l
+ 8421 159 l 8420 160 l 8419 160 l 8419 161 l 8418 161 l
+ 8418 162 l 8417 162 l 8416 162 l 8416 161 l 8417 161 l
+ 8417 160 l 8418 160 l 8419 159 l 8420 159 l 8421 158 l
+ 8422 158 l 8423 157 l 8424 156 l 8432 151 l 8440 147 l
+ 8446 144 l 8453 142 l 8458 139 l 8465 135 l 8472 129 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 551.93 5.27]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 8167 85 m 8174 87 l 8180 88 l 8184 90 l 8188 91 l 8191 92 l
+ 8192 93 l 8193 93 l 8194 93 l 8193 93 l 8193 92 l
+ 8192 92 l 8191 91 l 8190 91 l 8189 91 l 8188 91 l
+ 8187 91 l 8186 92 l 8185 94 l 8185 96 l 8185 99 l
+ 8185 103 l 8185 108 l 8185 114 l 8185 121 l 8185 140 l
+ 8185 157 l 8186 172 l 8188 184 l 8191 194 l 8193 204 l
+ 8193 216 l 8190 229 l 8182 245 l 8167 261 l 8151 271 l
+ 8133 276 l 8117 279 l 8101 278 l 8087 277 l 8073 274 l
+ 8060 271 l 8047 268 l 8034 266 l 8021 264 l 8011 262 l
+ 8006 261 l 8008 259 l 8016 258 l 8026 258 l 8038 258 l
+ 8050 258 l 8063 259 l 8075 260 l 8089 260 l 8103 259 l
+ 8119 256 l 8134 251 l 8149 243 l 8159 235 l 8167 227 l
+ 8172 220 l 8175 214 l 8176 210 l 8177 206 l 8177 202 l
+ 8177 199 l 8177 195 l 8176 190 l 8175 183 l 8174 175 l
+ 8171 166 l 8167 156 l 8158 143 l 8149 134 l 8141 128 l
+ 8135 124 l 8129 122 l 8124 121 l 8116 118 l 8106 114 l
+ 8093 109 l 8077 103 l 8059 98 l 8046 97 l 8038 98 l
+ 8034 100 l 8030 102 l 8024 104 l 8016 104 l 8006 103 l
+ 8004 102 l 8002 102 l 8001 101 l 8000 101 l 7998 100 l
+ 7997 100 l 7996 99 l 7995 98 l 7994 98 l 7993 97 l
+ 7992 97 l 7991 96 l 7990 96 l 7989 95 l 7988 95 l
+ 7987 94 l 7986 94 l 7985 93 l 7984 92 l 7984 91 l
+ 7985 90 l 7986 90 l 7987 89 l 7988 88 l 7990 88 l
+ 7992 87 l 7995 87 l 7998 86 l 8002 86 l 8006 85 l
+ 8021 84 l 8037 83 l 8051 82 l 8064 81 l 8075 81 l
+ 8085 80 l 8095 80 l 8106 80 l 8119 80 l 8134 81 l
+ 8151 83 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 532.27 5.33]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 6394 103 m 6376 102 l 6363 100 l 6356 97 l 6351 94 l 6347 91 l
+ 6341 88 l 6333 86 l 6323 85 l 6319 85 l 6316 86 l
+ 6315 87 l 6314 88 l 6315 89 l 6316 90 l 6317 91 l
+ 6318 92 l 6320 93 l 6321 94 l 6322 95 l 6322 97 l
+ 6323 99 l 6323 101 l 6323 103 l 6323 107 l 6322 110 l
+ 6321 112 l 6320 113 l 6319 114 l 6319 116 l 6320 118 l
+ 6323 120 l 6330 122 l 6335 122 l 6337 121 l 6344 120 l
+ 6358 120 l 6372 120 l 6380 121 l 6383 121 l 6387 122 l
+ 6396 122 l 6412 120 l 6428 117 l 6436 113 l 6439 110 l
+ 6442 107 l 6450 104 l 6466 103 l 6482 105 l 6493 108 l
+ 6500 113 l 6506 117 l 6513 120 l 6519 120 l 6518 115 l
+ 6512 109 l 6505 104 l 6498 98 l 6490 92 l 6483 85 l
+ 6482 84 l 6481 83 l 6480 82 l 6480 81 l 6480 80 l
+ 6481 80 l 6482 80 l 6483 80 l 6484 80 l 6485 80 l
+ 6486 80 l 6487 80 l 6487 81 l 6488 81 l 6489 81 l
+ 6490 81 l 6491 81 l 6492 81 l 6492 82 l 6493 82 l
+ 6493 83 l 6492 83 l 6491 83 l 6490 84 l 6489 84 l
+ 6487 84 l 6485 85 l 6483 85 l 6471 88 l 6459 90 l
+ 6451 93 l 6444 96 l 6438 98 l 6428 100 l 6413 102 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 420.93 5.33]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 7334 160 m 7340 155 l 7350 153 l 7362 153 l 7373 154 l 7384 155 l
+ 7396 157 l 7410 158 l 7423 160 l 7428 161 l 7431 162 l
+ 7433 164 l 7434 164 l 7433 165 l 7432 166 l 7431 166 l
+ 7429 166 l 7427 166 l 7425 167 l 7424 168 l 7422 169 l
+ 7422 170 l 7422 172 l 7422 175 l 7423 178 l 7427 187 l
+ 7431 193 l 7435 197 l 7439 201 l 7441 206 l 7441 213 l
+ 7436 217 l 7430 217 l 7424 216 l 7419 214 l 7412 213 l
+ 7405 213 l 7404 213 l 7403 213 l 7402 213 l 7402 214 l
+ 7403 215 l 7404 215 l 7404 216 l 7405 216 l 7406 216 l
+ 7406 217 l 7407 217 l 7408 217 l 7409 218 l 7410 218 l
+ 7411 219 l 7412 219 l 7413 220 l 7413 219 l 7412 218 l
+ 7411 218 l 7411 217 l 7409 216 l 7408 215 l 7407 214 l
+ 7405 213 l 7395 205 l 7383 198 l 7372 192 l 7362 187 l
+ 7352 181 l 7343 175 l 7336 168 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 488.93 10.20]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 6463 160 m 6465 171 l 6463 183 l 6458 194 l 6451 203 l 6443 212 l
+ 6435 220 l 6428 228 l 6420 237 l 6414 245 l 6409 249 l
+ 6407 247 l 6409 241 l 6414 232 l 6420 223 l 6426 213 l
+ 6430 203 l 6432 191 l 6428 179 l 6420 170 l 6410 165 l
+ 6402 164 l 6394 165 l 6386 166 l 6377 166 l 6367 164 l
+ 6357 160 l 6354 158 l 6351 156 l 6349 155 l 6348 154 l
+ 6348 153 l 6348 152 l 6349 151 l 6350 151 l 6351 150 l
+ 6352 150 l 6353 150 l 6354 149 l 6355 149 l 6356 148 l
+ 6357 147 l 6357 146 l 6357 145 l 6357 144 l 6357 143 l
+ 6357 142 l 6356 142 l 6355 142 l 6354 142 l 6353 142 l
+ 6353 141 l 6352 141 l 6351 141 l 6350 141 l 6349 141 l
+ 6348 141 l 6347 141 l 6346 141 l 6345 141 l 6344 142 l
+ 6345 142 l 6346 142 l 6347 142 l 6349 143 l 6350 143 l
+ 6352 143 l 6354 144 l 6357 144 l 6369 146 l 6382 147 l
+ 6394 147 l 6405 146 l 6415 145 l 6424 144 l 6434 144 l
+ 6445 146 l 6455 151 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 422.93 9.40]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 6744 206 m 6746 217 l 6744 229 l 6739 239 l 6732 249 l 6725 257 l
+ 6717 266 l 6710 274 l 6702 282 l 6696 290 l 6691 294 l
+ 6689 292 l 6691 285 l 6695 277 l 6701 268 l 6707 258 l
+ 6711 248 l 6712 236 l 6708 224 l 6699 215 l 6690 211 l
+ 6682 210 l 6674 211 l 6666 212 l 6657 212 l 6647 210 l
+ 6637 206 l 6633 204 l 6630 202 l 6629 200 l 6628 199 l
+ 6628 198 l 6629 197 l 6630 197 l 6631 196 l 6632 195 l
+ 6634 195 l 6635 194 l 6636 193 l 6636 192 l 6637 191 l
+ 6637 190 l 6637 189 l 6637 188 l 6637 187 l 6636 187 l
+ 6635 187 l 6634 186 l 6633 186 l 6632 186 l 6631 186 l
+ 6630 186 l 6629 186 l 6628 186 l 6627 186 l 6626 186 l
+ 6625 186 l 6624 186 l 6624 187 l 6625 187 l 6626 187 l
+ 6627 187 l 6629 188 l 6630 188 l 6632 188 l 6634 189 l
+ 6637 189 l 6649 191 l 6662 192 l 6674 192 l 6685 191 l
+ 6695 190 l 6705 189 l 6715 190 l 6726 192 l 6736 197 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 441.60 12.40]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 8003 217 m 8005 206 l 8003 194 l 7998 184 l 7991 174 l 7983 166 l
+ 7976 157 l 7968 149 l 7960 141 l 7954 133 l 7949 129 l
+ 7947 131 l 7949 138 l 7953 146 l 7959 155 l 7965 165 l
+ 7970 175 l 7971 187 l 7967 199 l 7959 208 l 7949 212 l
+ 7941 213 l 7933 212 l 7925 211 l 7916 211 l 7906 213 l
+ 7896 217 l 7892 219 l 7889 221 l 7888 223 l 7887 224 l
+ 7887 225 l 7888 226 l 7889 226 l 7890 227 l 7891 228 l
+ 7893 228 l 7894 229 l 7895 230 l 7895 231 l 7896 232 l
+ 7896 233 l 7896 234 l 7896 235 l 7896 236 l 7895 236 l
+ 7894 236 l 7893 237 l 7892 237 l 7891 237 l 7890 237 l
+ 7889 237 l 7888 237 l 7887 237 l 7886 237 l 7885 237 l
+ 7884 237 l 7883 237 l 7883 236 l 7884 236 l 7885 236 l
+ 7886 236 l 7888 235 l 7889 235 l 7891 235 l 7893 234 l
+ 7896 234 l 7908 232 l 7921 231 l 7933 231 l 7944 232 l
+ 7954 233 l 7964 234 l 7974 233 l 7985 231 l 7995 226 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 525.53 8.60]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 5606 222 m 5604 211 l 5606 199 l 5611 188 l 5618 179 l 5626 170 l
+ 5633 162 l 5641 153 l 5649 145 l 5655 137 l 5660 133 l
+ 5662 135 l 5660 141 l 5655 150 l 5649 159 l 5643 169 l
+ 5639 179 l 5637 191 l 5641 203 l 5650 212 l 5659 217 l
+ 5668 218 l 5675 217 l 5683 216 l 5692 216 l 5703 218 l
+ 5713 222 l 5717 224 l 5720 226 l 5721 228 l 5722 229 l
+ 5722 230 l 5721 231 l 5720 232 l 5719 232 l 5718 233 l
+ 5716 233 l 5715 234 l 5714 235 l 5714 236 l 5713 237 l
+ 5713 238 l 5713 239 l 5713 240 l 5713 241 l 5714 241 l
+ 5715 241 l 5716 242 l 5717 242 l 5718 242 l 5719 242 l
+ 5720 242 l 5721 242 l 5722 242 l 5723 242 l 5724 242 l
+ 5725 242 l 5726 242 l 5726 241 l 5725 241 l 5724 241 l
+ 5723 241 l 5721 240 l 5720 240 l 5718 240 l 5716 239 l
+ 5713 239 l 5701 237 l 5688 236 l 5676 236 l 5665 237 l
+ 5655 238 l 5645 239 l 5635 239 l 5624 236 l 5614 231 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 373.60 8.87]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 6537 243 m 6535 232 l 6537 220 l 6542 210 l 6549 200 l 6557 192 l
+ 6564 183 l 6572 175 l 6580 167 l 6586 159 l 6591 155 l
+ 6593 157 l 6591 164 l 6587 172 l 6581 181 l 6575 191 l
+ 6570 201 l 6569 213 l 6573 225 l 6581 234 l 6591 238 l
+ 6599 239 l 6607 238 l 6615 237 l 6624 237 l 6634 239 l
+ 6644 243 l 6648 245 l 6651 247 l 6652 249 l 6653 250 l
+ 6653 251 l 6652 252 l 6651 252 l 6650 253 l 6649 254 l
+ 6647 254 l 6646 255 l 6645 256 l 6645 257 l 6644 258 l
+ 6644 259 l 6644 260 l 6644 261 l 6644 262 l 6645 262 l
+ 6646 262 l 6647 263 l 6648 263 l 6649 263 l 6650 263 l
+ 6651 263 l 6652 263 l 6653 263 l 6654 263 l 6655 263 l
+ 6656 263 l 6657 263 l 6657 262 l 6656 262 l 6655 262 l
+ 6654 262 l 6652 261 l 6651 261 l 6649 261 l 6647 260 l
+ 6644 260 l 6632 258 l 6619 257 l 6607 257 l 6596 258 l
+ 6586 259 l 6576 260 l 6566 259 l 6555 257 l 6545 252 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 435.67 10.33]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 7171 287 m 7159 289 l 7148 287 l 7137 282 l 7128 275 l 7119 268 l
+ 7111 260 l 7102 253 l 7094 245 l 7086 239 l 7082 234 l
+ 7084 232 l 7091 234 l 7100 239 l 7109 244 l 7119 250 l
+ 7130 255 l 7142 256 l 7154 252 l 7163 244 l 7167 234 l
+ 7168 226 l 7167 219 l 7166 211 l 7165 202 l 7167 192 l
+ 7171 182 l 7173 178 l 7175 176 l 7177 174 l 7178 173 l
+ 7179 173 l 7180 174 l 7181 175 l 7181 176 l 7182 177 l
+ 7183 179 l 7183 180 l 7184 181 l 7185 181 l 7186 182 l
+ 7188 182 l 7189 182 l 7190 182 l 7191 182 l 7191 181 l
+ 7191 180 l 7192 180 l 7192 179 l 7192 178 l 7192 177 l
+ 7192 176 l 7192 175 l 7192 174 l 7192 173 l 7192 172 l
+ 7192 171 l 7192 170 l 7192 169 l 7191 169 l 7191 170 l
+ 7191 171 l 7191 172 l 7190 174 l 7190 175 l 7190 177 l
+ 7189 180 l 7189 182 l 7187 194 l 7186 207 l 7186 218 l
+ 7186 229 l 7187 239 l 7188 249 l 7188 259 l 7186 269 l
+ 7180 279 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 472.13 11.27]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 5851 172 m 5850 154 l 5848 141 l 5845 134 l 5842 130 l 5839 126 l
+ 5836 120 l 5834 112 l 5833 102 l 5833 98 l 5834 96 l
+ 5835 94 l 5836 93 l 5837 94 l 5838 95 l 5839 96 l
+ 5840 97 l 5841 99 l 5842 100 l 5843 101 l 5845 101 l
+ 5847 102 l 5849 102 l 5851 102 l 5855 102 l 5858 101 l
+ 5860 100 l 5862 99 l 5863 98 l 5864 98 l 5866 99 l
+ 5869 102 l 5871 109 l 5871 114 l 5870 117 l 5869 123 l
+ 5869 137 l 5869 151 l 5870 158 l 5871 162 l 5871 166 l
+ 5871 174 l 5869 190 l 5865 206 l 5862 214 l 5858 217 l
+ 5855 219 l 5852 227 l 5851 243 l 5853 259 l 5857 270 l
+ 5862 277 l 5866 283 l 5869 290 l 5869 296 l 5864 295 l
+ 5858 289 l 5852 282 l 5847 275 l 5840 267 l 5833 260 l
+ 5832 259 l 5831 258 l 5830 257 l 5829 257 l 5828 257 l
+ 5828 258 l 5828 259 l 5828 260 l 5828 261 l 5828 262 l
+ 5828 263 l 5829 264 l 5829 265 l 5829 266 l 5829 267 l
+ 5829 268 l 5829 269 l 5830 269 l 5830 270 l 5831 270 l
+ 5831 269 l 5831 268 l 5832 267 l 5832 266 l 5832 264 l
+ 5833 262 l 5833 260 l 5836 248 l 5838 236 l 5841 228 l
+ 5844 222 l 5846 215 l 5848 206 l 5850 191 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 388.53 6.20]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 6123 217 m 6112 229 l 6105 235 l 6101 236 l 6097 237 l 6093 242 l
+ 6088 252 l 6087 257 l 6087 261 l 6087 265 l 6087 267 l
+ 6087 270 l 6087 271 l 6087 272 l 6087 274 l 6087 275 l
+ 6088 277 l 6091 279 l 6094 281 l 6099 284 l 6106 287 l
+ 6120 290 l 6133 292 l 6144 294 l 6152 294 l 6160 295 l
+ 6170 294 l 6182 292 l 6195 287 l 6204 277 l 6204 268 l
+ 6198 262 l 6192 255 l 6190 246 l 6195 234 l 6206 225 l
+ 6218 221 l 6230 220 l 6240 219 l 6248 218 l 6249 217 l
+ 6241 218 l 6230 219 l 6218 220 l 6207 221 l 6196 222 l
+ 6183 224 l 6170 228 l 6159 234 l 6153 243 l 6157 249 l
+ 6165 253 l 6174 258 l 6179 263 l 6177 270 l 6169 274 l
+ 6160 275 l 6151 274 l 6143 274 l 6133 272 l 6123 270 l
+ 6120 269 l 6118 268 l 6117 266 l 6116 266 l 6116 265 l
+ 6116 264 l 6117 264 l 6118 264 l 6118 263 l 6119 262 l
+ 6120 261 l 6120 260 l 6121 258 l 6122 255 l 6123 252 l
+ 6126 244 l 6129 238 l 6130 236 l 6131 233 l 6135 227 l
+ 6142 217 l 6151 207 l 6157 201 l 6161 198 l 6165 196 l
+ 6170 190 l 6177 182 l 6180 177 l 6181 174 l 6182 172 l
+ 6182 171 l 6181 170 l 6180 169 l 6179 168 l 6178 166 l
+ 6177 164 l 6173 162 l 6169 162 l 6167 163 l 6163 164 l
+ 6159 164 l 6158 164 l 6157 164 l 6157 163 l 6158 163 l
+ 6158 162 l 6159 161 l 6160 160 l 6161 160 l 6161 159 l
+ 6162 159 l 6162 158 l 6163 158 l 6163 157 l 6163 158 l
+ 6163 159 l 6162 159 l 6162 160 l 6161 161 l 6161 162 l
+ 6160 163 l 6159 164 l 6154 171 l 6149 178 l 6146 183 l
+ 6144 188 l 6141 192 l 6137 198 l 6131 206 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 405.80 10.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 9435 243 m 9446 231 l 9453 225 l 9457 224 l 9461 223 l 9465 218 l
+ 9470 208 l 9471 203 l 9471 199 l 9471 195 l 9471 192 l
+ 9471 190 l 9472 188 l 9472 187 l 9472 186 l 9472 184 l
+ 9470 183 l 9468 180 l 9465 178 l 9460 175 l 9453 172 l
+ 9439 169 l 9425 167 l 9415 165 l 9407 165 l 9398 164 l
+ 9388 165 l 9376 167 l 9363 172 l 9354 182 l 9354 191 l
+ 9360 198 l 9366 204 l 9368 214 l 9363 226 l 9352 235 l
+ 9340 239 l 9329 240 l 9318 241 l 9310 242 l 9309 243 l
+ 9317 242 l 9328 241 l 9339 240 l 9350 239 l 9362 238 l
+ 9374 235 l 9387 232 l 9398 226 l 9404 217 l 9401 211 l
+ 9393 207 l 9385 203 l 9380 198 l 9382 191 l 9390 187 l
+ 9399 186 l 9407 187 l 9415 188 l 9425 189 l 9435 191 l
+ 9438 192 l 9440 193 l 9441 194 l 9442 195 l 9442 196 l
+ 9441 196 l 9441 197 l 9440 197 l 9439 198 l 9438 199 l
+ 9437 201 l 9437 203 l 9436 205 l 9435 208 l 9432 216 l
+ 9429 221 l 9428 224 l 9427 227 l 9423 233 l 9416 243 l
+ 9407 254 l 9401 260 l 9397 263 l 9394 265 l 9388 271 l
+ 9382 279 l 9380 283 l 9378 286 l 9378 288 l 9377 289 l
+ 9377 290 l 9378 291 l 9379 291 l 9379 292 l 9380 293 l
+ 9381 294 l 9382 296 l 9386 298 l 9389 298 l 9391 297 l
+ 9394 296 l 9398 296 l 9399 296 l 9399 297 l 9399 298 l
+ 9398 298 l 9398 299 l 9397 299 l 9397 300 l 9396 300 l
+ 9396 301 l 9395 301 l 9395 302 l 9394 302 l 9394 303 l
+ 9394 302 l 9394 301 l 9395 301 l 9395 300 l 9396 299 l
+ 9396 298 l 9397 297 l 9398 296 l 9403 289 l 9408 282 l
+ 9411 277 l 9414 272 l 9416 268 l 9420 262 l 9427 254 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 620.60 10.93]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 8369 287 m 8357 289 l 8346 287 l 8335 282 l 8326 275 l 8317 268 l
+ 8309 260 l 8300 253 l 8292 245 l 8284 239 l 8280 234 l
+ 8282 232 l 8289 234 l 8297 239 l 8307 245 l 8316 250 l
+ 8327 255 l 8339 256 l 8351 252 l 8360 244 l 8364 234 l
+ 8365 226 l 8364 218 l 8363 210 l 8363 201 l 8365 191 l
+ 8369 181 l 8371 177 l 8373 174 l 8375 173 l 8376 172 l
+ 8377 172 l 8378 173 l 8379 174 l 8380 175 l 8380 176 l
+ 8381 178 l 8381 179 l 8382 180 l 8383 180 l 8384 181 l
+ 8386 181 l 8387 181 l 8388 181 l 8389 181 l 8389 180 l
+ 8389 179 l 8390 179 l 8390 178 l 8390 177 l 8390 176 l
+ 8390 175 l 8390 174 l 8390 173 l 8390 172 l 8390 171 l
+ 8390 170 l 8390 169 l 8390 168 l 8389 168 l 8389 169 l
+ 8389 170 l 8389 171 l 8388 173 l 8388 174 l 8388 176 l
+ 8387 178 l 8387 181 l 8385 193 l 8384 206 l 8384 218 l
+ 8384 229 l 8385 238 l 8386 248 l 8386 258 l 8384 269 l
+ 8378 279 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 552.00 11.20]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 7689 279 m 7707 278 l 7720 276 l 7728 273 l 7732 270 l 7736 266 l
+ 7742 263 l 7751 261 l 7761 260 l 7765 260 l 7768 261 l
+ 7769 262 l 7770 263 l 7770 264 l 7769 265 l 7768 266 l
+ 7767 267 l 7766 267 l 7764 269 l 7763 270 l 7762 271 l
+ 7762 273 l 7761 275 l 7761 277 l 7761 279 l 7761 283 l
+ 7762 286 l 7763 288 l 7764 289 l 7765 290 l 7765 292 l
+ 7764 294 l 7761 296 l 7754 298 l 7749 298 l 7747 297 l
+ 7740 296 l 7726 296 l 7712 296 l 7704 297 l 7701 297 l
+ 7697 298 l 7688 298 l 7672 296 l 7656 293 l 7648 289 l
+ 7645 286 l 7642 283 l 7634 280 l 7618 279 l 7602 281 l
+ 7591 284 l 7583 289 l 7577 294 l 7570 297 l 7564 296 l
+ 7565 291 l 7571 285 l 7578 279 l 7586 274 l 7594 267 l
+ 7601 260 l 7602 259 l 7603 258 l 7604 257 l 7604 256 l
+ 7604 255 l 7603 255 l 7602 255 l 7601 255 l 7600 255 l
+ 7599 255 l 7598 255 l 7597 255 l 7596 256 l 7595 256 l
+ 7594 256 l 7593 256 l 7592 256 l 7591 257 l 7592 258 l
+ 7593 258 l 7594 258 l 7595 259 l 7597 259 l 7599 260 l
+ 7601 260 l 7613 263 l 7625 266 l 7633 269 l 7639 271 l
+ 7646 274 l 7655 276 l 7670 278 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 504.27 17.00]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 6440 274 m 6438 263 l 6440 251 l 6445 240 l 6452 231 l 6460 223 l
+ 6467 214 l 6475 206 l 6483 198 l 6489 190 l 6494 186 l
+ 6496 188 l 6494 195 l 6489 203 l 6484 212 l 6478 222 l
+ 6473 232 l 6472 244 l 6476 256 l 6485 265 l 6494 269 l
+ 6503 270 l 6511 269 l 6518 268 l 6527 268 l 6538 270 l
+ 6548 274 l 6552 276 l 6555 278 l 6556 280 l 6557 281 l
+ 6557 282 l 6556 283 l 6555 284 l 6554 285 l 6553 285 l
+ 6551 286 l 6550 286 l 6549 287 l 6549 288 l 6548 289 l
+ 6548 291 l 6548 292 l 6548 293 l 6548 294 l 6549 294 l
+ 6550 294 l 6550 295 l 6551 295 l 6552 295 l 6553 295 l
+ 6554 295 l 6555 295 l 6556 295 l 6557 295 l 6558 295 l
+ 6559 295 l 6560 295 l 6561 295 l 6561 294 l 6560 294 l
+ 6559 294 l 6558 294 l 6557 293 l 6555 293 l 6553 293 l
+ 6551 292 l 6548 292 l 6536 290 l 6523 289 l 6511 289 l
+ 6500 289 l 6489 290 l 6480 291 l 6469 291 l 6458 288 l
+ 6448 283 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 429.20 12.40]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 6382 274 m 6384 263 l 6382 251 l 6377 240 l 6370 231 l 6362 223 l
+ 6355 214 l 6347 206 l 6339 198 l 6333 190 l 6328 186 l
+ 6326 188 l 6328 195 l 6333 204 l 6339 213 l 6344 222 l
+ 6349 233 l 6350 245 l 6346 257 l 6337 266 l 6328 270 l
+ 6319 271 l 6312 270 l 6304 269 l 6295 268 l 6284 270 l
+ 6274 274 l 6270 276 l 6267 278 l 6266 280 l 6265 281 l
+ 6265 282 l 6266 283 l 6267 284 l 6268 284 l 6269 285 l
+ 6271 286 l 6272 286 l 6273 287 l 6273 288 l 6274 289 l
+ 6274 291 l 6274 292 l 6274 293 l 6274 294 l 6273 294 l
+ 6272 294 l 6272 295 l 6271 295 l 6270 295 l 6269 295 l
+ 6268 295 l 6267 295 l 6266 295 l 6265 295 l 6264 295 l
+ 6263 295 l 6262 295 l 6261 295 l 6261 294 l 6262 294 l
+ 6263 294 l 6264 294 l 6265 293 l 6267 293 l 6269 293 l
+ 6271 292 l 6274 292 l 6286 290 l 6299 289 l 6311 289 l
+ 6322 289 l 6333 290 l 6342 291 l 6353 291 l 6364 288 l
+ 6374 283 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 417.40 12.40]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 6941 274 m 6943 263 l 6941 251 l 6936 240 l 6929 231 l 6922 223 l
+ 6914 214 l 6907 206 l 6899 198 l 6893 190 l 6888 186 l
+ 6886 188 l 6888 195 l 6893 203 l 6899 212 l 6904 222 l
+ 6909 232 l 6910 244 l 6906 256 l 6897 265 l 6888 269 l
+ 6879 270 l 6872 269 l 6864 268 l 6855 268 l 6844 270 l
+ 6834 274 l 6830 276 l 6827 278 l 6826 280 l 6825 281 l
+ 6825 282 l 6826 283 l 6827 284 l 6828 285 l 6829 285 l
+ 6831 286 l 6832 286 l 6833 287 l 6833 288 l 6834 289 l
+ 6834 291 l 6834 292 l 6834 293 l 6834 294 l 6833 294 l
+ 6832 294 l 6832 295 l 6831 295 l 6830 295 l 6829 295 l
+ 6828 295 l 6827 295 l 6826 295 l 6825 295 l 6824 295 l
+ 6823 295 l 6822 295 l 6821 295 l 6821 294 l 6822 294 l
+ 6823 294 l 6824 294 l 6826 293 l 6827 293 l 6829 293 l
+ 6831 292 l 6834 292 l 6846 290 l 6859 289 l 6871 289 l
+ 6882 289 l 6892 290 l 6902 291 l 6912 291 l 6923 288 l
+ 6933 283 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 454.73 12.40]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 581 177 m 586 189 l 593 195 l 601 196 l 608 197 l 614 202 l
+ 617 212 l 614 222 l 606 227 l 598 229 l 589 230 l
+ 582 236 l 581 248 l 586 259 l 593 268 l 602 275 l
+ 612 281 l 621 287 l 629 292 l 634 297 l 634 300 l
+ 628 298 l 619 295 l 610 290 l 600 286 l 590 281 l
+ 580 277 l 570 271 l 561 265 l 552 257 l 546 248 l
+ 546 238 l 551 232 l 559 229 l 568 229 l 578 228 l
+ 587 225 l 595 220 l 599 212 l 598 202 l 592 198 l
+ 585 197 l 577 197 l 569 191 l 562 177 l 559 164 l
+ 557 153 l 557 145 l 557 139 l 558 133 l 559 125 l
+ 560 116 l 562 106 l 563 103 l 564 100 l 566 98 l
+ 567 97 l 568 97 l 569 97 l 569 98 l 570 99 l
+ 571 99 l 571 100 l 572 101 l 573 102 l 574 103 l
+ 575 103 l 577 104 l 579 105 l 581 106 l 585 109 l
+ 589 110 l 591 111 l 593 111 l 595 112 l 596 113 l
+ 598 118 l 599 125 l 597 137 l 593 145 l 588 150 l
+ 584 155 l 581 163 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 36.40 6.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 747 189 m 734 184 l 729 177 l 727 170 l 726 162 l 721 156 l
+ 711 153 l 701 156 l 696 164 l 695 173 l 694 181 l
+ 688 188 l 676 189 l 665 184 l 655 176 l 648 167 l
+ 642 158 l 636 148 l 630 140 l 625 135 l 622 135 l
+ 624 141 l 628 149 l 632 159 l 637 169 l 642 179 l
+ 647 189 l 652 199 l 659 208 l 667 217 l 676 223 l
+ 688 222 l 694 213 l 695 201 l 696 188 l 701 177 l
+ 711 170 l 721 171 l 726 177 l 726 184 l 727 191 l
+ 733 199 l 747 206 l 760 209 l 772 211 l 779 211 l
+ 786 210 l 791 210 l 799 209 l 808 208 l 818 206 l
+ 821 205 l 824 204 l 825 203 l 826 202 l 827 202 l
+ 827 201 l 827 200 l 826 199 l 825 199 l 824 198 l
+ 823 198 l 822 197 l 821 196 l 821 195 l 820 194 l
+ 819 192 l 819 191 l 818 189 l 816 185 l 814 181 l
+ 814 179 l 814 177 l 814 175 l 812 173 l 808 171 l
+ 801 170 l 789 172 l 781 176 l 776 181 l 770 186 l
+ 761 189 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 41.47 9.00]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 706 99 m 688 100 l 675 102 l 667 105 l 663 108 l 658 111 l
+ 653 114 l 644 116 l 634 117 l 630 117 l 627 116 l
+ 626 115 l 625 114 l 626 113 l 627 112 l 628 111 l
+ 629 110 l 631 109 l 632 108 l 633 107 l 633 105 l
+ 634 103 l 634 101 l 634 99 l 634 95 l 633 92 l
+ 632 90 l 631 89 l 630 87 l 630 86 l 631 84 l
+ 634 81 l 641 79 l 645 79 l 648 80 l 650 80 l
+ 657 81 l 670 81 l 684 81 l 692 80 l 696 79 l
+ 699 79 l 708 79 l 724 81 l 740 85 l 748 88 l
+ 751 92 l 753 95 l 761 98 l 777 99 l 793 97 l
+ 804 93 l 811 88 l 818 84 l 825 81 l 831 81 l
+ 830 86 l 824 92 l 817 98 l 810 103 l 802 110 l
+ 795 117 l 794 118 l 793 119 l 792 120 l 792 121 l
+ 792 122 l 793 122 l 794 122 l 795 122 l 796 122 l
+ 797 122 l 798 122 l 799 122 l 799 121 l 800 121 l
+ 801 121 l 802 121 l 803 121 l 804 121 l 804 120 l
+ 805 120 l 805 119 l 804 119 l 803 119 l 802 118 l
+ 801 118 l 799 118 l 797 117 l 795 117 l 783 114 l
+ 771 112 l 763 109 l 757 107 l 750 104 l 740 102 l
+ 725 100 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 41.67 5.27]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 508 177 m 513 189 l 520 195 l 527 196 l 535 197 l 541 202 l
+ 544 212 l 541 222 l 533 227 l 524 229 l 516 230 l
+ 509 236 l 508 248 l 513 259 l 521 268 l 530 275 l
+ 539 281 l 549 287 l 557 292 l 562 297 l 562 300 l
+ 556 298 l 547 295 l 537 290 l 527 286 l 517 281 l
+ 508 277 l 498 271 l 488 265 l 479 257 l 473 248 l
+ 473 238 l 478 232 l 486 229 l 496 229 l 505 228 l
+ 514 225 l 522 220 l 527 212 l 526 202 l 520 198 l
+ 513 197 l 506 197 l 498 191 l 491 177 l 488 164 l
+ 486 153 l 486 145 l 487 139 l 487 133 l 488 125 l
+ 489 116 l 491 106 l 492 103 l 493 100 l 494 99 l
+ 495 97 l 496 97 l 497 97 l 498 98 l 498 99 l
+ 499 100 l 499 101 l 500 102 l 501 102 l 502 103 l
+ 503 104 l 505 104 l 506 105 l 508 106 l 512 108 l
+ 515 110 l 517 111 l 519 111 l 521 111 l 522 111 l
+ 524 112 l 525 115 l 526 119 l 527 125 l 525 137 l
+ 521 145 l 516 150 l 511 155 l 508 163 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 31.53 6.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 758 256 m 746 251 l 740 244 l 739 237 l 737 230 l 732 224 l
+ 722 221 l 712 224 l 707 232 l 705 240 l 704 248 l
+ 698 255 l 686 256 l 675 251 l 665 244 l 658 234 l
+ 652 225 l 646 216 l 640 208 l 635 202 l 632 203 l
+ 634 209 l 638 218 l 642 228 l 647 238 l 652 248 l
+ 656 257 l 662 267 l 669 277 l 677 286 l 686 292 l
+ 696 293 l 702 287 l 705 279 l 706 270 l 706 261 l
+ 708 251 l 714 244 l 722 239 l 732 240 l 737 245 l
+ 737 252 l 738 259 l 744 267 l 758 274 l 771 277 l
+ 783 279 l 790 279 l 797 278 l 802 278 l 810 277 l
+ 819 276 l 829 274 l 832 273 l 835 272 l 837 271 l
+ 838 270 l 838 269 l 838 268 l 838 267 l 837 267 l
+ 836 266 l 835 265 l 834 265 l 833 264 l 832 263 l
+ 831 261 l 831 260 l 830 258 l 829 256 l 827 252 l
+ 825 249 l 824 246 l 824 245 l 824 243 l 823 241 l
+ 818 240 l 811 239 l 799 241 l 791 244 l 786 249 l
+ 781 253 l 772 256 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 42.13 13.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 5211 117 m 5213 128 l 5211 140 l 5206 150 l 5199 160 l 5192 168 l
+ 5184 177 l 5177 185 l 5169 193 l 5163 201 l 5158 205 l
+ 5156 203 l 5158 196 l 5162 188 l 5168 179 l 5174 169 l
+ 5178 159 l 5179 147 l 5175 135 l 5166 126 l 5157 122 l
+ 5149 121 l 5141 122 l 5133 123 l 5124 123 l 5114 121 l
+ 5104 117 l 5100 115 l 5097 113 l 5096 111 l 5095 110 l
+ 5095 109 l 5096 108 l 5097 108 l 5098 107 l 5099 106 l
+ 5101 106 l 5102 105 l 5103 104 l 5103 103 l 5104 102 l
+ 5104 101 l 5104 100 l 5104 99 l 5104 98 l 5103 98 l
+ 5102 98 l 5101 97 l 5100 97 l 5099 97 l 5098 97 l
+ 5097 97 l 5096 97 l 5095 97 l 5094 97 l 5093 97 l
+ 5092 97 l 5091 97 l 5091 98 l 5092 98 l 5093 98 l
+ 5094 98 l 5096 99 l 5097 99 l 5099 99 l 5101 100 l
+ 5104 100 l 5116 102 l 5129 103 l 5141 103 l 5152 102 l
+ 5162 101 l 5172 100 l 5182 101 l 5193 103 l 5203 108 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 339.40 6.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 5355 180 m 5373 179 l 5386 177 l 5394 174 l 5398 171 l 5402 167 l
+ 5408 164 l 5417 162 l 5427 161 l 5431 161 l 5434 162 l
+ 5435 163 l 5436 164 l 5436 165 l 5435 166 l 5434 167 l
+ 5433 168 l 5432 168 l 5430 170 l 5429 171 l 5428 172 l
+ 5428 174 l 5427 176 l 5427 178 l 5427 180 l 5427 184 l
+ 5428 187 l 5429 189 l 5430 190 l 5431 191 l 5431 193 l
+ 5430 195 l 5427 197 l 5420 199 l 5415 199 l 5413 198 l
+ 5406 197 l 5392 197 l 5378 197 l 5370 198 l 5367 198 l
+ 5363 199 l 5354 199 l 5338 197 l 5322 194 l 5314 190 l
+ 5311 187 l 5308 184 l 5300 181 l 5284 180 l 5268 182 l
+ 5257 185 l 5249 190 l 5243 195 l 5236 198 l 5230 197 l
+ 5231 192 l 5237 186 l 5244 180 l 5252 175 l 5260 168 l
+ 5267 161 l 5268 160 l 5269 159 l 5270 158 l 5270 157 l
+ 5270 156 l 5269 156 l 5268 156 l 5267 156 l 5266 156 l
+ 5265 156 l 5264 156 l 5263 156 l 5262 157 l 5261 157 l
+ 5260 157 l 5259 157 l 5258 157 l 5257 158 l 5258 159 l
+ 5259 159 l 5260 159 l 5261 160 l 5263 160 l 5265 161 l
+ 5267 161 l 5279 164 l 5291 167 l 5299 170 l 5305 172 l
+ 5312 175 l 5321 177 l 5336 179 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 348.67 10.40]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 5218 265 m 5236 264 l 5249 262 l 5257 259 l 5261 256 l 5265 252 l
+ 5271 249 l 5280 247 l 5290 246 l 5294 246 l 5297 247 l
+ 5298 248 l 5299 249 l 5299 250 l 5298 251 l 5297 252 l
+ 5296 253 l 5295 253 l 5293 255 l 5292 256 l 5291 257 l
+ 5291 259 l 5290 261 l 5290 263 l 5290 265 l 5290 269 l
+ 5291 272 l 5292 274 l 5293 275 l 5294 276 l 5294 278 l
+ 5293 280 l 5290 282 l 5283 284 l 5278 284 l 5276 283 l
+ 5269 282 l 5255 282 l 5241 282 l 5233 283 l 5230 283 l
+ 5226 284 l 5217 284 l 5201 282 l 5185 279 l 5177 275 l
+ 5174 272 l 5171 269 l 5163 266 l 5147 265 l 5131 267 l
+ 5120 270 l 5112 275 l 5106 280 l 5099 283 l 5093 282 l
+ 5094 277 l 5100 271 l 5107 265 l 5115 260 l 5123 253 l
+ 5130 246 l 5131 245 l 5132 244 l 5133 243 l 5133 242 l
+ 5133 241 l 5132 241 l 5131 241 l 5130 241 l 5129 241 l
+ 5128 241 l 5127 241 l 5126 241 l 5125 242 l 5124 242 l
+ 5123 242 l 5122 242 l 5121 242 l 5120 243 l 5121 244 l
+ 5122 244 l 5123 244 l 5124 245 l 5126 245 l 5128 246 l
+ 5130 246 l 5142 249 l 5154 252 l 5162 255 l 5168 257 l
+ 5175 260 l 5184 262 l 5199 264 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 339.53 16.07]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 5320 124 m 5302 123 l 5289 121 l 5281 118 l 5277 115 l 5273 111 l
+ 5267 108 l 5258 106 l 5248 105 l 5244 105 l 5241 106 l
+ 5240 107 l 5239 108 l 5239 109 l 5240 110 l 5241 111 l
+ 5242 112 l 5243 112 l 5245 114 l 5246 115 l 5247 116 l
+ 5247 118 l 5248 120 l 5248 122 l 5248 124 l 5248 128 l
+ 5247 131 l 5246 133 l 5245 134 l 5244 135 l 5244 137 l
+ 5245 139 l 5248 141 l 5255 143 l 5260 143 l 5262 142 l
+ 5269 141 l 5283 141 l 5297 141 l 5305 142 l 5308 142 l
+ 5312 143 l 5321 143 l 5337 141 l 5353 138 l 5361 134 l
+ 5364 131 l 5367 128 l 5375 125 l 5391 124 l 5407 126 l
+ 5418 129 l 5426 134 l 5432 139 l 5439 142 l 5445 141 l
+ 5444 136 l 5438 130 l 5431 124 l 5423 119 l 5415 112 l
+ 5408 105 l 5407 104 l 5406 103 l 5405 102 l 5405 101 l
+ 5405 100 l 5406 100 l 5407 100 l 5408 100 l 5409 100 l
+ 5410 100 l 5411 100 l 5412 100 l 5413 101 l 5414 101 l
+ 5415 101 l 5416 101 l 5417 101 l 5418 102 l 5417 103 l
+ 5416 103 l 5415 103 l 5414 104 l 5412 104 l 5410 105 l
+ 5408 105 l 5396 108 l 5384 111 l 5376 114 l 5370 116 l
+ 5363 119 l 5354 121 l 5339 123 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 349.27 6.67]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 5597 177 m 5599 166 l 5597 154 l 5592 143 l 5585 134 l 5578 126 l
+ 5570 117 l 5563 109 l 5555 101 l 5549 93 l 5544 89 l
+ 5542 91 l 5544 98 l 5549 106 l 5555 115 l 5560 125 l
+ 5565 135 l 5566 147 l 5562 159 l 5553 168 l 5544 172 l
+ 5535 173 l 5528 172 l 5520 171 l 5511 171 l 5500 173 l
+ 5490 177 l 5486 179 l 5483 181 l 5482 183 l 5481 184 l
+ 5481 185 l 5482 186 l 5483 187 l 5484 188 l 5485 188 l
+ 5487 189 l 5488 189 l 5489 190 l 5489 191 l 5490 192 l
+ 5490 194 l 5490 195 l 5490 196 l 5490 197 l 5489 197 l
+ 5488 197 l 5488 198 l 5487 198 l 5486 198 l 5485 198 l
+ 5484 198 l 5483 198 l 5482 198 l 5481 198 l 5480 198 l
+ 5479 198 l 5478 198 l 5477 198 l 5477 197 l 5478 197 l
+ 5479 197 l 5480 197 l 5482 196 l 5483 196 l 5485 196 l
+ 5487 195 l 5490 195 l 5502 193 l 5515 192 l 5527 192 l
+ 5538 192 l 5548 193 l 5558 194 l 5568 194 l 5579 191 l
+ 5589 186 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 365.13 5.93]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 1782 292 m 1775 290 l 1769 289 l 1765 287 l 1761 286 l 1758 285 l
+ 1757 284 l 1756 284 l 1755 284 l 1756 284 l 1756 285 l
+ 1757 285 l 1758 286 l 1759 286 l 1760 286 l 1761 286 l
+ 1762 286 l 1763 285 l 1764 283 l 1764 281 l 1764 278 l
+ 1764 274 l 1764 269 l 1764 263 l 1764 256 l 1764 237 l
+ 1764 220 l 1763 205 l 1761 193 l 1758 183 l 1756 173 l
+ 1756 161 l 1759 148 l 1767 132 l 1782 116 l 1798 106 l
+ 1816 101 l 1832 98 l 1848 99 l 1862 100 l 1876 103 l
+ 1889 106 l 1902 109 l 1915 111 l 1928 113 l 1938 115 l
+ 1943 116 l 1941 118 l 1933 119 l 1923 119 l 1911 119 l
+ 1899 119 l 1886 118 l 1874 117 l 1860 117 l 1846 118 l
+ 1830 121 l 1815 126 l 1800 134 l 1790 142 l 1782 150 l
+ 1777 157 l 1774 163 l 1773 167 l 1772 171 l 1772 175 l
+ 1772 178 l 1772 182 l 1773 187 l 1774 194 l 1775 202 l
+ 1778 211 l 1782 221 l 1791 234 l 1800 243 l 1808 249 l
+ 1814 253 l 1820 255 l 1825 256 l 1833 259 l 1843 263 l
+ 1856 268 l 1872 274 l 1890 279 l 1903 280 l 1911 279 l
+ 1915 277 l 1919 275 l 1925 273 l 1933 273 l 1943 274 l
+ 1945 275 l 1947 275 l 1948 276 l 1949 276 l 1951 277 l
+ 1952 277 l 1953 278 l 1954 279 l 1955 279 l 1956 280 l
+ 1957 280 l 1958 281 l 1959 281 l 1960 282 l 1961 282 l
+ 1962 283 l 1963 283 l 1964 284 l 1965 285 l 1965 286 l
+ 1964 287 l 1963 287 l 1962 288 l 1961 289 l 1959 289 l
+ 1957 290 l 1954 290 l 1951 291 l 1947 291 l 1943 292 l
+ 1928 293 l 1912 294 l 1898 295 l 1885 296 l 1874 296 l
+ 1864 297 l 1854 297 l 1843 297 l 1830 297 l 1815 296 l
+ 1798 294 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 117.00 6.53]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 2087 177 m 2082 189 l 2075 195 l 2067 196 l 2060 197 l 2054 202 l
+ 2051 212 l 2054 222 l 2062 227 l 2071 229 l 2079 230 l
+ 2086 236 l 2087 248 l 2082 259 l 2074 268 l 2065 275 l
+ 2056 281 l 2046 287 l 2038 292 l 2033 297 l 2033 300 l
+ 2039 298 l 2048 295 l 2058 290 l 2068 286 l 2077 281 l
+ 2087 277 l 2097 271 l 2107 265 l 2116 257 l 2122 248 l
+ 2123 238 l 2117 232 l 2109 229 l 2100 229 l 2091 228 l
+ 2081 225 l 2074 220 l 2069 212 l 2070 202 l 2075 198 l
+ 2082 197 l 2089 197 l 2097 191 l 2104 177 l 2107 164 l
+ 2109 153 l 2109 145 l 2108 139 l 2108 133 l 2107 125 l
+ 2106 116 l 2104 106 l 2103 103 l 2102 100 l 2101 99 l
+ 2100 98 l 2100 97 l 2099 97 l 2098 97 l 2097 98 l
+ 2097 99 l 2096 100 l 2096 101 l 2095 102 l 2094 102 l
+ 2093 103 l 2092 104 l 2090 104 l 2089 105 l 2087 106 l
+ 2083 108 l 2079 110 l 2077 111 l 2075 111 l 2073 111 l
+ 2072 112 l 2070 117 l 2069 124 l 2071 136 l 2075 144 l
+ 2080 149 l 2084 154 l 2087 163 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 135.53 6.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 2181 177 m 2176 189 l 2169 195 l 2161 196 l 2154 197 l 2148 202 l
+ 2145 212 l 2148 222 l 2156 227 l 2165 229 l 2173 230 l
+ 2180 236 l 2181 248 l 2176 259 l 2168 268 l 2159 275 l
+ 2150 281 l 2140 287 l 2132 292 l 2127 297 l 2127 300 l
+ 2133 298 l 2142 295 l 2152 290 l 2162 286 l 2171 281 l
+ 2181 277 l 2191 271 l 2201 265 l 2210 257 l 2216 248 l
+ 2217 238 l 2211 232 l 2203 229 l 2194 229 l 2185 228 l
+ 2175 225 l 2168 220 l 2163 212 l 2164 202 l 2169 198 l
+ 2176 197 l 2183 197 l 2191 191 l 2198 177 l 2201 164 l
+ 2203 153 l 2203 145 l 2202 139 l 2202 133 l 2201 125 l
+ 2200 116 l 2198 106 l 2197 103 l 2196 100 l 2195 99 l
+ 2194 98 l 2194 97 l 2193 97 l 2192 97 l 2191 98 l
+ 2191 99 l 2190 100 l 2190 101 l 2189 102 l 2188 102 l
+ 2187 103 l 2186 104 l 2184 104 l 2183 105 l 2181 106 l
+ 2177 108 l 2173 110 l 2171 111 l 2169 111 l 2167 111 l
+ 2166 112 l 2164 117 l 2163 124 l 2165 136 l 2169 144 l
+ 2174 149 l 2178 154 l 2181 163 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 141.80 6.47]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 9240 85 m 9247 87 l 9253 88 l 9257 90 l 9261 91 l 9264 92 l
+ 9265 93 l 9266 93 l 9267 93 l 9266 93 l 9266 92 l
+ 9265 92 l 9264 91 l 9263 91 l 9262 91 l 9261 91 l
+ 9260 91 l 9259 92 l 9258 94 l 9258 96 l 9258 99 l
+ 9258 103 l 9258 108 l 9258 114 l 9258 121 l 9258 140 l
+ 9258 157 l 9259 172 l 9261 184 l 9264 194 l 9266 204 l
+ 9266 216 l 9263 229 l 9255 245 l 9240 261 l 9224 271 l
+ 9206 276 l 9190 279 l 9174 278 l 9160 277 l 9146 274 l
+ 9133 271 l 9120 268 l 9107 266 l 9094 264 l 9084 262 l
+ 9079 261 l 9081 259 l 9089 258 l 9099 258 l 9111 258 l
+ 9123 258 l 9136 259 l 9148 260 l 9162 260 l 9176 259 l
+ 9192 256 l 9207 251 l 9222 243 l 9232 235 l 9240 227 l
+ 9245 220 l 9248 214 l 9249 210 l 9250 206 l 9250 202 l
+ 9250 199 l 9250 195 l 9249 190 l 9248 183 l 9247 175 l
+ 9244 166 l 9240 156 l 9231 143 l 9222 134 l 9214 128 l
+ 9208 124 l 9202 122 l 9197 121 l 9189 118 l 9179 114 l
+ 9166 109 l 9150 103 l 9132 98 l 9119 97 l 9111 98 l
+ 9107 100 l 9103 102 l 9097 104 l 9089 104 l 9079 103 l
+ 9077 102 l 9075 102 l 9074 101 l 9073 101 l 9071 100 l
+ 9070 100 l 9069 99 l 9068 98 l 9067 98 l 9066 97 l
+ 9065 97 l 9064 96 l 9063 96 l 9062 95 l 9061 95 l
+ 9060 94 l 9059 94 l 9058 93 l 9057 92 l 9057 91 l
+ 9058 90 l 9059 90 l 9060 89 l 9061 88 l 9063 88 l
+ 9065 87 l 9068 87 l 9071 86 l 9075 86 l 9079 85 l
+ 9094 84 l 9110 83 l 9124 82 l 9137 81 l 9148 81 l
+ 9158 80 l 9168 80 l 9179 80 l 9192 80 l 9207 81 l
+ 9224 83 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 603.80 5.33]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 9135 217 m 9137 206 l 9135 194 l 9130 184 l 9123 174 l 9115 166 l
+ 9108 157 l 9100 149 l 9092 141 l 9086 133 l 9081 129 l
+ 9079 131 l 9081 138 l 9085 146 l 9091 155 l 9097 165 l
+ 9102 175 l 9103 187 l 9099 199 l 9091 208 l 9081 212 l
+ 9073 213 l 9065 212 l 9057 211 l 9048 211 l 9038 213 l
+ 9028 217 l 9024 219 l 9021 221 l 9020 223 l 9019 224 l
+ 9019 225 l 9020 226 l 9021 226 l 9022 227 l 9023 228 l
+ 9025 228 l 9026 229 l 9027 230 l 9027 231 l 9028 232 l
+ 9028 233 l 9028 234 l 9028 235 l 9028 236 l 9027 236 l
+ 9026 236 l 9025 237 l 9024 237 l 9023 237 l 9022 237 l
+ 9021 237 l 9020 237 l 9019 237 l 9018 237 l 9017 237 l
+ 9016 237 l 9015 237 l 9015 236 l 9016 236 l 9017 236 l
+ 9018 236 l 9020 235 l 9021 235 l 9023 235 l 9025 234 l
+ 9028 234 l 9040 232 l 9053 231 l 9065 231 l 9076 232 l
+ 9086 233 l 9096 234 l 9106 233 l 9117 231 l 9127 226 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 601.00 8.60]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 8905 279 m 8923 278 l 8936 276 l 8944 273 l 8948 270 l 8952 266 l
+ 8958 263 l 8967 261 l 8977 260 l 8981 260 l 8984 261 l
+ 8985 262 l 8986 263 l 8986 264 l 8985 265 l 8984 266 l
+ 8983 267 l 8982 267 l 8980 269 l 8979 270 l 8978 271 l
+ 8978 273 l 8977 275 l 8977 277 l 8977 279 l 8977 283 l
+ 8978 286 l 8979 288 l 8980 289 l 8981 290 l 8981 292 l
+ 8980 294 l 8977 296 l 8970 298 l 8965 298 l 8963 297 l
+ 8956 296 l 8942 296 l 8928 296 l 8920 297 l 8917 297 l
+ 8913 298 l 8904 298 l 8888 296 l 8872 293 l 8864 289 l
+ 8861 286 l 8858 283 l 8850 280 l 8834 279 l 8818 281 l
+ 8807 284 l 8799 289 l 8793 294 l 8786 297 l 8780 296 l
+ 8781 291 l 8787 285 l 8794 279 l 8802 274 l 8810 267 l
+ 8817 260 l 8818 259 l 8819 258 l 8820 257 l 8820 256 l
+ 8820 255 l 8819 255 l 8818 255 l 8817 255 l 8816 255 l
+ 8815 255 l 8814 255 l 8813 255 l 8812 256 l 8811 256 l
+ 8810 256 l 8809 256 l 8808 256 l 8807 257 l 8808 258 l
+ 8809 258 l 8810 258 l 8811 259 l 8813 259 l 8815 260 l
+ 8817 260 l 8829 263 l 8841 266 l 8849 269 l 8855 271 l
+ 8862 274 l 8871 276 l 8886 278 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 585.33 17.00]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 8905 193 m 8923 192 l 8936 190 l 8944 187 l 8948 184 l 8952 180 l
+ 8958 177 l 8967 175 l 8977 174 l 8981 174 l 8984 175 l
+ 8985 176 l 8986 177 l 8986 178 l 8985 179 l 8984 180 l
+ 8983 181 l 8982 181 l 8980 183 l 8979 184 l 8978 185 l
+ 8978 187 l 8977 189 l 8977 191 l 8977 193 l 8977 197 l
+ 8978 200 l 8979 202 l 8980 203 l 8981 204 l 8981 206 l
+ 8980 208 l 8977 210 l 8970 212 l 8965 212 l 8963 211 l
+ 8956 210 l 8942 210 l 8928 210 l 8920 211 l 8917 211 l
+ 8913 212 l 8904 212 l 8888 210 l 8872 207 l 8864 203 l
+ 8861 200 l 8858 197 l 8850 194 l 8834 193 l 8818 195 l
+ 8807 198 l 8799 203 l 8793 208 l 8786 211 l 8780 210 l
+ 8781 205 l 8787 199 l 8794 193 l 8802 188 l 8810 181 l
+ 8817 174 l 8818 173 l 8819 172 l 8820 171 l 8820 170 l
+ 8820 169 l 8819 169 l 8818 169 l 8817 169 l 8816 169 l
+ 8815 169 l 8814 169 l 8813 169 l 8812 170 l 8811 170 l
+ 8810 170 l 8809 170 l 8808 170 l 8807 171 l 8808 172 l
+ 8809 172 l 8810 172 l 8811 173 l 8813 173 l 8815 174 l
+ 8817 174 l 8829 177 l 8841 180 l 8849 183 l 8855 185 l
+ 8862 188 l 8871 190 l 8886 192 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 585.33 11.27]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 8905 103 m 8923 102 l 8936 100 l 8944 97 l 8948 94 l 8952 90 l
+ 8958 87 l 8967 85 l 8977 84 l 8981 84 l 8984 85 l
+ 8985 86 l 8986 87 l 8986 88 l 8985 89 l 8984 90 l
+ 8983 91 l 8982 91 l 8980 93 l 8979 94 l 8978 95 l
+ 8978 97 l 8977 99 l 8977 101 l 8977 103 l 8977 107 l
+ 8978 110 l 8979 112 l 8980 113 l 8981 114 l 8981 116 l
+ 8980 118 l 8977 120 l 8970 122 l 8965 122 l 8963 121 l
+ 8956 120 l 8942 120 l 8928 120 l 8920 121 l 8917 121 l
+ 8913 122 l 8904 122 l 8888 120 l 8872 117 l 8864 113 l
+ 8861 110 l 8858 107 l 8850 104 l 8834 103 l 8818 105 l
+ 8807 108 l 8799 113 l 8793 118 l 8786 121 l 8780 120 l
+ 8781 115 l 8787 109 l 8794 103 l 8802 98 l 8810 91 l
+ 8817 84 l 8818 83 l 8819 82 l 8820 81 l 8820 80 l
+ 8820 79 l 8819 79 l 8818 79 l 8817 79 l 8816 79 l
+ 8815 79 l 8814 79 l 8813 79 l 8812 80 l 8811 80 l
+ 8810 80 l 8809 80 l 8808 80 l 8807 81 l 8808 82 l
+ 8809 82 l 8810 82 l 8811 83 l 8813 83 l 8815 84 l
+ 8817 84 l 8829 87 l 8841 90 l 8849 93 l 8855 95 l
+ 8862 98 l 8871 100 l 8886 102 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 585.33 5.27]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 1819 220 m 1817 209 l 1819 197 l 1824 186 l 1831 177 l 1838 169 l
+ 1846 160 l 1853 152 l 1861 144 l 1867 136 l 1872 132 l
+ 1874 134 l 1872 141 l 1868 149 l 1862 158 l 1856 168 l
+ 1852 178 l 1851 190 l 1855 202 l 1864 211 l 1873 215 l
+ 1881 216 l 1889 215 l 1897 214 l 1906 214 l 1916 216 l
+ 1926 220 l 1930 222 l 1933 224 l 1934 226 l 1935 227 l
+ 1935 228 l 1934 229 l 1933 230 l 1932 231 l 1931 231 l
+ 1929 232 l 1928 232 l 1927 233 l 1927 234 l 1926 235 l
+ 1926 237 l 1926 238 l 1926 239 l 1926 240 l 1927 240 l
+ 1928 240 l 1928 241 l 1929 241 l 1930 241 l 1931 241 l
+ 1932 241 l 1933 241 l 1934 241 l 1935 241 l 1936 241 l
+ 1937 241 l 1938 241 l 1939 241 l 1939 240 l 1938 240 l
+ 1937 240 l 1936 240 l 1934 239 l 1933 239 l 1931 239 l
+ 1929 238 l 1926 238 l 1914 236 l 1901 235 l 1889 235 l
+ 1878 235 l 1868 236 l 1858 237 l 1848 237 l 1837 234 l
+ 1827 229 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 121.13 8.80]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 1179 134 m 1168 146 l 1161 152 l 1157 154 l 1153 155 l 1149 160 l
+ 1144 170 l 1143 175 l 1143 179 l 1143 183 l 1143 186 l
+ 1142 188 l 1142 189 l 1142 191 l 1142 192 l 1142 193 l
+ 1143 195 l 1146 197 l 1149 199 l 1154 202 l 1161 205 l
+ 1176 208 l 1189 210 l 1199 212 l 1208 212 l 1216 213 l
+ 1227 212 l 1239 210 l 1252 205 l 1261 195 l 1261 186 l
+ 1255 179 l 1249 173 l 1247 163 l 1252 151 l 1263 142 l
+ 1275 138 l 1286 137 l 1296 136 l 1304 135 l 1305 134 l
+ 1297 135 l 1286 136 l 1275 137 l 1264 138 l 1252 139 l
+ 1240 142 l 1227 145 l 1216 151 l 1210 160 l 1214 166 l
+ 1222 170 l 1230 174 l 1235 179 l 1233 186 l 1225 190 l
+ 1215 191 l 1207 190 l 1199 189 l 1189 188 l 1179 186 l
+ 1177 185 l 1175 184 l 1173 183 l 1172 183 l 1172 182 l
+ 1172 181 l 1173 181 l 1174 181 l 1175 180 l 1176 179 l
+ 1176 178 l 1177 176 l 1177 175 l 1178 172 l 1179 170 l
+ 1182 162 l 1185 156 l 1186 154 l 1187 151 l 1191 145 l
+ 1198 134 l 1207 123 l 1213 117 l 1217 114 l 1221 112 l
+ 1226 106 l 1233 98 l 1235 94 l 1237 91 l 1238 89 l
+ 1238 88 l 1238 87 l 1237 86 l 1236 86 l 1236 85 l
+ 1235 84 l 1234 83 l 1233 81 l 1229 79 l 1226 79 l
+ 1223 80 l 1220 81 l 1216 81 l 1215 81 l 1214 81 l
+ 1214 80 l 1215 80 l 1215 79 l 1216 79 l 1216 78 l
+ 1217 78 l 1217 77 l 1218 77 l 1218 76 l 1219 76 l
+ 1219 75 l 1220 75 l 1220 74 l 1220 75 l 1220 76 l
+ 1219 76 l 1219 77 l 1218 78 l 1218 79 l 1217 80 l
+ 1216 81 l 1211 88 l 1206 95 l 1203 100 l 1200 105 l
+ 1198 109 l 1194 115 l 1187 123 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 76.13 4.93]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 1269 256 m 1268 252 l 1267 249 l 1266 246 l 1265 244 l 1265 242 l
+ 1264 240 l 1264 239 l 1263 237 l 1262 236 l 1262 235 l
+ 1261 235 l 1261 234 l 1261 233 l 1262 232 l 1263 230 l
+ 1266 229 l 1269 227 l 1274 225 l 1280 223 l 1287 221 l
+ 1304 218 l 1321 217 l 1336 216 l 1347 215 l 1357 215 l
+ 1367 215 l 1379 216 l 1393 217 l 1411 218 l 1430 221 l
+ 1440 223 l 1448 226 l 1454 228 l 1459 230 l 1461 232 l
+ 1463 233 l 1464 234 l 1464 236 l 1464 237 l 1464 238 l
+ 1464 240 l 1464 242 l 1465 244 l 1465 248 l 1466 252 l
+ 1465 256 l 1461 264 l 1454 271 l 1446 276 l 1439 280 l
+ 1431 283 l 1423 287 l 1416 290 l 1412 292 l 1413 289 l
+ 1420 284 l 1428 278 l 1436 272 l 1444 265 l 1447 256 l
+ 1446 252 l 1445 249 l 1443 247 l 1443 246 l 1442 245 l
+ 1441 244 l 1439 244 l 1436 243 l 1431 242 l 1423 241 l
+ 1412 239 l 1397 238 l 1383 237 l 1372 236 l 1364 236 l
+ 1356 236 l 1349 236 l 1341 236 l 1330 237 l 1317 238 l
+ 1304 239 l 1299 240 l 1294 241 l 1291 242 l 1288 242 l
+ 1286 243 l 1285 243 l 1284 244 l 1283 244 l 1284 245 l
+ 1285 245 l 1285 246 l 1286 247 l 1286 248 l 1286 250 l
+ 1286 252 l 1286 254 l 1287 256 l 1292 265 l 1298 271 l
+ 1303 275 l 1309 280 l 1315 285 l 1322 292 l 1323 293 l
+ 1324 294 l 1325 295 l 1326 296 l 1327 297 l 1328 297 l
+ 1328 298 l 1329 298 l 1330 298 l 1330 297 l 1329 297 l
+ 1328 296 l 1327 295 l 1326 295 l 1325 294 l 1324 294 l
+ 1323 293 l 1322 292 l 1314 287 l 1307 282 l 1300 279 l
+ 1294 277 l 1288 274 l 1282 270 l 1275 264 l
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 84.07 14.33]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 4083 134 m 4085 145 l 4083 157 l 4078 167 l 4071 177 l 4064 185 l
+ 4056 194 l 4049 202 l 4041 210 l 4035 218 l 4030 222 l
+ 4028 220 l 4030 213 l 4034 205 l 4040 196 l 4046 186 l
+ 4050 176 l 4051 164 l 4047 152 l 4038 143 l 4029 139 l
+ 4021 138 l 4013 139 l 4005 140 l 3996 140 l 3986 138 l
+ 3976 134 l 3972 132 l 3969 130 l 3968 128 l 3967 127 l
+ 3967 126 l 3968 125 l 3969 125 l 3970 124 l 3971 123 l
+ 3973 123 l 3974 122 l 3975 121 l 3975 120 l 3976 119 l
+ 3976 118 l 3976 117 l 3976 116 l 3976 115 l 3975 115 l
+ 3974 115 l 3973 114 l 3972 114 l 3971 114 l 3970 114 l
+ 3969 114 l 3968 114 l 3967 114 l 3966 114 l 3965 114 l
+ 3964 114 l 3963 114 l 3963 115 l 3964 115 l 3965 115 l
+ 3966 115 l 3968 116 l 3969 116 l 3971 116 l 3973 117 l
+ 3976 117 l 3988 119 l 4001 120 l 4013 120 l 4024 119 l
+ 4034 118 l 4044 117 l 4054 118 l 4065 120 l 4075 125 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 264.20 7.60]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 1327 179 m 1325 168 l 1327 156 l 1332 145 l 1339 136 l 1347 127 l
+ 1355 119 l 1362 110 l 1370 102 l 1376 94 l 1381 90 l
+ 1383 92 l 1381 98 l 1376 107 l 1370 116 l 1364 126 l
+ 1360 136 l 1358 148 l 1362 160 l 1370 169 l 1380 174 l
+ 1388 175 l 1396 174 l 1404 173 l 1413 173 l 1423 175 l
+ 1433 179 l 1437 181 l 1440 183 l 1441 185 l 1442 186 l
+ 1442 187 l 1441 188 l 1440 189 l 1439 189 l 1438 190 l
+ 1436 190 l 1435 191 l 1434 192 l 1434 193 l 1433 194 l
+ 1433 195 l 1433 196 l 1433 197 l 1433 198 l 1434 198 l
+ 1435 198 l 1436 199 l 1437 199 l 1438 199 l 1439 199 l
+ 1440 199 l 1441 199 l 1442 199 l 1443 199 l 1444 199 l
+ 1445 199 l 1446 199 l 1446 198 l 1445 198 l 1444 198 l
+ 1443 198 l 1441 197 l 1440 197 l 1438 197 l 1436 196 l
+ 1433 196 l 1421 194 l 1408 193 l 1396 193 l 1385 194 l
+ 1375 195 l 1366 196 l 1356 196 l 1345 193 l 1335 188 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 88.33 6.00]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 4976 154 m 4964 143 l 4958 136 l 4956 132 l 4955 128 l 4950 124 l
+ 4940 119 l 4935 118 l 4931 118 l 4927 118 l 4924 118 l
+ 4922 118 l 4921 118 l 4919 118 l 4918 118 l 4917 118 l
+ 4915 119 l 4913 122 l 4911 125 l 4908 130 l 4905 137 l
+ 4902 151 l 4900 164 l 4898 174 l 4898 183 l 4897 191 l
+ 4898 200 l 4900 213 l 4905 225 l 4915 234 l 4924 234 l
+ 4930 228 l 4937 222 l 4946 220 l 4958 225 l 4967 236 l
+ 4972 248 l 4973 259 l 4974 269 l 4975 277 l 4976 278 l
+ 4975 270 l 4974 259 l 4973 248 l 4972 236 l 4970 225 l
+ 4968 213 l 4964 200 l 4958 189 l 4949 183 l 4943 187 l
+ 4938 195 l 4934 203 l 4929 209 l 4922 207 l 4918 199 l
+ 4917 190 l 4918 182 l 4918 174 l 4920 164 l 4922 154 l
+ 4923 151 l 4924 149 l 4926 148 l 4926 147 l 4927 147 l
+ 4928 148 l 4928 149 l 4929 149 l 4929 150 l 4930 151 l
+ 4932 151 l 4934 152 l 4937 153 l 4940 154 l 4949 157 l
+ 4954 159 l 4957 160 l 4959 161 l 4965 165 l 4976 172 l
+ 4987 181 l 4993 187 l 4996 191 l 4998 195 l 5004 200 l
+ 5012 207 l 5016 209 l 5019 211 l 5021 212 l 5022 212 l
+ 5023 212 l 5024 211 l 5024 210 l 5025 210 l 5026 209 l
+ 5027 208 l 5029 207 l 5031 203 l 5031 199 l 5030 197 l
+ 5029 193 l 5029 189 l 5029 188 l 5029 187 l 5030 187 l
+ 5030 188 l 5031 188 l 5032 189 l 5033 190 l 5034 191 l
+ 5035 192 l 5035 193 l 5036 193 l 5035 193 l 5034 192 l
+ 5033 192 l 5032 191 l 5031 191 l 5030 190 l 5029 189 l
+ 5019 183 l 5011 178 l 5005 174 l 5000 171 l 4990 164 l
+
+ cp gs /PC [[0.00 0.00 0.00] [0.00 0.00 0.00]] def
+15.00 15.00 sc P22 [8 0 0 -16 326.47 7.87]  PATmp PATsp ef gr PATusp gs col0 s gr 
+% Polyline
+n 450 45 m
+ 10260 45 l gs col0 s gr 
+% Polyline
+n 450 340 m
+ 10260 340 l gs col0 s gr 
+$F2psEnd
+rs
+end

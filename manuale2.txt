@@ -1,0 +1,326 @@
+
+
+
+************ 11““RRaaddiixx MMaalloorruumm”” ************
+********** 11..11PPrreeffaazziioonnee **********
+******** 11..11..11CCooss’’èè uunn GGiiooccoo ddii RRuuoolloo.. ********
+Quello che avete fra le mani e che vi apprestate a leggere è il manuale di un
+Gioco di Ruolo, indicato dagli addetti ai lavori con l’acronimo GdR. Per coloro
+i quali non fossero a conoscenza del significato del termine, forniremo una
+breve spiegazione.
+Il modo più semplice per descrivere il contenuto e lo scopo del GdR consiste
+nell’analizzare il termine stesso “Gioco di Ruolo”. In quanto ggiiooccooin esso è
+predominante l’aspetto ludico e ricreativo con lo scopo di divertire i
+partecipanti e il fine principale è quello di interpretare una parte, appunto,
+un rruuoolloo, che gli permetta di calarsi con l’aiuto della propria fantasia, nei
+panni di un personaggio, e di interpretarlo, muovendolo con l’ausilio di regole
+all’interno della trama intessuta da un altro giocatore regista.
+Questo mette in evidenzia una prima distinzione fra i giocatori: coloro che si
+calano nei panni dei cosidddetti Personaggi Giocanti o PG, e colui che crea la
+storia, la trama all’interno del quale i PG si muoveranno, come fosse il
+regista di un opera. Il “regista” nella maggior parte dei GdR prende il nome di
+Master, o Arbitro (o qualcosa del genere).
+Il GdR esalta la creatività delle persone portandole a sperimentare i modi di
+interagire più adatti alle situazioni in cui il Master decide di far imbattere
+i PG. L’interpretazione del ruolo è cardine fondamentale del GdR e non viene
+sminuita nel ruolo del Master, il quale non è il creatore di una trama sterile
+e prestabilita come potrebbe essere quella di un film, ma rappresenta tutto il
+mondo dei PG, compresi tutte le persone che i questi potranno incontrare
+durante lo svilupparsi del gioco.
+In parole povere il Master stende un canovaccio, una trama di cui decide i
+punti salienti e i personaggi complementari che egli dovrà gestire (detti
+Personaggi Non Giocanti o PNG), mentre i giocatori hanno il compito di
+sviluppare le linee guida della storia, tramite le proprie azioni, la reciproca
+interazione e l’interazione con il Master; il tutto mediante l’applicazione
+delle regole che permettono di far vivere e agire i PG, che restano comunque
+personaggi di fantasia.
+******** 11..11..22IIll GGddRR FFaannttaassyy ********
+Il gioco di ruolo ha conosciuto nella sua storia adattamenti più o meno
+riusciti a molteplici ambientazioni, reali o parto della fantasia di autori più
+o meno noti, quali Tolkien, Gibson, Rice, solo per citarne alcuni. Sul mercato
+esistono GdR per tutti i palati, Horror, Gotico, Fantascientifico, Cyberpunk,
+Demenziale, Storico ecc. Tuttavia ci sentiamo di affermare che il genere più
+diffuso è il Fantasy, dove storia e fantasia si mischiano in una alchimia
+elettrizzante, dive la spada si incrocia con la magia (il classico Sword &
+Sorcery) e in cui fanno la loro parte creature fantastiche e mitologiche.
+Il Progenitore del GdR Fantasy è senza dubbio Dungeons & Dragons, che ha senza
+dubbio lanciato una moda e segnato un’epoca. Il Gioco che ora state conoscere e
+che si chiama Radix Malorum, appartiene a tale categoria. Esso rispecchia, con
+le dovute differenze, i capisaldi del genere fantasy. Radix Malorum è,
+ciononostante, frutto della fantasia dei suoi autori e la sua ambientazione è
+totalmente originale (senza negare e ringraziare il contributo datoci dagli
+autori che hanno fatto nascere in noi la passione per questo genere), e
+scaturita insieme alle altre regole da un duro lavoro di sperimentazione durato
+quasi otto anni.
+******** 11..11..33LLee nnoovviittàà ddii RRaaddiixx MMaalloorruumm ********
+Radix Malorum offre numerose peculiarità se confrontato con gli altri giochi di
+ruolo presenti sul mercato. A cominciare dalla dettagliata ambientazione, che
+ricordiamo non si avvale dell’opera di autori di narrativa fantasy. L’assenza
+delle Classi di PG, luogo comune di quasi tutti i GdR fantasy. Il sistema di
+Miglioramento delle abilità del PG, proporzionato alla complessità delle
+abilità stesse, e non a dei fantomatici livelli di esperienza che rappresentano
+la soglia da oltrepassare per acquisire nuove capacità. Il sistema di
+combattimento, studiato per garantire una buona dose di realismo, dove anche un
+solo colpo di pugnale può uccidere, dove è prevista la possibilità per le
+armature di danneggiarsi e logorarsi, e per le armi di rompersi. Per finire poi
+con un sistema di creazione immediata della magia che permette di attivare
+incantesimi personalizzati da adattare ad ogni situazione.
+Vi sveliamo a questo punto un “segreto” che potrebbe svelare alcune curiosità
+che potrebbero sorgere nella lettura: gli autori di Radix Malorum sono sardi, e
+molto legati alla loro terra. In più punti del manuale troverete riferimenti a
+miti, luoghi e tradizioni della Sardegna, riferimenti che sono stati ritenuti
+dagli autori un doveroso omaggio alla loro isola.
+Tutto questo e molto altro è Radix Malorum, non dovrete far altro che
+addentrarvi nella lettura, senza spaventarvi alle prime difficoltà di
+applicazione delle regole, per scoprire un nuovo meraviglioso mondo. E vi
+garantiamo che ne sarà valsa la pena.
+********** 11..22IIll LLiibbrroo **********
+
+“La stanza era fredda e fiocamente illuminata da tre candele su un candelabro
+di bronzo. La fiamma nel camino si era assopita da tempo lasciando alla brace
+il ruolo di protagonista.
+Don Michele era così intento a copiare il vecchio testo che non si rese conto
+del suo respiro che si condensava davanti alle pergamene. La stanza era invasa
+da ombre che gettavano in ogni angolo un cesto di paure. Michele ripeteva
+sottovoce ciò che la sua mano e la sua penna andavano vergando sul foglio. Egli
+non si sarebbe mai aspettato di cadere nel baratro della dannazione. Era un
+servo fedele di Ryless, del suo Pontefice e del suo Vescovo, e come suo braccio
+destro credeva d’essere un protetto dal Messia.
+Le ombre si condensarono dietro di lui e un vento gelido mosse le fiamme delle
+candele e ravvivò i ceppi moribondi del camino. Don Michele non si ridestò dal
+suo lavoro mentre i passi silenziosi prendevano forma dietro di lui. Una mano
+gelida si posò sulla sua spalla sinistra. Don Michele si voltò e il suo urlo
+(un urlo che non emise suono) gli morì in gola. I suoi occhi strabuzzarono
+mentre osservava la figura davanti a lui.
+-Chi... Chi Sei?- mormorò
+-Ciao, giovane Michele, ti ho spaventato?- disse la figura, una donna
+bellissima dai capelli rossi avvolta da un sottile velo nero che non lasciava
+niente da immaginare.
+-Chi sei, e cosa fai nelle mie stanze, donna?- rispose con il cuore che
+martellava come un tamburo.
+-Donna? Non sono donna più di quanto non lo sia tu, Michele-
+-Che cosa vuoi dire?-
+-Troppe domande e tutte inutili, Michele. Piuttosto chiediti cosa voglio da te
+e cosa posso fare per te-, continuò la donna
+-Cosa vuoi da me?- chiese allora Michele, stringendo forte, fino a farsi
+sanguinare le mani, il pugnale: il simbolo della morte di Ryless.
+-Voglio che abbandoni Ryless. Voglio la Chiesa, tutta, ai miei ordini. E voglio
+che tu sia mio-
+-No! Mai! La mia fede è grande, più grande di qualunque potere o demone. Esci
+di qui!-
+-Fede??-. La donna iniziò a ridere sguaiatamente, ma nessun suono usciva dalla
+stanza.
+-Ryless avrebbe desiderato, e lo desidera ancora, un potere come il mio. E’ un
+debole, non sa neppure ciò che accade nei suoi amati cieli, non sa neppure cosa
+tramano i suoi amati Gabriel e Lucifer, è un inetto che si diverte a giocare a
+carte con Antiochio mentre beve Phyluf Herhu.
+-Menzogne, lui è nostro padre e nostra madre; lui è la nostra guida e salvezza
+che ci illumina con la sua grazia!-, si difese con forza, Don Michele, ma già
+vacillava sull’orlo della disperazione.
+-Già, menzogne! Michele, Ryless non ha creato nulla che io non possa creare
+mille volte più bello e potente. Ti dimenticherai di lui, credimi, e noi ci
+ameremo presto. Mentre attendi, mio piccolo amore, scendi nella cripta e apri
+il sarcofago di S. Fulgenzio e togli l’elmo dalla sua testa, poi tutto ti si
+aprirà davanti. Dopo potrai scegliere il tuo destino-. La donna si accostò a
+don Michele, ormai paralizzato, e lo baciò sulle labbra.-
+Le labbra di lei erano di fuoco, roventi come la lava e taglienti come rasoi, e
+risvegliavano i sensi di Michele senza che egli potesse opporsi...
+Michele si accasciò di colpo, come morto. Dormì, sognando demoni e partite di
+carte e la donna dai capelli rossi che nei suoi incubi si trasformava in un
+terribile mostro dai denti aguzzi e dalle grandi ali di pipistrello, rosso come
+il sole al tramonto. Si ridestò ben prima delle odi del mattino, madido di
+sudore ed infreddolito. Si ritrovò a pensare che tutto fosse stato un sogno, ma
+voltandosi nel letto trovò sul guanciale una ciocca di capelli rossi.
+Si alzò e indossò la tunica e i calzoni, poi si avviò verso le cantine. La
+porta cigolò sinistramente ma non ci fece caso. Prese una lanterna dallo
+scaffale, la caricò ed accese lo stoppino.
+Scese silenziosamente sino alla cripta. L’umidità era come un peso sulle spalle
+e rendeva difficile la respirazione. La luce della lanterna era fioca e non
+dissolveva le tenebre della tomba, ma Michele riuscì lo stesso a raggiungere il
+sarcofago di granito. Posò la lanterna a terra e spinse con forza. I suoi piedi
+scivolavano sulla muffa del pavimento e le sue unghie si spezzavano sul granito
+mentre il suo sangue cadeva in gocce grosse come perle. Finalmente vide il
+volto scheletrico di S. Fulgenzio, adorno del suo elmo. Il tanfo della morte lo
+investì come un cavallo in carica. Pose le sue mani sull’elmo e lo tirò con
+forza. L’elmo si staccò insieme al cranio.
+-Ryless, cosa ho fatto!?- bisbigliò
+-Nulla di importante, ma lo hai fatto per me.-. La donna era comparsa alle sue
+spalle, la luce della lanterna non riusciva ad illuminarne il volto
+incorniciato dal rosso crine.
+-Mi hai ingannato!- Inveì Michele puntando il dito.
+-Su, Su! Non essere permaloso! Avrai ciò per cui sei venuto. -. La donna
+sorrise mostrando i denti aguzzi.
+-Ti presento uno dei miei servi- indicò l’oscurità -Si chiama Arioch.-. L’ombra
+vomitò un essere alto come un orco, con la pelle rossa e striata, le ali di
+pipistrello e il capo coronato da due corna massicce.
+-Ciao, Uomo!- ghignò Arioch, mostrando una fila di robustissime zanne bianche
+come ossa spolpate.
+Una colonna di fiamme si sprigionò dalle sue mani. Michele riuscì appena in
+tempo ad attivare l’incantesimo di protezione, toccando il suo orecchino
+magico. Fu avvolto dalle fiamme, che lo abbracciarono in mille e più vortici,
+ma soltanto qualche lembo della sua tunica risentì degli effetti della
+fiammata, restando bruciacchiato.
+-Dannato demone!-, imprecò con rabbia e paura.
+-Guarda dietro di te, Uomo!- grugnì il mostro -Non farmi pentire di averti
+risparmiato-
+Michele si voltò e vide che si era aperta una crepa nel muro. Una luce
+biancastra filtrava, accompagnata da una sorta di ronzio.
+Michele l’attraversò abbacinato. Mentre i suoi passi rimbombavano nel
+corridoio, con le mani sfiorava le pareti, lisce e fredde, di un metallo mai
+visto. Di tanto in tanto trovava delle strane iscrizioni, dei dipinti con
+strane forme e porte metalliche che non era riuscito ad aprire. Camminò per un
+tempo che gli sembrò infinito, finchè trovò il cammino sbarrato da una
+gigantesca parete di metallo. Provò a spingere con tutte le sue forze fino a
+sentire i muscoli di braccia e gambe intorpidirsi. Poi urlò.
+-Ecco! E’ tutto qui ciò che doveva distruggere la mia fede?- chiese all’aria
+che respirava.
+-Chiedi aiuto, giovane Michele.- risuonò nella sua mente così forte da
+costringerlo a tapparsi le orecchie.
+-Aiuto, allora. Aiuto!- ringhiò. Una rabbia poderosa, imponente, che mai
+avrebbe sospettato di poter manifestare si impossessò di lui.
+-Spostati, ammasso di carne urlante.-, brontolò Arioch con sufficienza,
+colpendo l’uomo sul petto senza ferirlo. La bestia eruttò di nuovo le sue
+fiamme ma ora con tutto il suo potere. Il volto del mostro illuminato dal fuoco
+infernale era una maschera di piacere, dolore e follia.
+Michele avvertì nel petto un caldo opprimente e capì di essere stato
+risparmiato. La parete si sciolse come lardo sulla brace. Un vortice di fumo
+avvolse il Demone, che urlò con odio, e quando si dissipò il Demone era
+scomparso. Michele potè osservare che al posto dell’Arioch c’era ora un
+oggetto. Un pastorale. Lo raccolse e lo guardò impaurito. L’asta vibrava fra le
+sue mani come percorsa da una strana energia, ed era calda, viva. Lo rigirò fra
+le mani e si avvide della somiglianza del suo pastorale con quello del Vescovo.
+Una luce accecante lo investì e lo distolse dalle sue impressioni sul
+pastorale. Come ipnotizzato si diresse verso la fenditura che il demone aveva
+aperto nella parete. Michele aveva il braccio destro davanti a se, disteso,
+quasi volesse tastare la luce, sentirla. Con l’altra mano stringeva il
+pastorale che continuava a muoversi e contrarsi e respirare.
+La luce era fredda e quasi tagliente all’interno di quella enorme stanza.
+Davanti agli occhi si stagliava un gigantesco, monumentale cilindro di metallo
+che lo guardava con un enorme occhio rosso.
+-Quanto tempo è passato!-, risuonò una voce metallica, -Finalmente qualcuno con
+cui parlare-
+-Chi... Cosa?-, balbettò Michele
+-Io sono la memoria impotente di questo mondo. Io ho visto e registrato vita e
+morte e ricostruzione, e poi ancora vita. Io sono il cuore che batte. Io
+sono...-
+La voce fece una pausa.
+-Solo.- Continuò la voce -Da troppo tempo ormai.-
+-Ma...- Michele aveva molte domande, e tutte gli morirono in gola. Cosa era
+quell’essere? Era vivo? Cosa voleva? Da quanto esisteva?
+-Io so che sono tante le tue domande, e che il tuo cuore batte troppo forte. Ma
+io non mi ricordo il calore di un essere vivente... Avvicinati, e se lo vorrai,
+ti svelerò la Verità.-
+Michele si avvicinò passo dopo passo, lentamente, mentre il suo cuore sembrava
+non distinguere più un battito dall’altro. Il dimenarsi leggero e caldo del
+pastorale lo rassicurava. Sentiva il fuoco fluire dentro di sè.
+-Mostramela!- gridò Michele, allargando le braccia.
+Dalla base dell’occhio saettarono migliaia di tentacoli che lo avvolsero come
+una gabbia di rovi e lo percorsero, lo sentirono, e gli mostrarono la Verità.
+La verità disperse il suo cuore. Per Sempre.
+Il pastorale cadde dalla sua mano, mentre viveva ciò che era stato. Le macchine
+volanti. La nascita delle razze. L’arrivo di una nave dal cielo. La rabbia
+della Terra. Vide colonne di fiamme alte decine di chilometri e nubi nere come
+l’oblio. Sentì il dolore, la paura, le lacrime e l’abbandono di un mondo. Urlò
+fino a dimenticare quanto.
+Riemerse dal dolore nel suo letto, si sedette e dopo aver dissolto il torpore
+iniziale studiò il pastorale fra le mani. Era vivo, non c’era dubbio.
+-Arioch!- chiamò.
+Un vortice di fumo scaturì dall’asta, si condensò e l’Arioch apparve.
+-Chiama i tuoi demoni. Che scrivano ciò che mi è stato svelato.- ordinò
+Michele.
+Arioch rispose sprezzante: -O forse potrei strapparti la carne a poco a poco-
+-Chiamali. Te lo ordino.-, ribadì. I loro sguardi si incrociarono. I rossi
+occhi di Arioch sprizzavano fiamme di odio e dolore, che sfidavano la pazzia
+pura e semplice degli occhi azzurri di Michele.
+Dopo una eterna frazione di secondo Arioch chinò il capo, si inginocchiò e
+ringhiò di rabbia: -Agli ordini, Padrone!-.
+L’istante successivo apparve un essere orribile, una sorta di ammasso
+cartilagineo dotato di otto arti peduncolati e di uno strano tentacolo. Il
+tentacolo si avviluppò intorno alla testa di Michele ed iniziò a pulsare. Il
+Demone iniziò a gonfiarsi delle memorie del giovane, fino a occupare tutta la
+stanza. Una grossa pustola, ricolma di conoscenza.
+Il mostro aracnoide iniziò a scrivere, veloce come il vento, e mentre scriveva
+il sapere sui fogli, il suo ventre si sgonfiava.
+-Andiamo, ora, andiamo a trovare un defunto- ghignò Michele parlando
+all’Arioch.
+-Sì, mio Signore- rispose l’Arioch, quasi soddisfatto.
+Michele si diresse senza alcuna circospezione verso la stanza del suo
+superiore, si accostò alla porta salutando la guardia che la presidiava.
+Il Vescovo di Rylex dormiva ancora. Michele lo destò dolcemente: -Mia
+Eccellenza-, salutò con un inchino.
+-Oh, Michele. Perchè mi svegli così presto?-, domandò assonnato l’anziano
+Vescovo.
+-Un funerale, Eccellenza.-.
+Michele sfoderò un sorriso sarcastico. Il pastorale gli pulsava ancora tra le
+mani.
+-A quest’ora?-, domandò sbigottito il vecchio, -E di chi?-
+-Il suo, Eccellenza-
+Il vecchio non fece in tempo a stupirsi che le mani di Michele si levarono. Il
+corpo del vescovo cominciò a contrarsi in preda alle convulsioni. Il torace gli
+si gonfiò, fino a lacerare la veste, la pelle, la gabbia toracica fino alla
+gola, soffocando i suoi lamenti.
+Il corpo del vecchio esplose, rivoltandosi come un guanto. Di quello che era
+stato l’Arcivescovo di Rylex era rimasto un ammasso di visceri e ossa
+sanguinolente.
+Michele richiamò il suo Arioch e gli ordinò di uccidere la guardia
+all’ingresso.
+La porta si aprì e mentre Michele usciva la testa della guardia implodeva con
+uno schiocco sordo sotto la stretta dell’Arioch.
+-Ora sparisci- ordinò al demone.
+Michele tornò nelle sue stanze. Dove prima c’era il demone gonfio di conoscenza
+si trovava il Libro. Sollevò il tomo fra le mani e pronunciò un vincolo, e poi
+un altro, e poi un altro ancora, e poi ancora, fino quasi a crollare esausto.
+-Ecco il Radix Malorum, la Radice di tutti i Mali. Lo custodirò e nessuno saprà
+mai la Verità.- esclamò. Tra le nebbie della stanchezza che lo sommergevano
+vide apparire la donna dai capelli rossi. Nuda, bella, provocante.
+-E tu sarai mio- disse sorridendo la donna.
+-Si, mio Signore- rispose Michele perdendosi nel suo caldo abbraccio.”
+********** 11..33IIll MMoonnddoo ddii QQuuaaddrraannttaall **********
+Il mondo in cui vi apprestate ad entrare per scoprirne misteri, meraviglie,
+passioni e paure, è stato chiamato, dai suoi abitanti originali, QQuuaaddrraannttaall.. Il
+nome Quadrantal significa nell’antica lingua “dado”, infatti gli indigeni
+pensavano che esso presentasse tale forma.
+Attorno a Quadrantal orbitano dduuee ssaatteelllliittii naturali, due lune chiamate, MMoohhwwrr
+ee AAllpphhaann. La prima appare di colore rosso, mentre la seconda di colore bianco.
+L’anno solare dura 330000 ggiioorrnnii.
+******** 11..33..11LL’’AArrcciippeellaaggoo ********
+Il cosiddetto “mondo conosciuto”, chiamato AArrcciippeellaaggoo, è un continente
+costituito da 77 ggrraannddii iissoollee disposte in cerchio e delimitanti un grande
+specchio d’acqua chiamato MMaarree IInntteerrnnoo, più alcune isole di importanza minore.
+Al centro del Mare Interno sorge una piccola isola detta IIssoollaa ddeell GGrraann
+CCoonnssiigglliioo.
+L’arcipelago è situato interamente nell’emisfero settentrionale del pianeta. Su
+quanto si trovi dalla parte opposta, oltre il Mare Esterno, nulla è dato sapere
+agli abitanti dell’Arcipelago. Il MMaarree EEsstteerrnnoo, infatti, non è da essi
+navigabile se non nelle immediate vicinanze delle isole. Troverete la mappa, in
+cui sono indicate le zone climatiche, in AAppppeennddiiccee 11..
+Ogni nazione nell’arcipelago ha un proprio calendario, ma grazie ai fiorenti
+scambi commerciali e alla DDoommiinnaazziioonnee LLeevvaannttee esiste un ccaalleennddaarriioo ccoommuunnee,
+detto Calendario Commerciale, che viene utilizzato in tutto il continente.
+Secondo il Calendario Commerciale l’anno solare è diviso in 1100 mmeessii ddii 3300
+ggiioorrnnii ciascuno.
+Immeessii sono:
+   1. Titheea,
+   2. Tebidow,
+   3. Kalhentee,
+   4. Bahska,
+   5. Bowdhyow
+   6. Proydee
+   7. Skow-Thowladah
+   8. Fryow-Sow
+   9. Nyee
+  10. Jelhow
+Nella zzoonnaa aarrttiiccaa la temperatura è sempre molto bassa e non piove mai, perché
+nevica.
+Nella zzoonnaa ffrreeddddaa i mesi 1,2,9,10 sono invernali, 3,4 primaverili, 5 estivo e
+6,7,8,9 autunnali. Le precipitazioni sono diffuse in tutto l’anno.
+Nella zzoonnaa tteemmppeerraattaa le stagioni sono ben definite, i mesi 1,9,10 sono
+invernali, 2 e 3 primaverili, 4,5,6 estivi e 7,8 autunnali. La stagione estiva
+è secca. L’alternarsi delle stagioni è graduale.
+Nella zzoonnaa ttrrooppiiccaallee, in cui la temperatura è sempre alta, esistono soltanto
+due stagioni, la stagione secca (9,10,1,2,3) e la stagione delle piogge nei
+mesi restanti. Durante la stagione delle piogge piove 5 giorni su 6. Nei
+deserti tropicali anche durante la cosiddetta stagione delle piogge non piove
+praticamente mai.
+Tra le fasce climatiche non vi sono nette distinzioni, si passa dall’una
+all’altra in modo graduale.

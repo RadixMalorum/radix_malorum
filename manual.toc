@@ -1,0 +1,930 @@
+\select@language {italian}
+\contentsline {chapter}{\numberline {1}Introduzione}{7}
+\contentsline {section}{\numberline {1.1}Prefazione}{7}
+\contentsline {subsection}{\numberline {1.1.1}Cos'\`e un Gioco di Ruolo}{7}
+\contentsline {subsection}{\numberline {1.1.2}Il GdR Fantasy}{7}
+\contentsline {subsection}{\numberline {1.1.3}Le caratteristiche di Radix Malorum}{7}
+\contentsline {section}{\numberline {1.2}Il Mondo di Quadrantal}{8}
+\contentsline {subsection}{\numberline {1.2.1}L'Arcipelago}{8}
+\contentsline {subsection}{\numberline {1.2.2}La Fauna}{8}
+\contentsline {subsubsection}{Fortral}{9}
+\contentsline {subsubsection}{Nortral}{9}
+\contentsline {subsubsection}{Reptis}{9}
+\contentsline {subsubsection}{Krenay}{9}
+\contentsline {subsubsection}{Tartarughe Tsyu-betch}{10}
+\contentsline {subsubsection}{Ragni giganti}{10}
+\contentsline {subsubsection}{Insetti giganti}{10}
+\contentsline {subsubsection}{Troll}{10}
+\contentsline {subsubsection}{Stelle Marine Kalareyna}{10}
+\contentsline {chapter}{\numberline {2}Le Razze e le Etnie}{13}
+\contentsline {section}{\numberline {2.1}Gli Umani}{15}
+\contentsline {subsection}{\numberline {2.1.1}La Terra di Levante}{15}
+\contentsline {subsubsection}{Geografia}{15}
+\contentsline {subsubsection}{Politica}{15}
+\contentsline {subsubsection}{Esercito e Armi}{16}
+\contentsline {subsubsection}{Economia}{16}
+\contentsline {subsubsection}{Religione}{17}
+\contentsline {subsubsection}{Magia}{17}
+\contentsline {subsubsection}{Moda, cultura, costumi}{17}
+\contentsline {subsubsection}{Caratteristiche fisiche}{18}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{18}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di classe sociale}{18}
+\contentsline {subsection}{\numberline {2.1.2}La Teocrazia di Ryless}{19}
+\contentsline {subsubsection}{Geografia}{19}
+\contentsline {subsubsection}{Politica}{20}
+\contentsline {subsubsection}{Esercito e Armi}{20}
+\contentsline {subsubsection}{Economia}{20}
+\contentsline {subsubsection}{Religione}{20}
+\contentsline {subsubsection}{Magia}{21}
+\contentsline {subsubsection}{Moda, cultura, costumi}{22}
+\contentsline {subsubsection}{Caratteristiche fisiche}{22}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{22}
+\contentsline {subsubsection}{Abilit\`a di razza}{22}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{22}
+\contentsline {subsection}{\numberline {2.1.3}Terranova}{23}
+\contentsline {subsubsection}{Geografia}{23}
+\contentsline {subsubsection}{Politica}{24}
+\contentsline {subsubsection}{Esercito e Armi}{24}
+\contentsline {subsubsection}{Economia}{25}
+\contentsline {subsubsection}{Religione}{25}
+\contentsline {subsubsection}{Magia}{26}
+\contentsline {subsubsection}{Moda, cultura, costumi}{26}
+\contentsline {subsubsection}{Caratteristiche fisiche}{26}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{27}
+\contentsline {subsubsection}{Abilit\`a di razza}{27}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{27}
+\contentsline {subsection}{\numberline {2.1.4}Le Terre del Nord}{29}
+\contentsline {subsubsection}{Geografia}{29}
+\contentsline {subsubsection}{Politica}{29}
+\contentsline {subsubsection}{Esercito e Armi}{29}
+\contentsline {subsubsection}{Economia}{29}
+\contentsline {subsubsection}{Religione}{30}
+\contentsline {subsubsection}{Magia}{30}
+\contentsline {subsubsection}{Moda, cultura, costumi}{30}
+\contentsline {subsubsection}{Caratteristiche fisiche}{30}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{30}
+\contentsline {subsubsection}{Abilit\`a di razza}{30}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{31}
+\contentsline {subsection}{\numberline {2.1.5}Le Terre Orientali}{32}
+\contentsline {subsubsection}{Geografia}{32}
+\contentsline {subsubsection}{Politica}{32}
+\contentsline {subsubsection}{Esercito e Armi}{33}
+\contentsline {subsubsection}{Economia}{33}
+\contentsline {subsubsection}{Religione}{33}
+\contentsline {subsubsection}{Magia}{33}
+\contentsline {subsubsection}{Moda, cultura, costumi}{33}
+\contentsline {subsubsection}{Caratteristiche fisiche}{34}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{34}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{34}
+\contentsline {subsection}{\numberline {2.1.6}I Nomadi}{36}
+\contentsline {subsubsection}{Caratteristiche fisiche}{37}
+\contentsline {subsubsection}{Abilit\`a di razza}{37}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{37}
+\contentsline {subsection}{\numberline {2.1.7}La Confederazione del Sud}{38}
+\contentsline {subsubsection}{Geografia}{38}
+\contentsline {subsubsection}{Politica}{38}
+\contentsline {subsubsection}{Esercito e Armi}{38}
+\contentsline {subsubsection}{Economia}{39}
+\contentsline {subsubsection}{Religione}{40}
+\contentsline {subsubsection}{Magia}{40}
+\contentsline {subsubsection}{Moda, cultura, costumi}{40}
+\contentsline {subsubsection}{Caratteristiche fisiche}{41}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{41}
+\contentsline {subsubsection}{Abilit\`a di Razza}{41}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{41}
+\contentsline {section}{\numberline {2.2}Gli Elfi}{41}
+\contentsline {subsection}{\numberline {2.2.1}Lo Stato Elfico Di Luxi}{41}
+\contentsline {subsubsection}{Geografia}{42}
+\contentsline {subsubsection}{Politica}{42}
+\contentsline {subsubsection}{Esercito e Armi}{43}
+\contentsline {subsubsection}{Economia}{43}
+\contentsline {subsubsection}{Magia}{43}
+\contentsline {subsubsection}{Religione}{43}
+\contentsline {subsubsection}{Moda, cultura, costumi}{44}
+\contentsline {subsubsection}{Caratteristiche fisiche}{44}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{45}
+\contentsline {subsubsection}{Abilit\`a di razza}{45}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe Sociale}{45}
+\contentsline {subsection}{\numberline {2.2.2}Umbrosa}{46}
+\contentsline {subsubsection}{Geografia}{46}
+\contentsline {subsubsection}{Politica}{47}
+\contentsline {subsubsection}{Esercito e Armi}{47}
+\contentsline {subsubsection}{Economia}{48}
+\contentsline {subsubsection}{Religione}{48}
+\contentsline {subsubsection}{Magia}{49}
+\contentsline {subsubsection}{Moda, cultura, costumi}{49}
+\contentsline {subsubsection}{Caratteristiche fisiche}{49}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{50}
+\contentsline {subsubsection}{Abilit\`a di razza}{50}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{50}
+\contentsline {section}{\numberline {2.3}Gli Gnomi}{51}
+\contentsline {subsection}{\numberline {2.3.1}Loydi-Genya}{51}
+\contentsline {subsubsection}{Geografia}{51}
+\contentsline {subsubsection}{Politica}{52}
+\contentsline {subsubsection}{Esercito e Armi}{52}
+\contentsline {subsubsection}{Economia}{52}
+\contentsline {subsubsection}{Religione}{52}
+\contentsline {subsubsection}{Magia}{53}
+\contentsline {subsubsection}{Moda, cultura, costumi}{53}
+\contentsline {subsubsection}{Caratteristiche fisiche}{53}
+\contentsline {subsection}{\numberline {2.3.2}Gnomi Beedha}{53}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{53}
+\contentsline {subsubsection}{Abilit\`a di razza}{53}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{53}
+\contentsline {subsection}{\numberline {2.3.3}Gnomi Kunetha}{54}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{54}
+\contentsline {subsubsection}{Abilit\`a di Razza}{54}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{54}
+\contentsline {section}{\numberline {2.4}I Nani}{55}
+\contentsline {subsection}{\numberline {2.4.1}Gennoria}{55}
+\contentsline {subsubsection}{Geografia}{55}
+\contentsline {subsubsection}{Politica}{55}
+\contentsline {subsubsection}{Esercito e Armi}{56}
+\contentsline {subsubsection}{Economia}{56}
+\contentsline {subsubsection}{Religione}{56}
+\contentsline {subsubsection}{Magia}{56}
+\contentsline {subsubsection}{Moda, cultura, costumi}{57}
+\contentsline {subsubsection}{Caratteristiche fisiche}{57}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{57}
+\contentsline {subsubsection}{Abilit\`a di razza}{57}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{57}
+\contentsline {section}{\numberline {2.5}Gli Orchi}{58}
+\contentsline {subsection}{\numberline {2.5.1}Terhamala}{58}
+\contentsline {subsubsection}{Geografia}{58}
+\contentsline {subsubsection}{Politica}{59}
+\contentsline {subsubsection}{Esercito e Armi}{59}
+\contentsline {subsubsection}{Economia}{59}
+\contentsline {subsubsection}{Religione}{59}
+\contentsline {subsubsection}{Magia}{60}
+\contentsline {subsubsection}{Moda, cultura, costumi}{60}
+\contentsline {subsubsection}{Caratteristiche fisiche}{60}
+\contentsline {subsection}{\numberline {2.5.2}Orchi Pran-Horu}{60}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{60}
+\contentsline {subsubsection}{Abilit\`a di razza}{60}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{60}
+\contentsline {subsection}{\numberline {2.5.3}Orchi Haroka}{62}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{62}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{62}
+\contentsline {section}{\numberline {2.6}I Reuben}{63}
+\contentsline {subsection}{\numberline {2.6.1}Alanm-El-Shaddai}{63}
+\contentsline {subsubsection}{Geografia}{63}
+\contentsline {subsubsection}{Politica}{63}
+\contentsline {subsubsection}{Esercito e Armi}{64}
+\contentsline {subsubsection}{Economia}{64}
+\contentsline {subsubsection}{Religione}{64}
+\contentsline {subsubsection}{Magia}{65}
+\contentsline {subsubsection}{Moda, cultura, costumi}{65}
+\contentsline {subsubsection}{Caratteristiche fisiche}{65}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{65}
+\contentsline {subsubsection}{Abilit\`a di razza}{66}
+\contentsline {subsubsection}{Handicap}{66}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{66}
+\contentsline {section}{\numberline {2.7}I Giganti}{67}
+\contentsline {subsection}{\numberline {2.7.1}Mahn-Hesa}{67}
+\contentsline {subsubsection}{Geografia}{67}
+\contentsline {subsubsection}{Politica}{67}
+\contentsline {subsubsection}{Esercito e Armi}{67}
+\contentsline {subsubsection}{Economia}{68}
+\contentsline {subsubsection}{Religione}{68}
+\contentsline {subsubsection}{Magia}{68}
+\contentsline {subsubsection}{Moda, cultura, costumi}{68}
+\contentsline {subsubsection}{Caratteristiche fisiche}{68}
+\contentsline {subsubsection}{Massimi e minimi alle Caratteristiche}{69}
+\contentsline {subsubsection}{Abilit\`a di razza}{69}
+\contentsline {subsubsection}{Classi sociali e abilit\`a di Classe sociale}{69}
+\contentsline {section}{\numberline {2.8}Cenni Storici}{70}
+\contentsline {chapter}{\numberline {3}Il Personaggio}{71}
+\contentsline {section}{\numberline {3.1}Chi \`e il personaggio}{71}
+\contentsline {section}{\numberline {3.2}Tirare i dadi}{71}
+\contentsline {section}{\numberline {3.3}Il Fallimento Catastrofico}{71}
+\contentsline {section}{\numberline {3.4}La Creazione}{73}
+\contentsline {section}{\numberline {3.5}Le Caratteristiche}{73}
+\contentsline {subsection}{\numberline {3.5.1}Le Caratteristiche primarie (CAT)}{73}
+\contentsline {subsubsection}{Forza (FOR)}{73}
+\contentsline {subsubsection}{Costituzione (COS)}{73}
+\contentsline {subsubsection}{Agilit\`a (AGI)}{73}
+\contentsline {subsubsection}{Osservazione (OSS)}{74}
+\contentsline {subsubsection}{Concentrazione (CONC)}{74}
+\contentsline {subsubsection}{Intelligenza (INT)}{74}
+\contentsline {subsubsection}{Carisma (CAR)}{74}
+\contentsline {subsubsection}{Bellezza (BEL)}{74}
+\contentsline {subsubsection}{Il valore \%}{74}
+\contentsline {subsubsection}{Bonus e Malus delle CAT}{74}
+\contentsline {subsubsection}{Il Fattore Istruzione (FI) e la Classe Sociale}{75}
+\contentsline {subsection}{\numberline {3.5.2}Le caratteristiche secondarie}{75}
+\contentsline {subsubsection}{Resistenza (RES)}{75}
+\contentsline {subsubsection}{Volont\`a (VOL)}{75}
+\contentsline {subsubsection}{Psiche (PSI)}{76}
+\contentsline {subsubsection}{Punti Fisico (PF)}{76}
+\contentsline {subsubsection}{Punti Mente (PM)}{76}
+\contentsline {subsubsection}{Punti Energia (PE)}{76}
+\contentsline {subsubsection}{Punti Vita (PV)}{76}
+\contentsline {subsubsection}{Punti Struttura Corpo (PSC)}{76}
+\contentsline {subsubsection}{Et\`a}{76}
+\contentsline {subsection}{\numberline {3.5.3}La Caratteristica ``Conoscenza''(CON)}{76}
+\contentsline {subsection}{\numberline {3.5.4}Essere Destrimani o Mancini}{77}
+\contentsline {subsection}{\numberline {3.5.5}Il Peso trasportabile}{78}
+\contentsline {subsection}{\numberline {3.5.6}Punti Karma}{78}
+\contentsline {subsubsection}{Aura}{79}
+\contentsline {subsubsection}{Reincarnazione}{79}
+\contentsline {subsection}{\numberline {3.5.7}I Tiri Resistenza, Volont\`a e Psiche}{80}
+\contentsline {subsubsection}{Il Tiro Resistenza (TR)}{80}
+\contentsline {subsubsection}{Il Tiro Volont\`a (TV)}{80}
+\contentsline {subsubsection}{Il Tiro Psiche (TP)}{80}
+\contentsline {subsection}{\numberline {3.5.8}Altri tiri sulle Caratteristiche}{80}
+\contentsline {subsubsection}{Tiro Osservazione (TOSS)}{81}
+\contentsline {subsubsection}{Tiro Intelligenza (TINT)}{81}
+\contentsline {subsubsection}{Tiro Concentrazione (TCONC)}{81}
+\contentsline {section}{\numberline {3.6}Le Abilit\`a}{81}
+\contentsline {subsection}{\numberline {3.6.1}Abilit\`a di base}{82}
+\contentsline {subsection}{\numberline {3.6.2}Abilit\`a di razza}{82}
+\contentsline {subsection}{\numberline {3.6.3}Abilit\`a di Classe sociale}{82}
+\contentsline {subsection}{\numberline {3.6.4}Altre abilit\`a}{82}
+\contentsline {subsubsection}{Abilit\`a di combattimento e Standard}{83}
+\contentsline {subsubsection}{Abilit\`a magiche}{83}
+\contentsline {subsection}{\numberline {3.6.5}Abilit\`a di Specializzazione}{83}
+\contentsline {subsection}{\numberline {3.6.6}Le Azioni}{83}
+\contentsline {subsection}{\numberline {3.6.7}Il Round}{85}
+\contentsline {subsection}{\numberline {3.6.8}Abilit\`a Standard}{85}
+\contentsline {subsection}{\numberline {3.6.9}Nuove Abilit\`a}{99}
+\contentsline {section}{\numberline {3.7}Il Background}{99}
+\contentsline {section}{\numberline {3.8}Il Miglioramento}{99}
+\contentsline {chapter}{\numberline {4}Movimento e attivit\`a}{102}
+\contentsline {section}{\numberline {4.1}Il movimento}{102}
+\contentsline {subsection}{\numberline {4.1.1}Camminare (C)}{102}
+\contentsline {subsection}{\numberline {4.1.2}Correre}{102}
+\contentsline {subsection}{\numberline {4.1.3}Marciare (M)}{102}
+\contentsline {subsection}{\numberline {4.1.4}Cavalcature e mezzi di trasporto}{102}
+\contentsline {subsection}{\numberline {4.1.5}Stancarsi}{102}
+\contentsline {subsection}{\numberline {4.1.6}Riposarsi}{103}
+\contentsline {section}{\numberline {4.2}Temperature}{103}
+\contentsline {section}{\numberline {4.3}Attivit\`a}{104}
+\contentsline {subsection}{\numberline {4.3.1}Il sistema monetario}{104}
+\contentsline {subsection}{\numberline {4.3.2}Equipaggiamento}{104}
+\contentsline {section}{\numberline {4.4}Erbe medicinali, veleni, malattie e droghe}{107}
+\contentsline {subsection}{\numberline {4.4.1}Erbe medicinali}{107}
+\contentsline {subsection}{\numberline {4.4.2}Veleni}{107}
+\contentsline {subsection}{\numberline {4.4.3}Malattie}{107}
+\contentsline {subsection}{\numberline {4.4.4}Gravidanze}{108}
+\contentsline {subsection}{\numberline {4.4.5}Droghe}{108}
+\contentsline {chapter}{\numberline {5}Il Combattimento}{115}
+\contentsline {section}{\numberline {5.1}Abilit\`a di combattimento (AdC)}{117}
+\contentsline {section}{\numberline {5.2}Le Armi}{117}
+\contentsline {subsection}{\numberline {5.2.1}Armi per i giganti}{118}
+\contentsline {section}{\numberline {5.3}Combattere}{123}
+\contentsline {subsection}{\numberline {5.3.1}L'Iniziativa}{123}
+\contentsline {subsection}{\numberline {5.3.2}L'Azione}{123}
+\contentsline {subsection}{\numberline {5.3.3}Attacco}{123}
+\contentsline {subsubsection}{Attaccare}{124}
+\contentsline {subsubsection}{Attendere}{124}
+\contentsline {subsection}{\numberline {5.3.4}Colpi permessi nel Combattimento a mani nude}{124}
+\contentsline {subsubsection}{Testata}{124}
+\contentsline {subsubsection}{Pugno}{124}
+\contentsline {subsubsection}{Calcio}{125}
+\contentsline {subsubsection}{Presa}{125}
+\contentsline {subsubsection}{Proiezione}{125}
+\contentsline {subsection}{\numberline {5.3.5}Difesa}{125}
+\contentsline {subsubsection}{Parata}{126}
+\contentsline {subsubsection}{Schivata}{126}
+\contentsline {subsubsection}{Divincolarsi}{126}
+\contentsline {subsubsection}{Subire l'attacco avversario e successivamente attaccare}{126}
+\contentsline {subsubsection}{Limitare i danni in seguito ad una proiezione}{126}
+\contentsline {subsubsection}{Caduta}{126}
+\contentsline {section}{\numberline {5.4}Esempio di combattimento}{127}
+\contentsline {section}{\numberline {5.5}Compiere pi\`u di un'azione in un round}{127}
+\contentsline {subsection}{\numberline {5.5.1}Schivata multipla}{128}
+\contentsline {section}{\numberline {5.6}Il Fantoccio}{128}
+\contentsline {section}{\numberline {5.7}Tiro Mirato}{128}
+\contentsline {section}{\numberline {5.8}Ulteriori Malus e Bonus}{129}
+\contentsline {section}{\numberline {5.9}Danni}{129}
+\contentsline {subsection}{\numberline {5.9.1}Ferire}{129}
+\contentsline {subsection}{\numberline {5.9.2}Produrre dei danni agli oggetti}{130}
+\contentsline {subsection}{\numberline {5.9.3}Produrre dei danni alle armi}{131}
+\contentsline {section}{\numberline {5.10}Perdita dei PV e dei PSC}{131}
+\contentsline {subsection}{\numberline {5.10.1}Perdita Punti Struttura Corpo (PSC)}{132}
+\contentsline {subsection}{\numberline {5.10.2}Perdita Punti Vita (PV)}{132}
+\contentsline {subsection}{\numberline {5.10.3}Tipologia del Danno}{133}
+\contentsline {subsection}{\numberline {5.10.4}Danni Addizionali}{133}
+\contentsline {subsection}{\numberline {5.10.5}Recupero Punti Vita e Punti Struttura Corpo}{134}
+\contentsline {section}{\numberline {5.11}Stancarsi durante un combattimento}{134}
+\contentsline {section}{\numberline {5.12}Le Armature}{134}
+\contentsline {subsection}{\numberline {5.12.1}Punti struttura delle Armature}{134}
+\contentsline {subsection}{\numberline {5.12.2}Descrizione delle Armature}{135}
+\contentsline {subsubsection}{Armature per i giganti}{137}
+\contentsline {section}{\numberline {5.13}Le Arti Marziali e Le Maestrie nelle armi}{137}
+\contentsline {subsection}{\numberline {5.13.1}L'Arte Marziale}{137}
+\contentsline {subsection}{\numberline {5.13.2}La Maestria}{138}
+\contentsline {section}{\numberline {5.14}Tiri Incremento}{138}
+\contentsline {section}{\numberline {5.15}Tecniche Speciali}{139}
+\contentsline {subsubsection}{Tecniche speciali del Pugno}{139}
+\contentsline {subsubsection}{Tecniche speciali del Calcio}{140}
+\contentsline {subsubsection}{Tecniche speciali della Presa}{141}
+\contentsline {subsubsection}{Tecniche speciali di Proiezione}{142}
+\contentsline {subsubsection}{Tecniche speciali di Schivata}{143}
+\contentsline {subsubsection}{Tecniche Speciali di Parata}{143}
+\contentsline {subsubsection}{Tecniche speciali delle Armi}{143}
+\contentsline {subsection}{\numberline {5.15.1}Altre Tecniche Speciali}{144}
+\contentsline {subsubsection}{Danno Massimo}{144}
+\contentsline {subsubsection}{Tecniche non riferite a nessuna specifica di Arte Marziale o Maestria}{145}
+\contentsline {subsubsection}{Nuove tecniche speciali}{146}
+\contentsline {subsection}{\numberline {5.15.2}Accademie di Arti Marziali}{146}
+\contentsline {subsubsection}{Accademia del Tempio di Otomo}{146}
+\contentsline {subsubsection}{Accademia di Sakamoto}{146}
+\contentsline {subsubsection}{Accademia di Kella}{146}
+\contentsline {subsubsection}{Accademia di Gowr-nhen}{147}
+\contentsline {subsubsection}{Accademia di Thyesi}{147}
+\contentsline {subsubsection}{Accademia di Norda}{147}
+\contentsline {section}{\numberline {5.16}Esempio di combattimento}{147}
+\contentsline {chapter}{\numberline {6}La Magia}{148}
+\contentsline {section}{\numberline {6.1}Architettura del Sapere Magico}{150}
+\contentsline {subsection}{\numberline {6.1.1}I Princ\`{\i }pi}{150}
+\contentsline {section}{\numberline {6.2}Le organizzazioni della Magia}{150}
+\contentsline {subsection}{\numberline {6.2.1}Il Conclave}{150}
+\contentsline {subsubsection}{Gli Arcimaghi}{150}
+\contentsline {subsubsection}{I Rettori}{151}
+\contentsline {subsubsection}{I Signori delle Torri}{151}
+\contentsline {subsubsection}{Il rito di Alhnora}{152}
+\contentsline {subsection}{\numberline {6.2.2}Le leggi dell'uso}{152}
+\contentsline {subsection}{\numberline {6.2.3}L'Anticonclave}{152}
+\contentsline {section}{\numberline {6.3}Le basi della magia}{153}
+\contentsline {subsection}{\numberline {6.3.1}Gli incantesimi}{153}
+\contentsline {subsection}{\numberline {6.3.2}Lanciare un incantesimo}{153}
+\contentsline {subsection}{\numberline {6.3.3}Lanciare incantesimi in gruppo}{154}
+\contentsline {subsection}{\numberline {6.3.4}Tempo di Lancio (TL)}{154}
+\contentsline {subsection}{\numberline {6.3.5}Consumo degli incantesimi}{156}
+\contentsline {subsection}{\numberline {6.3.6}Prelevare l'energia magica dall'esterno}{156}
+\contentsline {subsection}{\numberline {6.3.7}Scaricare l'energia residua}{156}
+\contentsline {subsection}{\numberline {6.3.8}Conservare l'energia magica}{157}
+\contentsline {subsubsection}{Effetti dell'energia residua}{157}
+\contentsline {section}{\numberline {6.4}Costruire gli incantesimi}{158}
+\contentsline {subsection}{\numberline {6.4.1}Categorie Funzionali}{158}
+\contentsline {subsection}{\numberline {6.4.2}Potenzialit\`a e DR}{158}
+\contentsline {subsection}{\numberline {6.4.3}Difficolt\`a di Tipo (DT)}{158}
+\contentsline {subsection}{\numberline {6.4.4}Difficolt\`a di Base (DB)}{158}
+\contentsline {subsection}{\numberline {6.4.5}Modificatori Standard}{158}
+\contentsline {subsubsection}{Gittata}{159}
+\contentsline {subsubsection}{Azione lungo la gittata}{159}
+\contentsline {subsubsection}{Rimbalzi}{159}
+\contentsline {subsubsection}{Campo}{159}
+\contentsline {subsubsection}{Durata}{159}
+\contentsline {subsubsection}{Bonus/malus al TV/TR/TP/TOSS}{160}
+\contentsline {subsubsection}{Azione nel tempo}{160}
+\contentsline {subsection}{\numberline {6.4.6}Calcolo della DA e della DR}{160}
+\contentsline {subsection}{\numberline {6.4.7}Riduzione del Tempo di Lancio}{160}
+\contentsline {subsection}{\numberline {6.4.8}Il Differimento}{160}
+\contentsline {subsection}{\numberline {6.4.9}Indovinare un incantesimo}{160}
+\contentsline {subsection}{\numberline {6.4.10}Annullare un incantesimo}{161}
+\contentsline {subsection}{\numberline {6.4.11}Apprendimento degli incantesimi e ricerca magica}{161}
+\contentsline {subsubsection}{Studiato da un libro o insegnato}{161}
+\contentsline {subsubsection}{Studiato con ricerca}{161}
+\contentsline {subsection}{\numberline {6.4.12}Bonus all'Utilizzo}{162}
+\contentsline {subsection}{\numberline {6.4.13}Incantare oggetti}{162}
+\contentsline {subsection}{\numberline {6.4.14}Armi Magiche}{163}
+\contentsline {section}{\numberline {6.5}Alterazione}{163}
+\contentsline {subsection}{\numberline {6.5.1}Tipi di Alterazione}{163}
+\contentsline {subsubsection}{Creazione oggetti}{163}
+\contentsline {subsubsection}{Creazione esseri Viventi}{163}
+\contentsline {subsubsection}{Spostamento}{164}
+\contentsline {subsubsection}{Teletrasporto}{164}
+\contentsline {subsubsection}{Teletrasporto Standard}{164}
+\contentsline {subsubsection}{Teletrasporto Intelligente}{164}
+\contentsline {subsubsection}{Teletrasporto Semintelligente}{164}
+\contentsline {subsubsection}{Modifica dell'anatomia}{165}
+\contentsline {subsubsection}{Modifica dell'anatomia per generare armi o Aumento del danno delle armi}{165}
+\contentsline {subsubsection}{Variazione propriet\`a fisiche}{165}
+\contentsline {subsubsection}{Variazione caratteristiche fisiche}{165}
+\contentsline {subsubsection}{Variazione di abilit\`a fisica}{166}
+\contentsline {subsubsection}{Variazione delle dimensioni}{166}
+\contentsline {subsubsection}{Altri tipi di alterazione}{166}
+\contentsline {subsection}{\numberline {6.5.2}Spiegazione dei parametri della DB}{166}
+\contentsline {subsubsection}{Complessit\`a}{166}
+\contentsline {subsubsection}{Fattore di dimensione (FD)}{166}
+\contentsline {subsubsection}{Punti variazione caratteristica}{167}
+\contentsline {subsubsection}{Punti variazione abilit\`a}{167}
+\contentsline {subsubsection}{Massa vivente}{167}
+\contentsline {subsubsection}{Massa non vivente}{167}
+\contentsline {subsubsection}{Distanza massima teletrasporto}{167}
+\contentsline {subsection}{\numberline {6.5.3}Modificatori Standard}{167}
+\contentsline {subsubsection}{Durata}{167}
+\contentsline {subsubsection}{Gittata}{167}
+\contentsline {subsubsection}{Campo}{167}
+\contentsline {subsubsection}{Tiro Resistenza}{167}
+\contentsline {subsection}{\numberline {6.5.4}Note}{167}
+\contentsline {section}{\numberline {6.6}Attacco}{167}
+\contentsline {subsection}{\numberline {6.6.1}Tipi di Attacco}{168}
+\contentsline {subsubsection}{Danno netto}{168}
+\contentsline {subsubsection}{Danno mirato}{168}
+\contentsline {subsubsection}{Stordimento}{168}
+\contentsline {subsubsection}{Morte}{168}
+\contentsline {subsection}{\numberline {6.6.2}Spiegazione dei parametri della DB}{169}
+\contentsline {subsubsection}{D6 PV o PV/PSC di danno}{169}
+\contentsline {subsubsection}{Base di TPC}{169}
+\contentsline {subsubsection}{Tiro Resistenza}{169}
+\contentsline {subsection}{\numberline {6.6.3}Modificatori Standard}{169}
+\contentsline {subsubsection}{Gittata}{169}
+\contentsline {subsubsection}{Campo}{169}
+\contentsline {subsubsection}{Azione lungo la gittata}{169}
+\contentsline {subsubsection}{Rimbalzi}{169}
+\contentsline {subsubsection}{Durata}{169}
+\contentsline {subsubsection}{Azione nel tempo}{169}
+\contentsline {subsubsection}{Tiro Resistenza}{170}
+\contentsline {section}{\numberline {6.7}Controllo}{170}
+\contentsline {subsection}{\numberline {6.7.1}Tipi di Controllo}{170}
+\contentsline {subsubsection}{Comando}{170}
+\contentsline {subsubsection}{Possessione}{170}
+\contentsline {subsubsection}{Illusione}{171}
+\contentsline {subsubsection}{Miraggio}{171}
+\contentsline {subsubsection}{Variazione della caratteristica VOLont\`a}{171}
+\contentsline {subsubsection}{Variazione della caratteristica Psiche}{171}
+\contentsline {subsection}{\numberline {6.7.2}Spiegazione dei parametri della DB}{172}
+\contentsline {subsubsection}{Difficolt\`a del TV e del TOSS}{172}
+\contentsline {subsubsection}{Punti variazione caratteristica}{172}
+\contentsline {subsection}{\numberline {6.7.3}Modificatori Standard}{172}
+\contentsline {subsubsection}{Gittata.}{172}
+\contentsline {subsubsection}{Campo}{172}
+\contentsline {subsubsection}{Durata}{172}
+\contentsline {subsubsection}{Tiro Volont\`a/Tiro Osservazione}{172}
+\contentsline {section}{\numberline {6.8}Difesa}{172}
+\contentsline {subsection}{\numberline {6.8.1}Tipi di Difesa}{172}
+\contentsline {subsubsection}{Armatura}{172}
+\contentsline {subsubsection}{Protezione magica}{173}
+\contentsline {subsubsection}{Riparazione danni}{173}
+\contentsline {subsubsection}{Cura}{173}
+\contentsline {subsubsection}{Resurrezione}{173}
+\contentsline {subsubsection}{Antidoto}{174}
+\contentsline {subsubsection}{Rianimazione}{174}
+\contentsline {subsubsection}{Scudo antidinamico}{174}
+\contentsline {subsubsection}{Deviazione}{174}
+\contentsline {subsubsection}{Parata}{174}
+\contentsline {subsubsection}{Antimagia}{175}
+\contentsline {subsection}{\numberline {6.8.2}Spiegazione dei parametri della DB}{175}
+\contentsline {subsubsection}{D6 di riparazione}{175}
+\contentsline {subsubsection}{D6 di protezione}{175}
+\contentsline {subsubsection}{Valore di protezione}{175}
+\contentsline {subsubsection}{Unit\`a del Divisore}{175}
+\contentsline {subsubsection}{Base antimagia}{175}
+\contentsline {subsubsection}{Base TPD}{175}
+\contentsline {subsection}{\numberline {6.8.3}Modificatori Standard}{175}
+\contentsline {subsubsection}{Gittata}{175}
+\contentsline {subsubsection}{Campo}{175}
+\contentsline {subsubsection}{Durata}{175}
+\contentsline {subsubsection}{Azione nel Tempo}{175}
+\contentsline {subsection}{\numberline {6.8.4}Note}{176}
+\contentsline {section}{\numberline {6.9}Evocazione}{176}
+\contentsline {subsection}{\numberline {6.9.1}Tipi di Evocazione}{176}
+\contentsline {subsubsection}{Richiamo}{176}
+\contentsline {subsubsection}{Controllo}{176}
+\contentsline {subsubsection}{Protezione}{176}
+\contentsline {subsection}{\numberline {6.9.2}Spiegazione dei parametri della DB}{177}
+\contentsline {subsubsection}{Potenza della Creatura}{177}
+\contentsline {subsection}{\numberline {6.9.3}Modificatori standard}{177}
+\contentsline {subsubsection}{Gittata}{177}
+\contentsline {subsubsection}{Campo}{177}
+\contentsline {subsubsection}{Durata}{177}
+\contentsline {subsubsection}{Confronto di TV}{177}
+\contentsline {subsection}{\numberline {6.9.4}Note}{177}
+\contentsline {section}{\numberline {6.10}Informazione}{177}
+\contentsline {subsection}{\numberline {6.10.1}Tipi di Informazione}{178}
+\contentsline {subsubsection}{Variazione della caratteristica CONoscenza}{178}
+\contentsline {subsubsection}{Variazione di abilit\`a mentale}{178}
+\contentsline {subsubsection}{Interrogazione}{178}
+\contentsline {subsubsection}{Dialogo}{178}
+\contentsline {subsubsection}{Registrazione}{179}
+\contentsline {subsubsection}{Consiglio}{179}
+\contentsline {subsubsection}{Divinazione}{179}
+\contentsline {subsubsection}{Trasmissione/ricezione}{179}
+\contentsline {subsection}{\numberline {6.10.2}Spiegazione dei parametri della DB}{180}
+\contentsline {subsubsection}{Difficolt\`a del TV}{180}
+\contentsline {subsubsection}{Difficolt\`a di reperimento dell'informazione}{180}
+\contentsline {subsubsection}{Complessit\`a}{180}
+\contentsline {subsubsection}{Punti variazione caratteristica}{180}
+\contentsline {subsubsection}{Punti variazione abilit\`a}{180}
+\contentsline {subsubsection}{Distanza Informazione}{180}
+\contentsline {subsection}{\numberline {6.10.3}Modificatori Standard}{180}
+\contentsline {subsubsection}{Gittata}{180}
+\contentsline {subsubsection}{Campo}{180}
+\contentsline {subsubsection}{Durata}{180}
+\contentsline {subsubsection}{Azione nel Tempo}{181}
+\contentsline {subsubsection}{Tiro Volont\`a}{181}
+\contentsline {section}{\numberline {6.11}Esempio}{181}
+\contentsline {chapter}{\numberline {7}Le scuole di Magia}{182}
+\contentsline {section}{\numberline {7.1}Le scuole di magia}{182}
+\contentsline {subsection}{\numberline {7.1.1}Frequentare le Accademie}{182}
+\contentsline {subsection}{\numberline {7.1.2}Il Famiglio}{182}
+\contentsline {subsection}{\numberline {7.1.3}Completare i Regni della Magia}{183}
+\contentsline {subsection}{\numberline {7.1.4}Le Creature Magiche}{183}
+\contentsline {subsubsection}{Le Caratteristiche}{183}
+\contentsline {subsubsection}{Combattimento}{183}
+\contentsline {subsubsection}{Altre Abilit\`a}{184}
+\contentsline {subsubsection}{Poteri speciali}{184}
+\contentsline {subsubsection}{La Potenza}{184}
+\contentsline {section}{\numberline {7.2}Demonologia}{185}
+\contentsline {subsection}{\numberline {7.2.1}Dominio}{185}
+\contentsline {subsection}{\numberline {7.2.2}Limiti e peculiarit\`a}{185}
+\contentsline {subsection}{\numberline {7.2.3}Potenzialit\`a}{185}
+\contentsline {subsection}{\numberline {7.2.4}Leggi dell'uso}{185}
+\contentsline {subsection}{\numberline {7.2.5}I Demoni}{185}
+\contentsline {subsubsection}{Mammon}{186}
+\contentsline {paragraph}{Caratteristiche}{186}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{186}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{187}
+\contentsline {paragraph}{Difese}{187}
+\contentsline {paragraph}{Poteri Speciali}{187}
+\contentsline {subsubsection}{Ammon}{187}
+\contentsline {paragraph}{Caratteristiche}{187}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{187}
+\contentsline {paragraph}{Maestrie/TOT}{187}
+\contentsline {paragraph}{Tecniche Speciali/TOT}{187}
+\contentsline {paragraph}{Difese}{187}
+\contentsline {paragraph}{Poteri Speciali}{187}
+\contentsline {subsubsection}{Alastor}{187}
+\contentsline {paragraph}{Caratteristiche}{187}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{187}
+\contentsline {paragraph}{Difese}{187}
+\contentsline {paragraph}{Poteri Speciali}{187}
+\contentsline {subsubsection}{Strayesor}{188}
+\contentsline {paragraph}{Caratteristiche}{188}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/danno}{188}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{188}
+\contentsline {paragraph}{Difese}{188}
+\contentsline {paragraph}{Poteri Speciali}{188}
+\contentsline {subsubsection}{Arioch}{188}
+\contentsline {paragraph}{Caratteristiche}{188}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{188}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{188}
+\contentsline {paragraph}{Maestrie/TOT}{189}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{189}
+\contentsline {paragraph}{Tecniche Speciali/TOT/BON}{189}
+\contentsline {paragraph}{Difese}{189}
+\contentsline {paragraph}{Poteri Speciali}{189}
+\contentsline {subsubsection}{Belzeb\`u}{189}
+\contentsline {subsubsection}{Baal}{189}
+\contentsline {subsubsection}{Lo Dimonio}{190}
+\contentsline {subsubsection}{I Demoni Generici}{190}
+\contentsline {subsection}{\numberline {7.2.6}Gli Incantesimi}{191}
+\contentsline {section}{\numberline {7.3}Elementalismo}{196}
+\contentsline {subsection}{\numberline {7.3.1}Dominio}{196}
+\contentsline {subsection}{\numberline {7.3.2}Limiti e peculiarit\`a}{196}
+\contentsline {subsection}{\numberline {7.3.3}Potenzialit\`a}{196}
+\contentsline {subsection}{\numberline {7.3.4}Leggi dell'uso}{196}
+\contentsline {subsection}{\numberline {7.3.5}Gli Elementali}{196}
+\contentsline {subsubsection}{Elementale dell'aria Minore}{197}
+\contentsline {paragraph}{Caratteristiche}{197}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{197}
+\contentsline {paragraph}{Difese}{197}
+\contentsline {paragraph}{Poteri Speciali}{197}
+\contentsline {subsubsection}{Elementale del Fuoco Minore}{197}
+\contentsline {paragraph}{Caratteristiche}{197}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{197}
+\contentsline {paragraph}{Difese}{197}
+\contentsline {paragraph}{Poteri Speciali}{198}
+\contentsline {subsubsection}{Elementale dell'acqua Minore}{198}
+\contentsline {paragraph}{Caratteristiche}{198}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{198}
+\contentsline {paragraph}{Difese}{198}
+\contentsline {paragraph}{Poteri Speciali}{198}
+\contentsline {subsubsection}{Elementale della Pietra Minore}{198}
+\contentsline {paragraph}{Caratteristiche}{198}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{198}
+\contentsline {paragraph}{Difese}{198}
+\contentsline {paragraph}{Poteri Speciali}{199}
+\contentsline {subsubsection}{Elementale dell'aria Maggiore}{199}
+\contentsline {paragraph}{Caratteristiche}{199}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{199}
+\contentsline {paragraph}{Difese}{199}
+\contentsline {paragraph}{Poteri Speciali}{199}
+\contentsline {subsubsection}{Elementale del Fuoco Maggiore}{199}
+\contentsline {paragraph}{Caratteristiche}{199}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{200}
+\contentsline {paragraph}{Difese}{200}
+\contentsline {paragraph}{Poteri Speciali}{200}
+\contentsline {subsubsection}{Elementale dell'acqua Maggiore}{200}
+\contentsline {paragraph}{Caratteristiche}{200}
+\contentsline {paragraph}{Abilit\`a di combattimento/TOT/Danno}{200}
+\contentsline {paragraph}{Difese}{200}
+\contentsline {paragraph}{Poteri Speciali}{200}
+\contentsline {subsubsection}{Elementale della Pietra Maggiore}{200}
+\contentsline {paragraph}{Caratteristiche}{200}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{200}
+\contentsline {paragraph}{Difese}{201}
+\contentsline {paragraph}{Poteri Speciali}{201}
+\contentsline {subsubsection}{Elementali Superiori}{201}
+\contentsline {subsection}{\numberline {7.3.6}Gli Incantesimi}{201}
+\contentsline {section}{\numberline {7.4}Esistenza}{207}
+\contentsline {subsection}{\numberline {7.4.1}Dominio}{207}
+\contentsline {subsection}{\numberline {7.4.2}Limiti e Peculiarit\`a}{207}
+\contentsline {subsection}{\numberline {7.4.3}Potenzialit\`a}{207}
+\contentsline {subsection}{\numberline {7.4.4}Leggi dell'uso}{208}
+\contentsline {subsection}{\numberline {7.4.5}Gli Angeli}{208}
+\contentsline {subsubsection}{Caduti}{208}
+\contentsline {paragraph}{Caratteristiche}{208}
+\contentsline {paragraph}{Abilit\`a di combattimento/TOT/Danno}{208}
+\contentsline {paragraph}{Poteri Speciali}{208}
+\contentsline {subsubsection}{Custodi Minori}{208}
+\contentsline {paragraph}{Caratteristiche}{208}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{208}
+\contentsline {paragraph}{Difese}{208}
+\contentsline {paragraph}{Poteri speciali}{208}
+\contentsline {subsubsection}{Rugiel}{209}
+\contentsline {paragraph}{Caratteristiche}{209}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{209}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{209}
+\contentsline {paragraph}{Difese}{209}
+\contentsline {paragraph}{Poteri speciali}{209}
+\contentsline {subsubsection}{Bayst}{209}
+\contentsline {paragraph}{Caratteristiche}{209}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{209}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{209}
+\contentsline {paragraph}{Maestrie/TOT/BON}{209}
+\contentsline {paragraph}{Tecniche Speciali/TOT/BON}{209}
+\contentsline {paragraph}{Difese}{209}
+\contentsline {paragraph}{Poteri Speciali}{209}
+\contentsline {subsubsection}{Johaim}{210}
+\contentsline {paragraph}{Caratteristiche}{210}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{210}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{210}
+\contentsline {paragraph}{Maestrie/TOT/BON}{210}
+\contentsline {paragraph}{Tecniche di AM/TOT/BON}{211}
+\contentsline {paragraph}{Difese}{211}
+\contentsline {paragraph}{Poteri speciali}{211}
+\contentsline {subsubsection}{Custodi Maggiori}{211}
+\contentsline {paragraph}{Caratteristiche}{211}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{211}
+\contentsline {paragraph}{Difese}{211}
+\contentsline {paragraph}{Poteri speciali}{212}
+\contentsline {subsubsection}{Adonai}{212}
+\contentsline {paragraph}{Caratteristiche}{212}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{212}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{212}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{212}
+\contentsline {paragraph}{Difese}{212}
+\contentsline {paragraph}{Poteri Speciali}{212}
+\contentsline {subsubsection}{Uziel}{212}
+\contentsline {paragraph}{Caratteristiche}{213}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{213}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{213}
+\contentsline {paragraph}{Maestrie/TOT/BON}{213}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{213}
+\contentsline {paragraph}{Tecniche Speciali/TOT/BON}{213}
+\contentsline {paragraph}{Difese}{213}
+\contentsline {paragraph}{Poteri speciali}{213}
+\contentsline {subsubsection}{Mikael}{213}
+\contentsline {subsubsection}{Raphael}{213}
+\contentsline {subsubsection}{Gabriel}{213}
+\contentsline {subsubsection}{Lucifer}{214}
+\contentsline {subsection}{\numberline {7.4.6}Gli Incantesimi}{214}
+\contentsline {section}{\numberline {7.5}Illusionismo}{219}
+\contentsline {subsection}{\numberline {7.5.1}Dominio}{219}
+\contentsline {subsection}{\numberline {7.5.2}Limiti e peculiarit\`a}{219}
+\contentsline {subsection}{\numberline {7.5.3}Potenzialit\`a}{220}
+\contentsline {subsection}{\numberline {7.5.4}Leggi dell'uso}{220}
+\contentsline {subsection}{\numberline {7.5.5}Gli Esseri Onirici}{220}
+\contentsline {subsubsection}{Le raffigurazioni}{220}
+\contentsline {subsubsection}{Braak}{221}
+\contentsline {paragraph}{Caratteristiche}{221}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{222}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{222}
+\contentsline {paragraph}{Difese}{222}
+\contentsline {paragraph}{Poteri speciali}{222}
+\contentsline {subsubsection}{Greyant}{222}
+\contentsline {paragraph}{Caratteristiche}{222}
+\contentsline {paragraph}{Abilit\`a di combattimento/TOT/Danno}{222}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{222}
+\contentsline {paragraph}{Difese}{222}
+\contentsline {paragraph}{Poteri Speciali}{222}
+\contentsline {subsubsection}{Blink}{222}
+\contentsline {paragraph}{Caratteristiche}{222}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{222}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{223}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{223}
+\contentsline {paragraph}{Poteri speciali}{223}
+\contentsline {subsubsection}{Bleargh}{223}
+\contentsline {paragraph}{Caratteristiche}{223}
+\contentsline {paragraph}{Abilit\`a di combattimento/TOT/Danno}{223}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{223}
+\contentsline {paragraph}{Poteri speciali}{223}
+\contentsline {subsubsection}{Succubi}{223}
+\contentsline {paragraph}{Caratteristiche}{224}
+\contentsline {paragraph}{Abilit\`a di combattimento/TOT/Danno}{224}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{224}
+\contentsline {paragraph}{Attacchi Particolari/TPC/DANNO}{224}
+\contentsline {paragraph}{Poteri speciali}{224}
+\contentsline {subsubsection}{Tolden}{224}
+\contentsline {paragraph}{Caratteristiche}{224}
+\contentsline {paragraph}{Abilit\`a di combattimento/TOT/Danno}{224}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{224}
+\contentsline {paragraph}{Tecniche Speciali/TOT}{224}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{224}
+\contentsline {paragraph}{Difese}{224}
+\contentsline {paragraph}{Poteri Speciali}{224}
+\contentsline {subsubsection}{Moae}{224}
+\contentsline {paragraph}{Caratteristiche}{225}
+\contentsline {paragraph}{Abilit\`a di combattimento/TOT/Danno}{225}
+\contentsline {paragraph}{Specifiche di AM/TOT}{225}
+\contentsline {paragraph}{Poteri speciali}{225}
+\contentsline {subsubsection}{Kartenius}{225}
+\contentsline {paragraph}{Caratteristiche}{226}
+\contentsline {paragraph}{Abilit\`a di combattimento/TOT/Danno}{226}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{226}
+\contentsline {paragraph}{Attacchi particolari/TOT/Danno}{226}
+\contentsline {paragraph}{Altre Abilit\`a/TOT}{226}
+\contentsline {paragraph}{Poteri Speciali}{226}
+\contentsline {subsubsection}{Krull}{226}
+\contentsline {paragraph}{Caratteristiche}{226}
+\contentsline {paragraph}{Abilit\`a di combattimento/TOT/Danno}{226}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{226}
+\contentsline {paragraph}{Difese}{226}
+\contentsline {paragraph}{Poteri Speciali}{227}
+\contentsline {subsubsection}{Hukei}{227}
+\contentsline {paragraph}{Caratteristiche}{227}
+\contentsline {paragraph}{Abilit\`a di combattimento/TOT/Danno}{227}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{227}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{227}
+\contentsline {paragraph}{Tecniche Speciali/TOT}{227}
+\contentsline {paragraph}{Difese}{227}
+\contentsline {paragraph}{Poteri Speciali}{227}
+\contentsline {subsubsection}{Benair}{227}
+\contentsline {paragraph}{Caratteristiche}{228}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{228}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{228}
+\contentsline {paragraph}{Specifiche di AM/TOT}{228}
+\contentsline {paragraph}{Tecniche Speciali di AM/TOT}{228}
+\contentsline {paragraph}{Difese}{228}
+\contentsline {paragraph}{Poteri Speciali}{228}
+\contentsline {subsubsection}{Morte}{229}
+\contentsline {subsubsection}{Babau}{229}
+\contentsline {subsection}{\numberline {7.5.6}Gli Incantesimi}{229}
+\contentsline {section}{\numberline {7.6}Necromanzia}{235}
+\contentsline {subsection}{\numberline {7.6.1}Dominio}{235}
+\contentsline {subsection}{\numberline {7.6.2}Limiti e Peculiarit\`a}{235}
+\contentsline {subsection}{\numberline {7.6.3}Potenzialit\`a}{235}
+\contentsline {subsection}{\numberline {7.6.4}Leggi dell'uso}{235}
+\contentsline {subsection}{\numberline {7.6.5}Gli Esseri del Limbo}{235}
+\contentsline {subsubsection}{Zombo (pl. Zombi)}{236}
+\contentsline {paragraph}{Caratteristiche}{236}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{236}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{236}
+\contentsline {paragraph}{Difese}{236}
+\contentsline {subsubsection}{Scheletro}{236}
+\contentsline {paragraph}{Caratteristiche}{237}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{237}
+\contentsline {paragraph}{Difese}{237}
+\contentsline {subsubsection}{Poltergeist}{237}
+\contentsline {paragraph}{Caratteristiche}{237}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{237}
+\contentsline {paragraph}{Difese}{237}
+\contentsline {paragraph}{Poteri Speciali}{237}
+\contentsline {subsubsection}{Spettro}{237}
+\contentsline {paragraph}{Caratteristiche}{237}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{238}
+\contentsline {paragraph}{Difese}{238}
+\contentsline {paragraph}{Poteri Speciali}{238}
+\contentsline {subsubsection}{Mummia}{238}
+\contentsline {paragraph}{Caratteristiche}{238}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{238}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{238}
+\contentsline {paragraph}{Difese}{238}
+\contentsline {paragraph}{Poteri Speciali}{238}
+\contentsline {subsubsection}{Anima}{238}
+\contentsline {paragraph}{Caratteristiche}{239}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{239}
+\contentsline {paragraph}{Difese}{239}
+\contentsline {paragraph}{Poteri Speciali}{239}
+\contentsline {subsubsection}{Spirito}{239}
+\contentsline {paragraph}{Caratteristiche}{239}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{239}
+\contentsline {paragraph}{Difese}{239}
+\contentsline {paragraph}{Poteri Speciali}{239}
+\contentsline {subsubsection}{Viaggiatori}{239}
+\contentsline {paragraph}{Caratteristiche}{240}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{240}
+\contentsline {paragraph}{Difese}{240}
+\contentsline {paragraph}{Poteri Speciali}{240}
+\contentsline {subsubsection}{Banshee}{240}
+\contentsline {paragraph}{Caratteristiche}{240}
+\contentsline {paragraph}{Abilit\`a di comb/TOT/Danno}{240}
+\contentsline {paragraph}{Difese}{240}
+\contentsline {paragraph}{Poteri speciali}{240}
+\contentsline {subsubsection}{Angelo nero}{240}
+\contentsline {paragraph}{Caratteristiche}{241}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{241}
+\contentsline {paragraph}{Attacchi particolari/TOT/Danno}{241}
+\contentsline {paragraph}{Difese}{241}
+\contentsline {paragraph}{Poteri speciali}{241}
+\contentsline {subsubsection}{Boia}{241}
+\contentsline {paragraph}{Caratteristiche}{241}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{241}
+\contentsline {paragraph}{Maestrie/TOT/BON}{241}
+\contentsline {paragraph}{Tecniche Speciali/TOT/BON}{241}
+\contentsline {paragraph}{Difese}{241}
+\contentsline {paragraph}{Poteri speciali}{242}
+\contentsline {subsubsection}{Messo}{242}
+\contentsline {paragraph}{Caratteristiche}{242}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{242}
+\contentsline {paragraph}{Attacchi particolari/TOT/Danno}{242}
+\contentsline {paragraph}{Difese}{242}
+\contentsline {paragraph}{Poteri speciali}{243}
+\contentsline {subsubsection}{Principe}{243}
+\contentsline {subsubsection}{Ombre}{243}
+\contentsline {subsubsection}{Re Ombra}{244}
+\contentsline {subsection}{\numberline {7.6.6}Gli Incantesimi}{244}
+\contentsline {section}{\numberline {7.7}Stregoneria}{250}
+\contentsline {subsection}{\numberline {7.7.1}Dominio}{250}
+\contentsline {subsection}{\numberline {7.7.2}Limiti e peculiarit\`a}{250}
+\contentsline {subsection}{\numberline {7.7.3}Potenzialit\`a}{250}
+\contentsline {subsection}{\numberline {7.7.4}Leggi dell'uso}{250}
+\contentsline {subsection}{\numberline {7.7.5}Gli Animali Magici}{250}
+\contentsline {subsubsection}{Arpie}{250}
+\contentsline {paragraph}{Caratteristiche}{251}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/danno}{251}
+\contentsline {paragraph}{Tecniche Speciali/TOT/BON}{251}
+\contentsline {subsubsection}{Folletti}{251}
+\contentsline {paragraph}{Caratteristiche}{251}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{251}
+\contentsline {paragraph}{Poteri Speciali}{251}
+\contentsline {subsubsection}{Mowsca Machedha}{251}
+\contentsline {paragraph}{Caratteristiche}{251}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{251}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{251}
+\contentsline {paragraph}{Poteri Speciali}{252}
+\contentsline {subsubsection}{Bippocefalo}{252}
+\contentsline {paragraph}{Caratteristiche}{252}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{252}
+\contentsline {paragraph}{Poteri Speciali}{252}
+\contentsline {subsubsection}{Sirene}{252}
+\contentsline {paragraph}{Caratteristiche}{252}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{252}
+\contentsline {paragraph}{Poteri Speciali}{252}
+\contentsline {subsubsection}{Uomo Pesce}{252}
+\contentsline {paragraph}{Caratteristiche}{253}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT}{253}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{253}
+\contentsline {paragraph}{Poteri Speciali}{253}
+\contentsline {subsubsection}{Cogas}{253}
+\contentsline {paragraph}{Caratteristiche}{253}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{253}
+\contentsline {paragraph}{Specifiche di AM/TOT/Danno}{253}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{253}
+\contentsline {paragraph}{Poteri Speciali}{253}
+\contentsline {subsubsection}{Gargoyle}{253}
+\contentsline {paragraph}{Caratteristiche}{253}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{253}
+\contentsline {paragraph}{Difese}{253}
+\contentsline {paragraph}{Poteri Speciali}{254}
+\contentsline {subsubsection}{Golem}{254}
+\contentsline {paragraph}{Caratteristiche}{254}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{254}
+\contentsline {paragraph}{Difese}{254}
+\contentsline {paragraph}{Poteri Speciali}{254}
+\contentsline {subsubsection}{Erkythow}{254}
+\contentsline {paragraph}{Caratteristiche}{254}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{254}
+\contentsline {paragraph}{Poteri Speciali}{254}
+\contentsline {subsubsection}{Skowltoneh}{254}
+\contentsline {paragraph}{Caratteristiche}{255}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{255}
+\contentsline {paragraph}{Attacchi Particolari/TPC/Danno}{255}
+\contentsline {paragraph}{Difese}{255}
+\contentsline {paragraph}{Poteri Speciali}{255}
+\contentsline {subsubsection}{Unicorno}{255}
+\contentsline {paragraph}{Caratteristiche}{255}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{255}
+\contentsline {paragraph}{Attacchi Particolari}{255}
+\contentsline {paragraph}{Tecniche Speciali/BON/TOT}{255}
+\contentsline {paragraph}{Poteri Speciali}{255}
+\contentsline {subsubsection}{Trymowlijonee}{255}
+\contentsline {paragraph}{Caratteristiche}{255}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{255}
+\contentsline {paragraph}{Difese}{256}
+\contentsline {paragraph}{Poteri Speciali}{256}
+\contentsline {subsubsection}{Amhunta}{256}
+\contentsline {paragraph}{Caratteristiche}{256}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{256}
+\contentsline {paragraph}{Difese}{256}
+\contentsline {paragraph}{Poteri Speciali}{256}
+\contentsline {subsubsection}{Leviatano}{256}
+\contentsline {subsubsection}{Testuggine}{257}
+\contentsline {subsubsection}{Fenice}{257}
+\contentsline {subsubsection}{Argia}{257}
+\contentsline {subsubsection}{Drago}{257}
+\contentsline {subsubsection}{Draghi Cuccioli}{258}
+\contentsline {paragraph}{Caratteristiche}{258}
+\contentsline {paragraph}{Abilit\`a di Combattimento/TOT/Danno}{258}
+\contentsline {paragraph}{Specifiche di AM/TOT/BON}{258}
+\contentsline {paragraph}{Attacchi Particolari/TOT/Danno}{258}
+\contentsline {paragraph}{Difese}{258}
+\contentsline {paragraph}{Poteri Speciali}{258}
+\contentsline {subsubsection}{Momhothy}{258}
+\contentsline {subsection}{\numberline {7.7.6}Gli Incantesimi}{258}
+\contentsline {section}{\numberline {7.8}Le liste magiche}{264}
+\contentsline {subsection}{\numberline {7.8.1}Dominio}{264}
+\contentsline {subsection}{\numberline {7.8.2}Limiti e peculiarit\`a}{264}
+\contentsline {subsection}{\numberline {7.8.3}Potenzialit\`a}{264}
+\contentsline {subsection}{\numberline {7.8.4}Leggi dell'uso}{264}
+\contentsline {subsection}{\numberline {7.8.5}Gli incantesimi}{264}
+\contentsline {subsubsection}{Utilit\`a}{264}
+\contentsline {subsubsection}{Salvaguardia}{266}
+\contentsline {chapter}{\numberline {8}Concludendo...}{267}
+\contentsline {section}{\numberline {8.1}Suggerimenti per il Master}{267}
+\contentsline {section}{\numberline {8.2}La regola del Buon Senso}{269}
+\contentsline {section}{\numberline {8.3}Glossario delle Abbreviazioni}{270}

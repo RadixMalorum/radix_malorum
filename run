@@ -1,0 +1,11 @@
+manual:
+	echo "\fullversiontrue" > fullversioncfg.tex	
+	latex manual.tex
+
+demo:
+	echo "\fullversionfalse" > fullversioncfg.tex	
+	latex manual.tex
+
+demoweb: demo
+	dvips manual.dvi
+	cp manual.ps ~/projects/radix/binaries/radix_demo.ps
